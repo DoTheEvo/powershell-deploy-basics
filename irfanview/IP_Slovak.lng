@@ -1,0 +1,167 @@
+[FileInfo]
+TranslatorName=Milan Slovak
+LanguageName=Slovenèinu
+TargetVersion=0.4.13.*
+[General]
+1001=Šípka
+1002=Štetec
+1003=Guma
+1004=Klonovanie
+1005=Náhrada farby
+1006=Text
+1007=Èiara
+1008=Šípka
+1009=Elipsa
+1010=Obdånik
+1011=Vyplnenie
+1012=Kvapkadlo
+1013=Otoèenie
+1014=Meranie
+1015=Nastavenie ceruzky a štetca
+1016=Pomoc
+1017=O plugine...
+2001=Nástroj Vıber je pre normálne pouitie v IrfanView, napr. na vytvorenie vıberu.
+2002=Štetec sa pouíva na kreslenie rukou.\nKliknutím a ahaním ¾avım tlaèidlom myši kreslíte s  farbou popredia.\nKliknutím a ahaním pravım tlaèidlom myši kreslíte s farbou pozadia.
+2003=Guma sa pouíva na ruèné vymazanie nakresleného objektu.\nKliknutím a ahaním s ¾avım tlaèidlom myši budete maza farbou pozadia.\nKliknutím a ahaním s pravım tlaèidlom myši znovu obnovíte vymazané miesto.
+2004=Klonovanie skopíruje èas obrázka do inej oblasti.\nMôete ho poui na odstránenie prachu a škrabancov z fotky.\nPravım kliknutím vyberiete zdroj, potom kliknite ¾avım tlaèidlom tam, kde chcete skopírova zdroj.
+2005=Nástroj Náhrada farby sa pouíva na vımenu jednej farby za druhú.\nKlinutím a ahaním s ¾avım tlaèidlom myši nahradíte farbu pozadia s farbou popredia.\nKliknutím a ahaním s pravım tlaèidlom myši nahradíte farbu popredia s farbou pozadia.
+2006=Nástroj Text pridáva formátovanı text do obrázka.\nText sa vloí na pozíciu kríika.\nText bude zarovnanı do¾ava, doprava alebo na stred od bodu vloenia.
+2007=Nástroj Èiara kreslí rovné èiary.\nKliknite a ahajte na urèenie èiary. Pustite tlaèidlo myši na jej nakreslenie.\nNa zrušenie èiary, kliknite pravım tlaèidlom myši.\nPodrte CTRL poèas ahania na vycentrovanie èiary k poèiatoènému bodu.\nPodrte SHIFT poèas ahania a èiara sa nakloní po 45°.
+2008=Nástroj Šípka kreslí èiaru so šípkou.\nKliknite a ahajte na urèenie šípky. Pustite tlaèidlo myši na jej nakreslenie.\nNa zrušenie šípky, kliknite pravım tlaèidlom myši.\nPodrte CTRL poèas ahania na vycentrovanie šípky k poèiatoènému bodu.\nPodrte SHIFT poèas ahania a šípka sa nakloní po 45°.\nKliknite pravım tlaèidlom myši na toto tlaèidlo na otvorenie dialógu "Nastaveníe šípky".
+2009=Nástroj Elipsa sa pouíva na nakreslenie kruhov a elíps. Ak je zaškrtnutá vo¾ba "Vyplni", budú tvary vyplnené farbou; ak nie, budú farebné len okraje.\nKliknite a ahajte  na urèenie elipsy. Pustite tlaèidlo myši na jej nakreslenie.\nNa zrušenie elipsy, kliknite pravım tlaèidlom myši.\nPodrte CTRL poèas ahania na vycentrovanie elipsy k poèiatoènému bodu.\nPodrte SHIFT poèas ahania na nakreslenie kruhu.
+2010=Nástroj Odånik sa pouíva na nakreslenie štvorcov a obdånikov. Ak je zaškrtnutá vo¾ba "Vyplni", budú tvary vyplnené farbou; ak nie, budú farebné len okraje.\nKliknite a ahajte  na urèenie obdånika. Pustite tlaèidlo myši na jeho nakreslenie.\nNa zrušenie obdånika, kliknite pravım tlaèidlom myši.\nPodrte CTRL poèas ahania na vycentrovanie obdånika k poèiatoènému bodu.\nPodrte SHIFT poèas ahania na nakreslenie štvorca.
+2011=Nástroj Vyplnenie sa pouíva na vyplnenie oblastí jednou farbou.\nKliknite ¾avım tlaèidlom myši na vyplnenie oblasti farbou popredia.\nKliknite pravım tlaèidlom myši na vyplnenie oblasti farbou pozadia.
+2012=Nástroj Kvapkadlo sa pouíva na vıber farby z obrázka.\nKliknite na farbu ¾avım tlaèidlom myši na vybratie farby popredia.\nKliknite na farbu pravım tlaèidlom myši na vybratie farby pozadia.\nKliknite na toto tlaèidlo s podranou klávesou SHIFT na zakázanie automatického návratu k predchádzajúcemu nástroju.
+2013=Nástroj Otoèenie sa pouíva na otoèenie obrázka.\nKliknutím a ahaním vytvoríte "èiaru", pod¾a ktorej bude obrázok otoèenı.\nNa zrušnie èiary, kliknite pravım tlaèidlom myši.\nPodrte CTRL poèas ahania na vycentrovanie èiary k poèiatoènému bodu.\nPodrte SHIFT poèas ahania a èiara sa nakloní po 45°.
+2014=Nástrojom Meranie môete mera vzdialenosti a uhly na obrázku.\nKliknutím a potiahnutím vyberiete meranú vzdialenos.\nVšetky merania uhlov sú relatívne k horizontálnej èiare.\nPre zrušenie èiary kliknite pravım tlaèidlom myši.\nPodrte CTRL poèas ahania na vycentrovanie k poèiatoènému bodu.\nPodrte SHIFT poèas ahania pre naklopenie èiary po 45°.\nKliknite pravım tlaèidlom myši na tomto tlaèidle pre otvorenie dialógu "Jednotky merania", v ktorom môete definova nové jednotky merania a upravova, maza alebo triedi súèasné.
+2015=Zobrazi dialóg na nastavenie Ceruzky a Štetca
+2016=Pomoc
+2017=Zobrazi informáciu o verzii IrfanPaint
+
+5201=Pred pouitím klonovacieho nástroja musíte nastavi zdrojovı bod (kliknite pravım tlaèidlom na neho).\nPovo¾te úplnú kontextovú pomoc a získajte viac informácií o tomto nástroji.
+5102=Nedajú sa uloi nastavenia; skontrolujte, èi je i_view32.ini zapisovate¾nı.
+6001=Špeciálne poïakovanie:\r\n\r\nIrfan Skiljan, ktorı vytvoril IrfanView, a strávil èas na jeho úpravu, aby IrfanPaint fungoval, dal mi mnoho uitoènıch doporuèení a bol mi vdy k dispozícii.\r\n\r\nUívate¾om fóra podpory IrfanView, a predovšetkım:\r\nBhikkhu Pesala, ktorı napísal pomoc a tipy pri nástrojoch, reportoval chyby, pomohol ich odsledova a dal mi mnoho doporuèení.\r\nMatera, ktorı mi z druhej strany sveta, dovolil vzdialené odlaïovanie chıb cez VPN a dial-up pripojenie k jeho poèítaèu.\r\nSteve, administrátor fóra.\r\n\r\nVšetkım betatesterom, a špeciálne Leon Fisk, ktorı mi reportoval všetky problémy IrfanPaint na Windows NT 4.\r\n\r\nDavide Pizzolato s jeho úasnou kninicou CxImage (http://www.codeproject.com/KB/graphics/cximage.aspx), z ktorej som ukradol nieko¾ko èastí kódu.\r\n\r\nLode Vandevenne s jeho úèinnou implementáciou vyplòovacieho algoritmu (http://student.kuleuven.be/~m0216922/CG/floodfill.html), ktorú som pouil do IrfanPaint.\r\n\r\nCodeProject.com a ich skvelım èlánkom, ktoré mi mnohokrát pomohli.\r\n\r\nVšetkım prekladate¾om.\r\n\r\nVšetkım uívate¾om, ktorí prispeli na vıvoj: ïakujem!
+1443=Popredie
+1444=Pozadie
+5301="%what%" nie je platné èíslo.
+5302=Polia nemôu by prázdne.
+1101=%language% preloil %translator%
+1651=Názov
+1652=Symbol
+1653=Definícia
+1654=Skutoène chcete zmaza práve vybranú jednotku merania?
+1655=Potvrdi zmazanie
+7001=predvolená jednotka
+7002=n.d.
+7003=DPI nenastavené
+7011=palec
+7012=bod
+7013=stupeò
+7014=millimeter
+5000=Chyba
+[101]
+0=O IrfanPaint
+1=OK
+1102=Text
+1104=&Pozrie stránku IrfanPaint
+[100]
+0=Kresli
+1060=Panel nástrojov IrfanPaint
+1053=Šírka (px)
+1059=Vyplni
+1056=Tolerancia:
+[103]
+0=Nastavenie šípky
+1=OK
+2=Zruši
+1301=&Prvá šípka
+1311=Kresli:
+1302=&Druhá šípka
+1309=Šírka šípky:
+1310=Dåka šípky:
+1308=Otvorená
+[102]
+0=Vıber farby
+1=OK
+2=Zruši
+[104]
+0=Nastavenie Ceruzky a Štetca
+1442=Ceruzka
+1441=Štetec
+1=OK
+2=Zruši
+1432=Štıl:
+1404=_______
+1405=_ _ _ _ _
+1406=. . . . . .
+1407=_ . _ . _ .
+1408=_ . . _ . .
+1433=Ukonèenie:
+1410=Okrúhle
+1411=Hranaté
+1412=Ploché
+1434=Spojenie èiar:
+1413=Okrúhle
+1414=Skosené
+1415=Spojené
+1416=Plnı
+1417=- (horizontálne)
+1418=|| (vertikálne)
+1419=\\\\ (nadol)
+1420=//  (nahor)
+1421=+ (pravouhlé)
+1422=x (diagonálne)
+1435=Plnı
+1437=Šrafovanı 45° z¾ava doprava
+1438=Šrafovanı kríom
+1436=Šrafovanı èiarami
+1439=Farba
+1445=Šírka ceruzky
+1448=pix. (1-9999)
+1440=Druhá farba šrafovania
+1426=Prieh¾adná
+1429=medz. = 1px medz.\r\nbodka = 1 koniec
+1431=Kliknite na náh¾ad vyššie na vımenu štılov popredia a pozadia.
+[105]
+0=Vloi text
+1501=&Názov písma:
+1502=&Ve¾kos:
+1506=&Tuèné
+1507=&Kurzíva
+1508=&Podèiarknuté
+1509=P&reèiarknuté
+1510=Zarovanie &do¾ava
+1511=Zarovnanie na &stred
+1512=Zarovnanie do&prava
+1=OK
+2=Zruši
+1526=Podrte pre &náh¾ad
+1513=Vybra &farbu...
+1521=Renderova písmo ako
+1522=Prázdne
+1524=Text
+1523=Vyplnené
+1525=Vyhladenı text
+[106]
+0=Jednotky merania
+1602=&Zatvori
+1603=&Hore
+1604=&Dole
+1605=&Absolútne
+1606=&Prida...
+1607=&Upravi...
+1608=&Odobra
+[107]
+0=Upravi jednotku merania
+1701=Názov:
+1703=Symbol:
+1705=Definícia:
+1706=1 %unitsymbol% =
+1=OK
+2=Zruši
+[108]
+0=Vısledky merania
+1=OK
+1803=&Nová...
+1802=&Kopírova
+
