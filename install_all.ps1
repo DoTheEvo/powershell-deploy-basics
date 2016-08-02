@@ -12,7 +12,7 @@ $programs_dirs | ForEach-Object {
 $win_vers = [Environment]::OSVersion.Version.Major
 if ($win_vers -ge 10) {
     echo "Win10 - removing preinstalled apps"
-    & "$parent_dir\win10.ps1"
+    & "$parent_dir\win10_apps_removal.ps1"
 }
 
 echo "ALL DONE"
