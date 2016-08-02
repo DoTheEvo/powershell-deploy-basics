@@ -19,4 +19,4 @@ echo "ALL DONE"
 echo "ALL DONE"
 echo "ALL DONE"
 echo "Panda - turn off panda news, turn off usb scan recommendation"
-$x = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+cmd /c pause
