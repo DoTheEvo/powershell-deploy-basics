@@ -5,7 +5,7 @@ if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\ashampoo_burning_studio_6_free_6.84_13471.exe" -ArgumentList "/VERYSILENT /NORESTART /SUPPRESSMSGBOXES"
 
-Start-Sleep -m 20000
+Start-Sleep -m 60000
 kill -processname "burningstudio" -ErrorAction SilentlyContinue
 
 Set-ItemProperty -Path "HKCU:\Software\Ashampoo\Ashampoo Burning Studio 6\ash_inet" -name InfoChannel_ashnews_Enabled -Value 0

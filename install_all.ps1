@@ -15,6 +15,13 @@ if ($win_vers -ge 10) {
     & "$parent_dir\win10_apps_removal.ps1"
 }
 
+# tweaks
+
+echo "Turning off TCP auto-tuning"
+netsh int tcp set global autotuninglevel=disabled
+
+netsh int tcp show global
+
 echo "ALL DONE"
 echo "ALL DONE"
 echo "ALL DONE"
