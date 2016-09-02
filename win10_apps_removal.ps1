@@ -1,4 +1,5 @@
 #Get-AppxPackage | Select-Object -Property Name
+echo "WINDOWS 10 DETECTED - REMOVING BLOAT"
 
 Get-AppxPackage *3dbuilder* | Remove-AppxPackage
 Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
@@ -21,3 +22,6 @@ Get-AppxPackage "Microsoft.Office.Sway" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.Messaging" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.ConnectivityStore" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.Appconnector" | Remove-AppxPackage
+
+echo "WIN10 BLOAT REMOVAL DONE"
+echo "------------------------------------------------------------------------------"

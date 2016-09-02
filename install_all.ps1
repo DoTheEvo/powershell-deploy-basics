@@ -9,21 +9,19 @@ $programs_dirs | ForEach-Object {
     & "$sub_path\$script_name.ps1"
 }
 
+# IF WIN 10, REMOVE PREINSTALLED CRAPWARE
+
 $win_vers = [Environment]::OSVersion.Version.Major
 if ($win_vers -ge 10) {
-    echo "Win10 - removing preinstalled apps"
     & "$parent_dir\win10_apps_removal.ps1"
 }
 
-# tweaks
+# TWEAKS
+& "$parent_dir\tweaks.ps1"
 
-echo "Turning off TCP auto-tuning"
-netsh int tcp set global autotuninglevel=disabled
 
-netsh int tcp show global
-
+echo "********************"
 echo "ALL DONE"
-echo "ALL DONE"
-echo "ALL DONE"
-echo "Panda - turn off panda news, turn off usb scan recommendation"
+echo "********************"
+echo "PANDA - TURN OFF PANDA NEWS, TURN OFF USB SCAN RECOMMENDATION"
 cmd /c pause

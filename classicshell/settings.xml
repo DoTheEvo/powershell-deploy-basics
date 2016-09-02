@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Settings component="StartMenu" version="4.3.0">
+	<ShiftRight value="1"/>
+	<ControlPanelCategories value="1"/>
+	<MaxRecentPrograms value="6"/>
+	<EnableJumplists value="0"/>
+	<StartScreenShortcut value="0"/>
+	<SearchInternet value="0"/>
+	<SkinW7 value="Windows 8"/>
+	<SkinVariationW7 value=""/>
+	<SkinOptionsW7>
+		<Line>USER_IMAGE=1</Line>
+		<Line>SMALL_ICONS=0</Line>
+		<Line>LARGE_FONT=0</Line>
+		<Line>DISABLE_MASK=1</Line>
+		<Line>OPAQUE=0</Line>
+		<Line>GLASS_SHADOW=0</Line>
+		<Line>BLACK_TEXT=0</Line>
+		<Line>BLACK_FRAMES=0</Line>
+		<Line>WHITE_SUBMENUS=1</Line>
+	</SkinOptionsW7>
+	<SkipMetro value="1"/>
+	<DisableHotCorner value="DisableAll"/>
+</Settings>
