@@ -3,7 +3,7 @@ echo "INSTALLING ASHAMPOO"
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\ashampoo_burning_studio_6_free_6.84_13471.exe" -ArgumentList "/VERYSILENT","/NORESTART","/SUPPRESSMSGBOXES"
 
-echo "- waiting for the application to start"
+echo "- waiting for ashampoo to start"
 $val = 120
 Do {
     $running = Get-Process "burningstudio" -ErrorAction SilentlyContinue

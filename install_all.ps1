@@ -7,6 +7,7 @@ $programs_dirs | ForEach-Object {
     $sub_path = $_.FullName
     $script_name = Split-Path $_.FullName -Leaf
     & "$sub_path\$script_name.ps1"
+    Start-Sleep -s 1
 }
 
 # IF WIN 10, REMOVE PREINSTALLED CRAPWARE

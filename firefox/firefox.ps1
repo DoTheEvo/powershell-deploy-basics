@@ -3,7 +3,7 @@ echo "INSTALLING FIREFOX"
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\Firefox Setup 48.0.2.exe" -ArgumentList '-ms' -Wait
 
-echo "- extracting user profile zip file"
+echo "- extracting user profile"
 if ($PSVersionTable.PSVersion.Major -ge 5) {
     Expand-Archive "$parent_dir\Firefox.zip" "$parent_dir"
 } else {
@@ -15,9 +15,8 @@ if ($PSVersionTable.PSVersion.Major -ge 5) {
 Start-Sleep -s 1
 
 echo "- copying user profile"
-$hush = @("/nfl","/ndl","/njh","/nc","/ns","/np")
 $target_dir = "$env:APPDATA\Mozilla\Firefox"
-robocopy "$parent_dir\Firefox" $target_dir /E $hush
+robocopy "$parent_dir\Firefox" $target_dir /E 1>> "$env:temp\robo_log.txt"
 
 Remove-Item -Recurse -Force "$parent_dir\Firefox" -ErrorAction SilentlyContinue
 
