@@ -22,7 +22,7 @@ if ($win_vers -ge 10) {
 
 
 echo "********************"
-echo "ALL DONE"
+echo "      ALL DONE      "
 echo "********************"
-echo "PANDA - TURN OFF PANDA NEWS, TURN OFF USB SCAN RECOMMENDATION"
+
 cmd /c pause

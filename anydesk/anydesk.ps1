@@ -5,7 +5,7 @@ Start-Process -FilePath "$parent_dir\AnyDesk.exe" -ArgumentList '--install "C:\P
 
 echo "- copying config file"
 $targetdirectory = "$env:APPDATA\AnyDesk"
-robocopy $parent_dir $targetdirectory user.conf 1>> "$env:temp\robo_log.txt"
+robocopy $parent_dir $targetdirectory user.conf >> "$env:temp\robo_log.txt"
 
 Set-Service "AnyDesk" -startupType manual
 echo "- anydesk service set to manual startup"

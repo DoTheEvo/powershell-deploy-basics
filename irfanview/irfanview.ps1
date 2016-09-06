@@ -5,11 +5,11 @@ Start-Process -FilePath "$parent_dir\iview442_x64_setup.exe" -ArgumentList '/sil
 
 echo "- copying config files"
 $target_dir = "$env:ProgramW6432\IrfanView\Languages"
-robocopy $parent_dir $target_dir IP_Slovak.lng 1>> "$env:temp\robo_log.txt"
-robocopy $parent_dir $target_dir Slovak.dll 1>> "$env:temp\robo_log.txt"
+robocopy $parent_dir $target_dir IP_Slovak.lng >> "$env:temp\robo_log.txt"
+robocopy $parent_dir $target_dir Slovak.dll >> "$env:temp\robo_log.txt"
 
 $target_dir = "$env:APPDATA\irfanview"
-robocopy $parent_dir $target_dir i_view64.ini 1>> "$env:temp\robo_log.txt"
+robocopy $parent_dir $target_dir i_view64.ini >> "$env:temp\robo_log.txt"
 
 echo "IRFANVIEW DONE"
 echo "------------------------------------------------------------------------------"

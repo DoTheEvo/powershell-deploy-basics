@@ -16,7 +16,7 @@ Start-Sleep -s 1
 
 echo "- copying user profile"
 $target_dir = "$env:APPDATA\Mozilla\Firefox"
-robocopy "$parent_dir\Firefox" $target_dir /E 1>> "$env:temp\robo_log.txt"
+robocopy "$parent_dir\Firefox" $target_dir /E >> "$env:temp\robo_log.txt"
 
 Remove-Item -Recurse -Force "$parent_dir\Firefox" -ErrorAction SilentlyContinue
 
