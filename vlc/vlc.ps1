@@ -1,4 +1,4 @@
-echo "INSTALLING VLC"
+echo "INSTALLING VLC v2.2.4 (2016-06-05)"
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\vlc-2.2.4-win64.exe" -ArgumentList '/S','/L=1051' -Wait

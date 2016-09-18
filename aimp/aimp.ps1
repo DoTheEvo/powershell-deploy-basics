@@ -1,4 +1,4 @@
-echo "INSTALLING AIMP"
+echo "INSTALLING AIMP v4.10 build 1831 (2016-08-31)"
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\aimp_4.10.1831.exe" -ArgumentList "/silent","/auto" -Wait

@@ -1,4 +1,4 @@
-echo "INSTALLING 7ZIP"
+echo "INSTALLING 7ZIP v16.02 (2016-05-21)"
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\7z1602-x64.msi" -ArgumentList "/q","INSTALLDIR=`"${env:ProgramFiles}\7-Zip`"","/norestart","TRANSFORMS=associations.mst" -Wait

@@ -1,4 +1,4 @@
-echo "INSTALLING FIREFOX"
+echo "INSTALLING FIREFOX v48.0.2 (2016-08-24)"
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\Firefox Setup 48.0.2.exe" -ArgumentList '-ms' -Wait

@@ -1,4 +1,4 @@
-echo "INSTALLING CHROME"
+echo "INSTALLING CHROME v53.0.2785 (2016-08-31)"
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 $target_dir = "${env:ProgramFiles(x86)}\Google\Chrome\Application"

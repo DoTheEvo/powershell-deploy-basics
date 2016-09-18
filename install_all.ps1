@@ -11,7 +11,6 @@ $programs_dirs | ForEach-Object {
 }
 
 # IF WIN 10, REMOVE PREINSTALLED CRAPWARE
-
 $win_vers = [Environment]::OSVersion.Version.Major
 if ($win_vers -ge 10) {
     & "$parent_dir\win10_apps_removal.ps1"
@@ -20,9 +19,17 @@ if ($win_vers -ge 10) {
 # TWEAKS
 & "$parent_dir\tweaks.ps1"
 
+# COUNT ERROR OCCURANCIES IN ROBOCOPY LOG FILE
+$FileContent = Get-Content "${env:temp}\robo_log.txt"
+$Matches = Select-String -InputObject $FileContent -Pattern "error" -AllMatches
+$Total = $Matches.Matches.Count
+if ($Total -eq $null){ $Total = 0}
+echo "Robocopy Error Count: $Total"
+echo "------------------------------------------------------------------------------"
 
-echo "********************"
+echo "*********************"
 echo "      ALL DONE      "
-echo "********************"
+echo "*********************"
 
+echo "------------------------------------------------------------------------------"
 cmd /c pause

@@ -1,4 +1,4 @@
-echo "INSTALLING ASHAMPOO"
+echo "INSTALLING ASHAMPOO v6.84 (2013-05-29)"
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\ashampoo_burning_studio_6_free_6.84_13471.exe" -ArgumentList "/VERYSILENT","/NORESTART","/SUPPRESSMSGBOXES"
@@ -12,7 +12,7 @@ Do {
     if ($val -eq 0) {break}
 } while ($running -eq $null)
 
-Start-Sleep -s 5
+Start-Sleep -s 8
 kill -processname "burningstudio" -ErrorAction SilentlyContinue
 
 Set-ItemProperty -Path "HKCU:\Software\Ashampoo\Ashampoo Burning Studio 6\ash_inet" -name InfoChannel_ashnews_Enabled -Value 0
