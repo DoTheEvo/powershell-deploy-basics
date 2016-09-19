@@ -7,4 +7,5 @@ Start-Process -FilePath "$parent_dir\FREEAV.exe"
 #Remove-Item "C:\Users\Public\Desktop\Panda Free Antivirus.lnk" -ErrorAction SilentlyContinue
 
 echo "PANDA DONE"
+echo "- finish the installation manually "
 echo "------------------------------------------------------------------------------"
