@@ -20,10 +20,16 @@ if ($win_vers -ge 10) {
 & "$parent_dir\tweaks.ps1"
 
 # COUNT ERROR OCCURANCIES IN ROBOCOPY LOG FILE
-$FileContent = Get-Content "${env:temp}\robo_log.txt"
-$Matches = Select-String -InputObject $FileContent -Pattern "error" -AllMatches
-$Total = $Matches.Matches.Count
-if ($Total -eq $null){ $Total = 0}
+$robo = "${env:temp}\robo_log.txt"
+If (Test-Path $robo){
+    $FileContent = Get-Content $robo
+    $Matches = Select-String -InputObject $FileContent -Pattern "error" -AllMatches
+    $Total = $Matches.Matches.Count
+    if ($Total -eq $null){ $Total = 0}
+} Else {
+    $Total = "No log file"
+}
+
 echo "Robocopy Error Count: $Total"
 echo "------------------------------------------------------------------------------"
 
