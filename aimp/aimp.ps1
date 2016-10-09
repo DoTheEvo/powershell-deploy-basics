@@ -1,7 +1,8 @@
-echo "INSTALLING AIMP v4.10 build 1831 (2016-08-31)"
+echo "INSTALLING AIMP v4.11 build 1841 (2016-08-31)"
+# http://aimp.ru/index.php?do=download
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
-Start-Process -FilePath "$parent_dir\aimp_4.10.1831.exe" -ArgumentList "/silent","/auto" -Wait
+Start-Process -FilePath "$parent_dir\aimp_4.11.1841.exe" -ArgumentList "/silent","/auto" -Wait
 
 echo "- copying config files"
 $target_dir = "$env:APPDATA\AIMP"

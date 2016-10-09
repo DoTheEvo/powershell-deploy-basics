@@ -1,4 +1,5 @@
-echo "INSTALLING ANYDESK v2.3.5 (2016-08-04)"
+echo "INSTALLING ANYDESK v2.5.0 (2016-09-21)"
+# http://anydesk.com/platforms
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\AnyDesk.exe" -ArgumentList '--install "C:\Program Files (x86)\AnyDesk"',"--silent","--create-shortcuts" -Wait

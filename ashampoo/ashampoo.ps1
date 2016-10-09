@@ -1,4 +1,5 @@
 echo "INSTALLING ASHAMPOO v6.84 (2013-05-29)"
+# do not go to higher version
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\ashampoo_burning_studio_6_free_6.84_13471.exe" -ArgumentList "/VERYSILENT","/NORESTART","/SUPPRESSMSGBOXES"
