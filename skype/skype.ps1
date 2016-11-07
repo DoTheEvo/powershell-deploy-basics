@@ -1,4 +1,4 @@
-echo "INSTALLING SKYPE v7.27 (2016-09-26)"
+echo "INSTALLING SKYPE v7.28 (2016-09-26)"
 # http://www.skype.com/go/getskype-msi
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path

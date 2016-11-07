@@ -1,4 +1,4 @@
-echo "INSTALLING AIMP v4.11 build 1841 (2016-08-31)"
+echo "INSTALLING AIMP v4.11 build 1841 (2016-10-09)"
 # http://aimp.ru/index.php?do=download
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path

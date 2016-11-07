@@ -1,4 +1,4 @@
-echo "INSTALLING ANYDESK v2.5.0 (2016-09-21)"
+echo "INSTALLING ANYDESK v2.6.0 (2016-10-14)"
 # http://anydesk.com/platforms
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
