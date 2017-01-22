@@ -1,8 +1,9 @@
-echo "INSTALLING FIREFOX v49.0.2 (2016-10-20)"
+echo "INSTALLING FIREFOX v50.1.0 (2016-12-13)"
 # https://www.mozilla.org/en-US/firefox/all/#sk
+# https://www.mozilla.org/en-US/firefox/releases/
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
-Start-Process -FilePath "$parent_dir\Firefox Setup 49.0.2.exe" -ArgumentList '-ms' -Wait
+Start-Process -FilePath "$parent_dir\Firefox Setup 50.1.0.exe" -ArgumentList '-ms' -Wait
 
 echo "- extracting user profile"
 if ($PSVersionTable.PSVersion.Major -ge 5) {
