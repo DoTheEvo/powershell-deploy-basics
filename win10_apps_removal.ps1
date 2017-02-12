@@ -46,7 +46,7 @@ echo "- turning off ads in startmenu"
 set_or_create_reg "HKLM:SOFTWARE\Policies\Microsoft\Windows\CloudContent" "DisableWindowsConsumerFeatures" "Dword" 1
 
 # https://www.oo-software.com/en/shutup10/update
-echo "- starting SHUTUP10 v1.4.1385 (2016-11-16)"
+echo "- starting SHUTUP10 v1.4.1386 (2016-12-13)"
 echo "- apply it manually"
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 Start-Process -FilePath "$parent_dir\OOSU10.exe"
