@@ -1,5 +1,15 @@
 if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
 
+#quit if not 64bit OSVersion
+if ($env:PROCESSOR_ARCHITECTURE.ToString() -ne "AMD64") {
+    echo "------------------------------------------------------------------------------"
+    echo "only x64 windows OS supported"
+    echo "Exiting..."
+    echo "------------------------------------------------------------------------------"
+    cmd /c pause
+    exit
+}
+
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 $programs_dirs = Get-ChildItem $parent_dir | ?{ $_.PSIsContainer } | Select-Object FullName
 
@@ -24,13 +34,13 @@ $robo = "${env:temp}\robo_log.txt"
 If (Test-Path $robo){
     $FileContent = Get-Content $robo
     $Matches = Select-String -InputObject $FileContent -Pattern "error" -AllMatches
-    $Total = $Matches.Matches.Count
-    if ($Total -eq $null){ $Total = 0}
+    $total = $Matches.Matches.Count
+    if ($total -eq $null){ $total = 0}
 } Else {
-    $Total = "No log file"
+    $total = "No log file"
 }
 
-echo "Robocopy Error Count: $Total"
+echo "Robocopy Error Count: $total"
 echo "------------------------------------------------------------------------------"
 
 echo "*********************"
