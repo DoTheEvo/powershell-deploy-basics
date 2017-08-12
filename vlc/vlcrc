@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 2.2.4
+###  vlc 2.2.6
 ###
 
 ###
@@ -8,4654 +8,4654 @@
 
 [visual] # Visualizer filter
 
-# Effects list (reťazec / príkaz)
+# Effects list (string)
 #effect-list=spectrum
 
-# Video width (hodnota (celé číslo))
+# Video width (integer)
 #effect-width=800
 
-# Video height (hodnota (celé číslo))
+# Video height (integer)
 #effect-height=500
 
-# FFT window (reťazec / príkaz)
+# FFT window (string)
 #effect-fft-window=flat
 
-# Kaiser window parameter (hodnota (desatinná))
+# Kaiser window parameter (float)
 #effect-kaiser-param=3.000000
 
-# Show 80 bands instead of 20 (Hodnota boolean)
+# Show 80 bands instead of 20 (boolean)
 #visual-80-bands=1
 
-# Draw peaks in the analyzer (Hodnota boolean)
+# Draw peaks in the analyzer (boolean)
 #visual-peaks=1
 
-# Enable original graphic spectrum (Hodnota boolean)
+# Enable original graphic spectrum (boolean)
 #spect-show-original=0
 
-# Draw the base of the bands (Hodnota boolean)
+# Draw the base of the bands (boolean)
 #spect-show-base=1
 
-# Base pixel radius (hodnota (celé číslo))
+# Base pixel radius (integer)
 #spect-radius=42
 
-# Spectral sections (hodnota (celé číslo))
+# Spectral sections (integer)
 #spect-sections=3
 
-# V-plane color (hodnota (celé číslo))
+# V-plane color (integer)
 #spect-color=80
 
-# Draw bands in the spectrometer (Hodnota boolean)
+# Draw bands in the spectrometer (boolean)
 #spect-show-bands=1
 
-# Show 80 bands instead of 20 (Hodnota boolean)
+# Show 80 bands instead of 20 (boolean)
 #spect-80-bands=1
 
-# Number of blank pixels between bands. (hodnota (celé číslo))
+# Number of blank pixels between bands. (integer)
 #spect-separ=1
 
-# Amplification (hodnota (celé číslo))
+# Amplification (integer)
 #spect-amp=8
 
-# Draw peaks in the analyzer (Hodnota boolean)
+# Draw peaks in the analyzer (boolean)
 #spect-show-peaks=1
 
-# Peak extra width (hodnota (celé číslo))
+# Peak extra width (integer)
 #spect-peak-width=61
 
-# Peak height (hodnota (celé číslo))
+# Peak height (integer)
 #spect-peak-height=1
 
 [projectm] # libprojectM effect
 
-# projectM preset path (reťazec / príkaz)
+# projectM preset path (string)
 #projectm-preset-path=
 
-# Title font (reťazec / príkaz)
+# Title font (string)
 #projectm-title-font=C:\WINDOWS\Fonts\arial.ttf
 
-# Font menu (reťazec / príkaz)
+# Font menu (string)
 #projectm-menu-font=C:\WINDOWS\Fonts\arial.ttf
 
-# Video width (hodnota (celé číslo))
+# Video width (integer)
 #projectm-width=800
 
-# Video height (hodnota (celé číslo))
+# Video height (integer)
 #projectm-height=500
 
-# Mesh width (hodnota (celé číslo))
+# Mesh width (integer)
 #projectm-meshx=32
 
-# Mesh height (hodnota (celé číslo))
+# Mesh height (integer)
 #projectm-meshy=24
 
-# Texture size (hodnota (celé číslo))
+# Texture size (integer)
 #projectm-texture-size=1024
 
 [goom] # Goom effect
 
-# Goom display width (hodnota (celé číslo))
+# Goom display width (integer)
 #goom-width=800
 
-# Goom display height (hodnota (celé číslo))
+# Goom display height (integer)
 #goom-height=500
 
-# Goom animation speed (hodnota (celé číslo))
+# Goom animation speed (integer)
 #goom-speed=6
 
 [glspectrum] # 3D OpenGL spectrum visualization
 
-# Video width (hodnota (celé číslo))
+# Video width (integer)
 #glspectrum-width=400
 
-# Video height (hodnota (celé číslo))
+# Video height (integer)
 #glspectrum-height=300
 
 [wall] # Wall video filter
 
-# Number of columns (hodnota (celé číslo))
+# Number of columns (integer)
 #wall-cols=3
 
-# Number of rows (hodnota (celé číslo))
+# Number of rows (integer)
 #wall-rows=3
 
-# Active windows (reťazec / príkaz)
+# Active windows (string)
 #wall-active=
 
-# Element aspect ratio (reťazec / príkaz)
+# Element aspect ratio (string)
 #wall-element-aspect=16:9
 
 [panoramix] # Panoramix: wall with overlap video filter
 
-# Number of columns (hodnota (celé číslo))
+# Number of columns (integer)
 #panoramix-cols=-1
 
-# Number of rows (hodnota (celé číslo))
+# Number of rows (integer)
 #panoramix-rows=-1
 
-# length of the overlapping area (in %) (hodnota (celé číslo))
+# length of the overlapping area (in %) (integer)
 #panoramix-bz-length=100
 
-# height of the overlapping area (in %) (hodnota (celé číslo))
+# height of the overlapping area (in %) (integer)
 #panoramix-bz-height=100
 
-# Attenuation (Hodnota boolean)
+# Attenuation (boolean)
 #panoramix-attenuate=1
 
-# Attenuation, begin (in %) (hodnota (celé číslo))
+# Attenuation, begin (in %) (integer)
 #panoramix-bz-begin=0
 
-# Attenuation, middle (in %) (hodnota (celé číslo))
+# Attenuation, middle (in %) (integer)
 #panoramix-bz-middle=50
 
-# Attenuation, end (in %) (hodnota (celé číslo))
+# Attenuation, end (in %) (integer)
 #panoramix-bz-end=100
 
-# middle position (in %) (hodnota (celé číslo))
+# middle position (in %) (integer)
 #panoramix-bz-middle-pos=50
 
-# Gamma (Red) correction (hodnota (desatinná))
+# Gamma (Red) correction (float)
 #panoramix-bz-gamma-red=1.000000
 
-# Gamma (Green) correction (hodnota (desatinná))
+# Gamma (Green) correction (float)
 #panoramix-bz-gamma-green=1.000000
 
-# Gamma (Blue) correction (hodnota (desatinná))
+# Gamma (Blue) correction (float)
 #panoramix-bz-gamma-blue=1.000000
 
-# Black Crush for Red (hodnota (celé číslo))
+# Black Crush for Red (integer)
 #panoramix-bz-blackcrush-red=140
 
-# Black Crush for Green (hodnota (celé číslo))
+# Black Crush for Green (integer)
 #panoramix-bz-blackcrush-green=140
 
-# Black Crush for Blue (hodnota (celé číslo))
+# Black Crush for Blue (integer)
 #panoramix-bz-blackcrush-blue=140
 
-# White Crush for Red (hodnota (celé číslo))
+# White Crush for Red (integer)
 #panoramix-bz-whitecrush-red=200
 
-# White Crush for Green (hodnota (celé číslo))
+# White Crush for Green (integer)
 #panoramix-bz-whitecrush-green=200
 
-# White Crush for Blue (hodnota (celé číslo))
+# White Crush for Blue (integer)
 #panoramix-bz-whitecrush-blue=200
 
-# Black Level for Red (hodnota (celé číslo))
+# Black Level for Red (integer)
 #panoramix-bz-blacklevel-red=150
 
-# Black Level for Green (hodnota (celé číslo))
+# Black Level for Green (integer)
 #panoramix-bz-blacklevel-green=150
 
-# Black Level for Blue (hodnota (celé číslo))
+# Black Level for Blue (integer)
 #panoramix-bz-blacklevel-blue=150
 
-# White Level for Red (hodnota (celé číslo))
+# White Level for Red (integer)
 #panoramix-bz-whitelevel-red=0
 
-# White Level for Green (hodnota (celé číslo))
+# White Level for Green (integer)
 #panoramix-bz-whitelevel-green=0
 
-# White Level for Blue (hodnota (celé číslo))
+# White Level for Blue (integer)
 #panoramix-bz-whitelevel-blue=0
 
-# Active windows (reťazec / príkaz)
+# Active windows (string)
 #panoramix-active=
 
 [clone] # Clone video filter
 
-# Number of clones (hodnota (celé číslo))
+# Number of clones (integer)
 #clone-count=2
 
-# Video output modules (reťazec / príkaz)
+# Video output modules (string)
 #clone-vout-list=
 
 [yuv] # YUV video output
 
-# device, fifo or filename (reťazec / príkaz)
+# device, fifo or filename (string)
 #yuv-file=stream.yuv
 
-# Chroma used (reťazec / príkaz)
+# Chroma used (string)
 #yuv-chroma=
 
-# YUV4MPEG2 header (default disabled) (Hodnota boolean)
+# YUV4MPEG2 header (default disabled) (boolean)
 #yuv-yuv4mpeg2=0
 
 [vmem] # Video memory output
 
-# Width (hodnota (celé číslo))
+# Width (integer)
 #vmem-width=320
 
-# Height (hodnota (celé číslo))
+# Height (integer)
 #vmem-height=200
 
-# Pitch (hodnota (celé číslo))
+# Pitch (integer)
 #vmem-pitch=640
 
-# Chroma (reťazec / príkaz)
+# Chroma (string)
 #vmem-chroma=RV16
 
 [vdummy] # Dummy video output
 
-# Dummy image chroma format (reťazec / príkaz)
+# Dummy image chroma format (string)
 #dummy-chroma=
 
 [gl] # OpenGL video output (experimental)
 
-# OpenGL extension (reťazec / príkaz)
+# OpenGL extension (string)
 #gl=
 
 [glwin32] # OpenGL video output
 
-# GPU affinity (hodnota (celé číslo))
+# GPU affinity (integer)
 #gpu-affinity=-1
 
 [drawable] # Embedded window video
 
 [directdraw] # DirectX (DirectDraw) video output
 
-# Use hardware YUV->RGB conversions (Hodnota boolean)
+# Use hardware YUV->RGB conversions (boolean)
 #directx-hw-yuv=1
 
-# Use video buffers in system memory (Hodnota boolean)
+# Use video buffers in system memory (boolean)
 #directx-use-sysmem=0
 
-# Use triple buffering for overlays (Hodnota boolean)
+# Use triple buffering for overlays (boolean)
 #directx-3buffering=1
 
-# Name of desired display device (reťazec / príkaz)
+# Name of desired display device (string)
 #directx-device=
 
 [direct3d] # Direct3D video output
 
-# Use hardware blending support (Hodnota boolean)
+# Use hardware blending support (boolean)
 #direct3d-hw-blending=1
 
-# Pixel Shader (reťazec / príkaz)
+# Pixel Shader (string)
 #direct3d-shader=
 
-# Path to HLSL file (reťazec / príkaz)
+# Path to HLSL file (string)
 #direct3d-shader-file=
 
 [transform] # Video transformation filter
 
-# Transform type (reťazec / príkaz)
+# Transform type (string)
 #transform-type=90
 
 [subsdelay] # Subtitle delay
 
-# Delay calculation mode (hodnota (celé číslo))
+# Delay calculation mode (integer)
 #subsdelay-mode=1
 
-# Calculation factor (hodnota (desatinná))
+# Calculation factor (float)
 #subsdelay-factor=2.000000
 
-# Maximum overlapping subtitles (hodnota (celé číslo))
+# Maximum overlapping subtitles (integer)
 #subsdelay-overlap=3
 
-# Minimum alpha value (hodnota (celé číslo))
+# Minimum alpha value (integer)
 #subsdelay-min-alpha=70
 
-# Interval between two disappearances (hodnota (celé číslo))
+# Interval between two disappearances (integer)
 #subsdelay-min-stops=1000
 
-# Interval between appearance and disappearance (hodnota (celé číslo))
+# Interval between appearance and disappearance (integer)
 #subsdelay-min-start-stop=1000
 
-# Interval between disappearance and appearance (hodnota (celé číslo))
+# Interval between disappearance and appearance (integer)
 #subsdelay-min-stop-start=1000
 
 [sharpen] # Sharpen video filter
 
-# Sharpen strength (0-2) (hodnota (desatinná))
+# Sharpen strength (0-2) (float)
 #sharpen-sigma=0.050000
 
 [sepia] # Sepia video filter
 
-# Sepia intensity (hodnota (celé číslo))
+# Sepia intensity (integer)
 #sepia-intensity=120
 
 [scene] # Scene video filter
 
-# Image format (reťazec / príkaz)
+# Image format (string)
 #scene-format=png
 
-# Image width (hodnota (celé číslo))
+# Image width (integer)
 #scene-width=-1
 
-# Image height (hodnota (celé číslo))
+# Image height (integer)
 #scene-height=-1
 
-# Filename prefix (reťazec / príkaz)
+# Filename prefix (string)
 #scene-prefix=scene
 
-# Directory path prefix (reťazec / príkaz)
+# Directory path prefix (string)
 #scene-path=
 
-# Always write to the same file (Hodnota boolean)
+# Always write to the same file (boolean)
 #scene-replace=0
 
-# Recording ratio (hodnota (celé číslo))
+# Recording ratio (integer)
 #scene-ratio=50
 
 [rss] # RSS and Atom feed display
 
-# Feed URLs (reťazec / príkaz)
+# Feed URLs (string)
 #rss-urls=
 
-# X offset (hodnota (celé číslo))
+# X offset (integer)
 #rss-x=0
 
-# Y offset (hodnota (celé číslo))
+# Y offset (integer)
 #rss-y=0
 
-# Text position (hodnota (celé číslo))
+# Text position (integer)
 #rss-position=-1
 
-# Opacity (hodnota (celé číslo))
+# Opacity (integer)
 #rss-opacity=255
 
-# Color (hodnota (celé číslo))
+# Color (integer)
 #rss-color=16777215
 
-# Font size, pixels (hodnota (celé číslo))
+# Font size, pixels (integer)
 #rss-size=-1
 
-# Speed of feeds (hodnota (celé číslo))
+# Speed of feeds (integer)
 #rss-speed=100000
 
-# Max length (hodnota (celé číslo))
+# Max length (integer)
 #rss-length=60
 
-# Refresh time (hodnota (celé číslo))
+# Refresh time (integer)
 #rss-ttl=1800
 
-# Feed images (Hodnota boolean)
+# Feed images (boolean)
 #rss-images=1
 
-# Title display mode (hodnota (celé číslo))
+# Title display mode (integer)
 #rss-title=-1
 
 [rotate] # Rotate video filter
 
-# Angle in degrees (hodnota (desatinná))
+# Angle in degrees (float)
 #rotate-angle=30.000000
 
-# Use motion sensors (Hodnota boolean)
+# Use motion sensors (boolean)
 #rotate-use-motion=0
 
 [remoteosd] # Remote-OSD over VNC
 
-# VNC Host (reťazec / príkaz)
+# VNC Host (string)
 #rmtosd-host=myvdr
 
-# VNC Port (hodnota (celé číslo))
+# VNC Port (integer)
 #rmtosd-port=20001
 
-# VNC Password (reťazec / príkaz)
+# VNC Password (string)
 #rmtosd-password=
 
-# VNC poll interval (hodnota (celé číslo))
+# VNC poll interval (integer)
 #rmtosd-update=1000
 
-# VNC polling (Hodnota boolean)
+# VNC polling (boolean)
 #rmtosd-vnc-polling=0
 
-# Mouse events (Hodnota boolean)
+# Mouse events (boolean)
 #rmtosd-mouse-events=0
 
-# Key events (Hodnota boolean)
+# Key events (boolean)
 #rmtosd-key-events=0
 
-# Alpha transparency value (default 255) (hodnota (celé číslo))
+# Alpha transparency value (default 255) (integer)
 #rmtosd-alpha=255
 
 [puzzle] # Puzzle interactive game video filter
 
-# Number of puzzle rows (hodnota (celé číslo))
+# Number of puzzle rows (integer)
 #puzzle-rows=4
 
-# Number of puzzle columns (hodnota (celé číslo))
+# Number of puzzle columns (integer)
 #puzzle-cols=4
 
-# Border (hodnota (celé číslo))
+# Border (integer)
 #puzzle-border=3
 
-# Small preview (Hodnota boolean)
+# Small preview (boolean)
 #puzzle-preview=0
 
-# Small preview size (hodnota (celé číslo))
+# Small preview size (integer)
 #puzzle-preview-size=15
 
-# Piece edge shape size (hodnota (celé číslo))
+# Piece edge shape size (integer)
 #puzzle-shape-size=90
 
-# Auto shuffle (hodnota (celé číslo))
+# Auto shuffle (integer)
 #puzzle-auto-shuffle=0
 
-# Auto solve (hodnota (celé číslo))
+# Auto solve (integer)
 #puzzle-auto-solve=0
 
-# Rotation (hodnota (celé číslo))
+# Rotation (integer)
 #puzzle-rotation=0
 
-# Game mode (hodnota (celé číslo))
+# Game mode (integer)
 #puzzle-mode=0
 
 [postproc] # Video post processing filter
 
-# Post processing quality (hodnota (celé číslo))
+# Post processing quality (integer)
 #postproc-q=6
 
-# FFmpeg post processing filter chains (reťazec / príkaz)
+# FFmpeg post processing filter chains (string)
 #postproc-name=default
 
 [posterize] # Posterize video filter
 
-# Posterize level (hodnota (celé číslo))
+# Posterize level (integer)
 #posterize-level=6
 
 [motionblur] # Motion blur filter
 
-# Blur factor (1-127) (hodnota (celé číslo))
+# Blur factor (1-127) (integer)
 #blur-factor=80
 
 [mosaic] # Mosaic video sub source
 
-# Transparency (hodnota (celé číslo))
+# Transparency (integer)
 #mosaic-alpha=255
 
-# Height (hodnota (celé číslo))
+# Height (integer)
 #mosaic-height=100
 
-# Width (hodnota (celé číslo))
+# Width (integer)
 #mosaic-width=100
 
-# Mosaic alignment (hodnota (celé číslo))
+# Mosaic alignment (integer)
 #mosaic-align=5
 
-# Top left corner X coordinate (hodnota (celé číslo))
+# Top left corner X coordinate (integer)
 #mosaic-xoffset=0
 
-# Top left corner Y coordinate (hodnota (celé číslo))
+# Top left corner Y coordinate (integer)
 #mosaic-yoffset=0
 
-# Border width (hodnota (celé číslo))
+# Border width (integer)
 #mosaic-borderw=0
 
-# Border height (hodnota (celé číslo))
+# Border height (integer)
 #mosaic-borderh=0
 
-# Positioning method (hodnota (celé číslo))
+# Positioning method (integer)
 #mosaic-position=0
 
-# Number of rows (hodnota (celé číslo))
+# Number of rows (integer)
 #mosaic-rows=2
 
-# Number of columns (hodnota (celé číslo))
+# Number of columns (integer)
 #mosaic-cols=2
 
-# Keep aspect ratio (Hodnota boolean)
+# Keep aspect ratio (boolean)
 #mosaic-keep-aspect-ratio=0
 
-# Keep original size (Hodnota boolean)
+# Keep original size (boolean)
 #mosaic-keep-picture=0
 
-# Elements order (reťazec / príkaz)
+# Elements order (string)
 #mosaic-order=
 
-# Offsets in order (reťazec / príkaz)
+# Offsets in order (string)
 #mosaic-offsets=
 
-# Delay (hodnota (celé číslo))
+# Delay (integer)
 #mosaic-delay=0
 
 [mirror] # Mirror video filter
 
-# Mirror orientation (hodnota (celé číslo))
+# Mirror orientation (integer)
 #mirror-split=0
 
-# Direction (hodnota (celé číslo))
+# Direction (integer)
 #mirror-direction=0
 
 [marq] # Marquee display
 
-# Text (reťazec / príkaz)
+# Text (string)
 #marq-marquee=VLC
 
-# Text file (reťazec / príkaz)
+# Text file (string)
 #marq-file=
 
-# X offset (hodnota (celé číslo))
+# X offset (integer)
 #marq-x=0
 
-# Y offset (hodnota (celé číslo))
+# Y offset (integer)
 #marq-y=0
 
-# Marquee position (hodnota (celé číslo))
+# Marquee position (integer)
 #marq-position=-1
 
-# Opacity (hodnota (celé číslo))
+# Opacity (integer)
 #marq-opacity=255
 
-# Color (hodnota (celé číslo))
+# Color (integer)
 #marq-color=16777215
 
-# Font size, pixels (hodnota (celé číslo))
+# Font size, pixels (integer)
 #marq-size=-1
 
-# Timeout (hodnota (celé číslo))
+# Timeout (integer)
 #marq-timeout=0
 
-# Refresh period in ms (hodnota (celé číslo))
+# Refresh period in ms (integer)
 #marq-refresh=1000
 
 [logo] # Logo sub source
 
-# Logo filenames (reťazec / príkaz)
+# Logo filenames (string)
 #logo-file=
 
-# X coordinate (hodnota (celé číslo))
+# X coordinate (integer)
 #logo-x=-1
 
-# Y coordinate (hodnota (celé číslo))
+# Y coordinate (integer)
 #logo-y=-1
 
-# Logo individual image time in ms (hodnota (celé číslo))
+# Logo individual image time in ms (integer)
 #logo-delay=1000
 
-# Logo animation # of loops (hodnota (celé číslo))
+# Logo animation # of loops (integer)
 #logo-repeat=-1
 
-# Opacity of the logo (hodnota (celé číslo))
+# Opacity of the logo (integer)
 #logo-opacity=255
 
-# Logo position (hodnota (celé číslo))
+# Logo position (integer)
 #logo-position=-1
 
 [hqdn3d] # High Quality 3D Denoiser filter
 
-# Spatial luma strength (0-254) (hodnota (desatinná))
+# Spatial luma strength (0-254) (float)
 #hqdn3d-luma-spat=4.000000
 
-# Spatial chroma strength (0-254) (hodnota (desatinná))
+# Spatial chroma strength (0-254) (float)
 #hqdn3d-chroma-spat=3.000000
 
-# Temporal luma strength (0-254) (hodnota (desatinná))
+# Temporal luma strength (0-254) (float)
 #hqdn3d-luma-temp=6.000000
 
-# Temporal chroma strength (0-254) (hodnota (desatinná))
+# Temporal chroma strength (0-254) (float)
 #hqdn3d-chroma-temp=4.500000
 
 [grain] # Grain video filter
 
-# Variance (hodnota (desatinná))
+# Variance (float)
 #grain-variance=2.000000
 
-# Minimal period (hodnota (celé číslo))
+# Minimal period (integer)
 #grain-period-min=1
 
-# Maximal period (hodnota (celé číslo))
+# Maximal period (integer)
 #grain-period-max=48
 
 [gradient] # Gradient video filter
 
-# Distort mode (reťazec / príkaz)
+# Distort mode (string)
 #gradient-mode=gradient
 
-# Gradient image type (hodnota (celé číslo))
+# Gradient image type (integer)
 #gradient-type=0
 
-# Apply cartoon effect (Hodnota boolean)
+# Apply cartoon effect (boolean)
 #gradient-cartoon=1
 
 [gradfun] # Gradfun video filter
 
-# Radius (hodnota (celé číslo))
+# Radius (integer)
 #gradfun-radius=16
 
-# Strength (hodnota (desatinná))
+# Strength (float)
 #gradfun-strength=1.200000
 
 [gaussianblur] # Gaussian blur video filter
 
-# Gaussian's std deviation (hodnota (desatinná))
+# Gaussian's std deviation (float)
 #gaussianblur-sigma=2.000000
 
 [extract] # Extract RGB component video filter
 
-# RGB component to extract (hodnota (celé číslo))
+# RGB component to extract (integer)
 #extract-component=16711680
 
 [erase] # Erase video filter
 
-# Image mask (reťazec / príkaz)
+# Image mask (string)
 #erase-mask=
 
-# X coordinate (hodnota (celé číslo))
+# X coordinate (integer)
 #erase-x=0
 
-# Y coordinate (hodnota (celé číslo))
+# Y coordinate (integer)
 #erase-y=0
 
 [deinterlace] # Deinterlacing video filter
 
-# Streaming deinterlace mode (reťazec / príkaz)
+# Streaming deinterlace mode (string)
 #sout-deinterlace-mode=blend
 
-# Phosphor chroma mode for 4:2:0 input (hodnota (celé číslo))
+# Phosphor chroma mode for 4:2:0 input (integer)
 #sout-deinterlace-phosphor-chroma=2
 
-# Phosphor old field dimmer strength (hodnota (celé číslo))
+# Phosphor old field dimmer strength (integer)
 #sout-deinterlace-phosphor-dimmer=2
 
 [croppadd] # Video cropping filter
 
-# Pixels to crop from top (hodnota (celé číslo))
+# Pixels to crop from top (integer)
 #croppadd-croptop=0
 
-# Pixels to crop from bottom (hodnota (celé číslo))
+# Pixels to crop from bottom (integer)
 #croppadd-cropbottom=0
 
-# Pixels to crop from left (hodnota (celé číslo))
+# Pixels to crop from left (integer)
 #croppadd-cropleft=0
 
-# Pixels to crop from right (hodnota (celé číslo))
+# Pixels to crop from right (integer)
 #croppadd-cropright=0
 
-# Pixels to padd to top (hodnota (celé číslo))
+# Pixels to padd to top (integer)
 #croppadd-paddtop=0
 
-# Pixels to padd to bottom (hodnota (celé číslo))
+# Pixels to padd to bottom (integer)
 #croppadd-paddbottom=0
 
-# Pixels to padd to left (hodnota (celé číslo))
+# Pixels to padd to left (integer)
 #croppadd-paddleft=0
 
-# Pixels to padd to right (hodnota (celé číslo))
+# Pixels to padd to right (integer)
 #croppadd-paddright=0
 
 [colorthres] # Color threshold filter
 
-# Color (hodnota (celé číslo))
+# Color (integer)
 #colorthres-color=16711680
 
-# Saturation threshold (hodnota (celé číslo))
+# Saturation threshold (integer)
 #colorthres-saturationthres=20
 
-# Similarity threshold (hodnota (celé číslo))
+# Similarity threshold (integer)
 #colorthres-similaritythres=15
 
 [canvas] # Canvas video filter
 
-# Output width (hodnota (celé číslo))
+# Output width (integer)
 #canvas-width=0
 
-# Output height (hodnota (celé číslo))
+# Output height (integer)
 #canvas-height=0
 
-# Output picture aspect ratio (reťazec / príkaz)
+# Output picture aspect ratio (string)
 #canvas-aspect=
 
-# Pad video (Hodnota boolean)
+# Pad video (boolean)
 #canvas-padd=1
 
 [bluescreen] # Bluescreen video filter
 
-# Bluescreen U value (hodnota (celé číslo))
+# Bluescreen U value (integer)
 #bluescreen-u=120
 
-# Bluescreen V value (hodnota (celé číslo))
+# Bluescreen V value (integer)
 #bluescreen-v=90
 
-# Bluescreen U tolerance (hodnota (celé číslo))
+# Bluescreen U tolerance (integer)
 #bluescreen-ut=17
 
-# Bluescreen V tolerance (hodnota (celé číslo))
+# Bluescreen V tolerance (integer)
 #bluescreen-vt=17
 
 [blendbench] # Blending benchmark filter
 
-# Number of time to blend (hodnota (celé číslo))
+# Number of time to blend (integer)
 #blendbench-loops=1000
 
-# Alpha of the blended image (hodnota (celé číslo))
+# Alpha of the blended image (integer)
 #blendbench-alpha=128
 
-# Image to be blended onto (reťazec / príkaz)
+# Image to be blended onto (string)
 #blendbench-base-image=
 
-# Chroma for the base image (reťazec / príkaz)
+# Chroma for the base image (string)
 #blendbench-base-chroma=I420
 
-# Image which will be blended (reťazec / príkaz)
+# Image which will be blended (string)
 #blendbench-blend-image=
 
-# Chroma for the blend image (reťazec / príkaz)
+# Chroma for the blend image (string)
 #blendbench-blend-chroma=YUVA
 
 [ball] # Ball video filter
 
-# Ball color (reťazec / príkaz)
+# Ball color (string)
 #ball-color=red
 
-# Ball speed (hodnota (celé číslo))
+# Ball speed (integer)
 #ball-speed=4
 
-# Ball size (hodnota (celé číslo))
+# Ball size (integer)
 #ball-size=10
 
-# Gradient threshold (hodnota (celé číslo))
+# Gradient threshold (integer)
 #ball-gradient-threshold=40
 
-# Edge visible (Hodnota boolean)
+# Edge visible (boolean)
 #ball-edge-visible=1
 
 [audiobargraph_v] # Audio Bar Graph Video sub source
 
-# X coordinate (hodnota (celé číslo))
+# X coordinate (integer)
 #audiobargraph_v-x=0
 
-# Y coordinate (hodnota (celé číslo))
+# Y coordinate (integer)
 #audiobargraph_v-y=0
 
-# Transparency of the bargraph (hodnota (celé číslo))
+# Transparency of the bargraph (integer)
 #audiobargraph_v-transparency=255
 
-# Bargraph position (hodnota (celé číslo))
+# Bargraph position (integer)
 #audiobargraph_v-position=-1
 
-# Bar width in pixel (default : 10) (hodnota (celé číslo))
+# Bar width in pixel (default : 10) (integer)
 #audiobargraph_v-barWidth=10
 
 [atmo] # AtmoLight Filter
 
-# Device type (hodnota (celé číslo))
+# Device type (integer)
 #atmo-device=0
 
-# Serial Port/Device (reťazec / príkaz)
+# Serial Port/Device (string)
 #atmo-serialdev=COM1
 
-# Filename of AtmoWin*.exe (reťazec / príkaz)
+# Filename of AtmoWin*.exe (string)
 #atmo-atmowinexe=
 
-# Color when paused (Hodnota boolean)
+# Color when paused (boolean)
 #atmo-usepausecolor=0
 
-# Pause-Red (hodnota (celé číslo))
+# Pause-Red (integer)
 #atmo-pcolor-red=0
 
-# Pause-Green (hodnota (celé číslo))
+# Pause-Green (integer)
 #atmo-pcolor-green=0
 
-# Pause-Blue (hodnota (celé číslo))
+# Pause-Blue (integer)
 #atmo-pcolor-blue=192
 
-# Pause-Fadesteps (hodnota (celé číslo))
+# Pause-Fadesteps (integer)
 #atmo-fadesteps=50
 
-# End-Red (hodnota (celé číslo))
+# End-Red (integer)
 #atmo-ecolor-red=192
 
-# End-Green (hodnota (celé číslo))
+# End-Green (integer)
 #atmo-ecolor-green=192
 
-# End-Blue (hodnota (celé číslo))
+# End-Blue (integer)
 #atmo-ecolor-blue=192
 
-# End-Fadesteps (hodnota (celé číslo))
+# End-Fadesteps (integer)
 #atmo-efadesteps=50
 
-# Count of AtmoLight channels (hodnota (celé číslo))
+# Count of AtmoLight channels (integer)
 #atmo-dmx-channels=5
 
-# DMX address for each channel (reťazec / príkaz)
+# DMX address for each channel (string)
 #atmo-dmx-chbase=0,3,6,9,12
 
-# Count of channels (hodnota (celé číslo))
+# Count of channels (integer)
 #atmo-momo-channels=3
 
-# Count of fnordlicht's (hodnota (celé číslo))
+# Count of fnordlicht's (integer)
 #atmo-fnordlicht-amount=2
 
-# Number of zones on top (hodnota (celé číslo))
+# Number of zones on top (integer)
 #atmo-zones-top=1
 
-# Number of zones on bottom (hodnota (celé číslo))
+# Number of zones on bottom (integer)
 #atmo-zones-bottom=1
 
-# Zones on left / right side (hodnota (celé číslo))
+# Zones on left / right side (integer)
 #atmo-zones-lr=1
 
-# Calculate a average zone (Hodnota boolean)
+# Calculate a average zone (boolean)
 #atmo-zone-summary=0
 
-# Edge weightning (hodnota (celé číslo))
+# Edge weightning (integer)
 #atmo-edgeweightning=3
 
-# Brightness (hodnota (celé číslo))
+# Brightness (integer)
 #atmo-brightness=100
 
-# Darkness limit (hodnota (celé číslo))
+# Darkness limit (integer)
 #atmo-darknesslimit=3
 
-# Hue windowing (hodnota (celé číslo))
+# Hue windowing (integer)
 #atmo-huewinsize=3
 
-# Sat windowing (hodnota (celé číslo))
+# Sat windowing (integer)
 #atmo-satwinsize=3
 
-# Output Color filter mode (hodnota (celé číslo))
+# Output Color filter mode (integer)
 #atmo-filtermode=1
 
-# Filter length (ms) (hodnota (celé číslo))
+# Filter length (ms) (integer)
 #atmo-meanlength=300
 
-# Filter threshold (hodnota (celé číslo))
+# Filter threshold (integer)
 #atmo-meanthreshold=40
 
-# Filter smoothness (%) (hodnota (celé číslo))
+# Filter smoothness (%) (integer)
 #atmo-percentnew=50
 
-# Frame delay (ms) (hodnota (celé číslo))
+# Frame delay (ms) (integer)
 #atmo-framedelay=18
 
-# Channel 0: summary (hodnota (celé číslo))
+# Channel 0: summary (integer)
 #atmo-channel_0=4
 
-# Channel 1: left (hodnota (celé číslo))
+# Channel 1: left (integer)
 #atmo-channel_1=3
 
-# Channel 2: right (hodnota (celé číslo))
+# Channel 2: right (integer)
 #atmo-channel_2=1
 
-# Channel 3: top (hodnota (celé číslo))
+# Channel 3: top (integer)
 #atmo-channel_3=0
 
-# Channel 4: bottom (hodnota (celé číslo))
+# Channel 4: bottom (integer)
 #atmo-channel_4=2
 
-# Channel / Zone Assignment (reťazec / príkaz)
+# Channel / Zone Assignment (string)
 #atmo-channels=
 
-# Use Software White adjust (Hodnota boolean)
+# Use Software White adjust (boolean)
 #atmo-whiteadj=1
 
-# White Red (hodnota (celé číslo))
+# White Red (integer)
 #atmo-white-red=255
 
-# White Green (hodnota (celé číslo))
+# White Green (integer)
 #atmo-white-green=255
 
-# White Blue (hodnota (celé číslo))
+# White Blue (integer)
 #atmo-white-blue=255
 
-# Zone 0: Top gradient (reťazec / príkaz)
+# Zone 0: Top gradient (string)
 #atmo-gradient_zone_0=
 
-# Zone 1: Right gradient (reťazec / príkaz)
+# Zone 1: Right gradient (string)
 #atmo-gradient_zone_1=
 
-# Zone 2: Bottom gradient (reťazec / príkaz)
+# Zone 2: Bottom gradient (string)
 #atmo-gradient_zone_2=
 
-# Zone 3: Left gradient (reťazec / príkaz)
+# Zone 3: Left gradient (string)
 #atmo-gradient_zone_3=
 
-# Zone 4: Summary gradient (reťazec / príkaz)
+# Zone 4: Summary gradient (string)
 #atmo-gradient_zone_4=
 
-# Gradient bitmap searchpath (reťazec / príkaz)
+# Gradient bitmap searchpath (string)
 #atmo-gradient_path=
 
-# Extracted Image Width (hodnota (celé číslo))
+# Extracted Image Width (integer)
 #atmo-width=64
 
-# Extracted Image Height (hodnota (celé číslo))
+# Extracted Image Height (integer)
 #atmo-height=48
 
-# Mark analyzed pixels (Hodnota boolean)
+# Mark analyzed pixels (boolean)
 #atmo-showdots=0
 
 [antiflicker] # antiflicker video filter
 
-# Window size (hodnota (celé číslo))
+# Window size (integer)
 #antiflicker-window-size=10
 
-# Softening value (hodnota (celé číslo))
+# Softening value (integer)
 #antiflicker-softening-size=10
 
 [anaglyph] # Convert 3D picture to anaglyph image video filter
 
-# Color scheme (reťazec / príkaz)
+# Color scheme (string)
 #anaglyph-scheme=red-cyan
 
 [alphamask] # Alpha mask video filter
 
-# Transparency mask (reťazec / príkaz)
+# Transparency mask (string)
 #alphamask-mask=
 
 [adjust] # Image properties filter
 
-# Image contrast (0-2) (hodnota (desatinná))
+# Image contrast (0-2) (float)
 #contrast=1.000000
 
-# Image brightness (0-2) (hodnota (desatinná))
+# Image brightness (0-2) (float)
 #brightness=1.000000
 
-# Image hue (0-360) (hodnota (celé číslo))
+# Image hue (0-360) (integer)
 #hue=0
 
-# Image saturation (0-3) (hodnota (desatinná))
+# Image saturation (0-3) (float)
 #saturation=1.000000
 
-# Image gamma (0-10) (hodnota (desatinná))
+# Image gamma (0-10) (float)
 #gamma=1.000000
 
-# Brightness threshold (Hodnota boolean)
+# Brightness threshold (boolean)
 #brightness-threshold=0
 
 [swscale] # Video scaling filter
 
-# Scaling mode (hodnota (celé číslo))
+# Scaling mode (integer)
 #swscale-mode=2
 
 [freetype] # Freetype2 font renderer
 
-# Font (reťazec / príkaz)
+# Font (string)
 #freetype-font=Arial
 
-# Monospace Font (reťazec / príkaz)
+# Monospace Font (string)
 #freetype-monofont=Courier New
 
-# Font size in pixels (hodnota (celé číslo))
+# Font size in pixels (integer)
 #freetype-fontsize=0
 
-# Relative font size (hodnota (celé číslo))
+# Relative font size (integer)
 #freetype-rel-fontsize=16
 
-# Text opacity (hodnota (celé číslo))
+# Text opacity (integer)
 #freetype-opacity=255
 
-# Text default color (hodnota (celé číslo))
+# Text default color (integer)
 #freetype-color=16777215
 
-# Force bold (Hodnota boolean)
+# Force bold (boolean)
 #freetype-bold=0
 
-# Background opacity (hodnota (celé číslo))
+# Background opacity (integer)
 #freetype-background-opacity=0
 
-# Background color (hodnota (celé číslo))
+# Background color (integer)
 #freetype-background-color=0
 
-# Outline opacity (hodnota (celé číslo))
+# Outline opacity (integer)
 #freetype-outline-opacity=255
 
-# Outline color (hodnota (celé číslo))
+# Outline color (integer)
 #freetype-outline-color=0
 
-# Outline thickness (hodnota (celé číslo))
+# Outline thickness (integer)
 #freetype-outline-thickness=4
 
-# Shadow opacity (hodnota (celé číslo))
+# Shadow opacity (integer)
 #freetype-shadow-opacity=128
 
-# Shadow color (hodnota (celé číslo))
+# Shadow color (integer)
 #freetype-shadow-color=0
 
-# Shadow angle (hodnota (desatinná))
+# Shadow angle (float)
 #freetype-shadow-angle=-45.000000
 
-# Shadow distance (hodnota (desatinná))
+# Shadow distance (float)
 #freetype-shadow-distance=0.060000
 
-# Use YUVP renderer (Hodnota boolean)
+# Use YUVP renderer (boolean)
 #freetype-yuvp=0
 
 [stream_out_transcode] # Transcode stream output
 
-# Video encoder (reťazec / príkaz)
+# Video encoder (string)
 #sout-transcode-venc=
 
-# Destination video codec (reťazec / príkaz)
+# Destination video codec (string)
 #sout-transcode-vcodec=
 
-# Video bitrate (hodnota (celé číslo))
+# Video bitrate (integer)
 #sout-transcode-vb=0
 
-# Video scaling (hodnota (desatinná))
+# Video scaling (float)
 #sout-transcode-scale=0.000000
 
-# Video frame-rate (reťazec / príkaz)
+# Video frame-rate (string)
 #sout-transcode-fps=
 
-# Deinterlace video (Hodnota boolean)
+# Deinterlace video (boolean)
 #sout-transcode-deinterlace=0
 
-# Deinterlace module (reťazec / príkaz)
+# Deinterlace module (string)
 #sout-transcode-deinterlace-module=deinterlace
 
-# Video width (hodnota (celé číslo))
+# Video width (integer)
 #sout-transcode-width=0
 
-# Video height (hodnota (celé číslo))
+# Video height (integer)
 #sout-transcode-height=0
 
-# Maximum video width (hodnota (celé číslo))
+# Maximum video width (integer)
 #sout-transcode-maxwidth=0
 
-# Maximum video height (hodnota (celé číslo))
+# Maximum video height (integer)
 #sout-transcode-maxheight=0
 
-# Video filter (reťazec / príkaz)
+# Video filter (string)
 #sout-transcode-vfilter=
 
-# Audio encoder (reťazec / príkaz)
+# Audio encoder (string)
 #sout-transcode-aenc=
 
-# Destination audio codec (reťazec / príkaz)
+# Destination audio codec (string)
 #sout-transcode-acodec=
 
-# Audio bitrate (hodnota (celé číslo))
+# Audio bitrate (integer)
 #sout-transcode-ab=96
 
-# Audio language (reťazec / príkaz)
+# Audio language (string)
 #sout-transcode-alang=
 
-# Audio channels (hodnota (celé číslo))
+# Audio channels (integer)
 #sout-transcode-channels=0
 
-# Audio sample rate (hodnota (celé číslo))
+# Audio sample rate (integer)
 #sout-transcode-samplerate=0
 
-# Audio filter (reťazec / príkaz)
+# Audio filter (string)
 #sout-transcode-afilter=
 
-# Subtitle encoder (reťazec / príkaz)
+# Subtitle encoder (string)
 #sout-transcode-senc=
 
-# Destination subtitle codec (reťazec / príkaz)
+# Destination subtitle codec (string)
 #sout-transcode-scodec=
 
-# Destination subtitle codec (Hodnota boolean)
+# Destination subtitle codec (boolean)
 #sout-transcode-soverlay=0
 
-# Overlays (reťazec / príkaz)
+# Overlays (string)
 #sout-transcode-sfilter=
 
-# OSD menu (Hodnota boolean)
+# OSD menu (boolean)
 #sout-transcode-osd=0
 
-# Number of threads (hodnota (celé číslo))
+# Number of threads (integer)
 #sout-transcode-threads=0
 
-# High priority (Hodnota boolean)
+# High priority (boolean)
 #sout-transcode-high-priority=0
 
 [stream_out_stats] # Writes statistic info about stream
 
-# Output file (reťazec / príkaz)
+# Output file (string)
 #sout-stats-output=
 
-# Prefix to show on output line (reťazec / príkaz)
+# Prefix to show on output line (string)
 #sout-stats-prefix=stats
 
 [stream_out_standard] # Standard stream output
 
-# Output access method (reťazec / príkaz)
+# Output access method (string)
 #sout-standard-access=
 
-# Output muxer (reťazec / príkaz)
+# Output muxer (string)
 #sout-standard-mux=
 
-# Output destination (reťazec / príkaz)
+# Output destination (string)
 #sout-standard-dst=
 
-# address to bind to (helper setting for dst) (reťazec / príkaz)
+# address to bind to (helper setting for dst) (string)
 #sout-standard-bind=
 
-# filename for stream (helper setting for dst) (reťazec / príkaz)
+# filename for stream (helper setting for dst) (string)
 #sout-standard-path=
 
-# SAP announcing (Hodnota boolean)
+# SAP announcing (boolean)
 #sout-standard-sap=0
 
-# Session name (reťazec / príkaz)
+# Session name (string)
 #sout-standard-name=
 
-# Session description (reťazec / príkaz)
+# Session description (string)
 #sout-standard-description=
 
-# Session URL (reťazec / príkaz)
+# Session URL (string)
 #sout-standard-url=
 
-# Session email (reťazec / príkaz)
+# Session email (string)
 #sout-standard-email=
 
-# Session phone number (reťazec / príkaz)
+# Session phone number (string)
 #sout-standard-phone=
 
 [stream_out_smem] # Stream output to memory buffer
 
-# Time Synchronized output (Hodnota boolean)
+# Time Synchronized output (boolean)
 #sout-smem-time-sync=1
 
 [stream_out_setid] # Change the id of an elementary stream
 
-# Elementary Stream ID (hodnota (celé číslo))
+# Elementary Stream ID (integer)
 #sout-setid-id=0
 
-# New ES ID (hodnota (celé číslo))
+# New ES ID (integer)
 #sout-setid-new-id=0
 
-# Elementary Stream ID (hodnota (celé číslo))
+# Elementary Stream ID (integer)
 #sout-setlang-id=0
 
-# Language (reťazec / príkaz)
+# Language (string)
 #sout-setlang-lang=eng
 
 [stream_out_rtp] # RTP stream output
 
-# Destination (reťazec / príkaz)
+# Destination (string)
 #sout-rtp-dst=
 
-# SDP (reťazec / príkaz)
+# SDP (string)
 #sout-rtp-sdp=
 
-# Muxer (reťazec / príkaz)
+# Muxer (string)
 #sout-rtp-mux=
 
-# SAP announcing (Hodnota boolean)
+# SAP announcing (boolean)
 #sout-rtp-sap=0
 
-# Session name (reťazec / príkaz)
+# Session name (string)
 #sout-rtp-name=
 
-# Session category (reťazec / príkaz)
+# Session category (string)
 #sout-rtp-cat=
 
-# Session description (reťazec / príkaz)
+# Session description (string)
 #sout-rtp-description=
 
-# Session URL (reťazec / príkaz)
+# Session URL (string)
 #sout-rtp-url=
 
-# Session email (reťazec / príkaz)
+# Session email (string)
 #sout-rtp-email=
 
-# Session phone number (reťazec / príkaz)
+# Session phone number (string)
 #sout-rtp-phone=
 
-# Transport protocol (reťazec / príkaz)
+# Transport protocol (string)
 #sout-rtp-proto=udp
 
-# Port (hodnota (celé číslo))
+# Port (integer)
 #sout-rtp-port=5004
 
-# Audio port (hodnota (celé číslo))
+# Audio port (integer)
 #sout-rtp-port-audio=0
 
-# Video port (hodnota (celé číslo))
+# Video port (integer)
 #sout-rtp-port-video=0
 
-# Hop limit (TTL) (hodnota (celé číslo))
+# Hop limit (TTL) (integer)
 #sout-rtp-ttl=-1
 
-# RTP/RTCP multiplexing (Hodnota boolean)
+# RTP/RTCP multiplexing (boolean)
 #sout-rtp-rtcp-mux=0
 
-# Caching value (ms) (hodnota (celé číslo))
+# Caching value (ms) (integer)
 #sout-rtp-caching=300
 
-# SRTP key (hexadecimal) (reťazec / príkaz)
+# SRTP key (hexadecimal) (string)
 #sout-rtp-key=
 
-# SRTP salt (hexadecimal) (reťazec / príkaz)
+# SRTP salt (hexadecimal) (string)
 #sout-rtp-salt=
 
-# MP4A LATM (Hodnota boolean)
+# MP4A LATM (boolean)
 #sout-rtp-mp4a-latm=0
 
-# RTSP session timeout (s) (hodnota (celé číslo))
+# RTSP session timeout (s) (integer)
 #rtsp-timeout=60
 
-# Username (reťazec / príkaz)
+# Username (string)
 #sout-rtsp-user=
 
-# Password (reťazec / príkaz)
+# Password (string)
 #sout-rtsp-pwd=
 
 [stream_out_record] # Record stream output
 
-# Destination prefix (reťazec / príkaz)
+# Destination prefix (string)
 #sout-record-dst-prefix=
 
 [stream_out_raop] # Remote Audio Output Protocol stream output
 
-# Host (reťazec / príkaz)
+# Host (string)
 #sout-raop-host=
 
-# Password (reťazec / príkaz)
+# Password (string)
 #sout-raop-password=
 
-# Password file (reťazec / príkaz)
+# Password file (string)
 #sout-raop-password-file=
 
-# Volume (hodnota (celé číslo))
+# Volume (integer)
 #sout-raop-volume=100
 
 [stream_out_mosaic_bridge] # Mosaic bridge stream output
 
-# ID (reťazec / príkaz)
+# ID (string)
 #sout-mosaic-bridge-id=Id
 
-# Video width (hodnota (celé číslo))
+# Video width (integer)
 #sout-mosaic-bridge-width=0
 
-# Video height (hodnota (celé číslo))
+# Video height (integer)
 #sout-mosaic-bridge-height=0
 
-# Sample aspect ratio (reťazec / príkaz)
+# Sample aspect ratio (string)
 #sout-mosaic-bridge-sar=1:1
 
-# Image chroma (reťazec / príkaz)
+# Image chroma (string)
 #sout-mosaic-bridge-chroma=
 
-# Video filter (reťazec / príkaz)
+# Video filter (string)
 #sout-mosaic-bridge-vfilter=
 
-# Transparency (hodnota (celé číslo))
+# Transparency (integer)
 #sout-mosaic-bridge-alpha=255
 
-# X offset (hodnota (celé číslo))
+# X offset (integer)
 #sout-mosaic-bridge-x=-1
 
-# Y offset (hodnota (celé číslo))
+# Y offset (integer)
 #sout-mosaic-bridge-y=-1
 
 [stream_out_langfromtelx] # Dynamic language setting from teletext
 
-# Elementary Stream ID (hodnota (celé číslo))
+# Elementary Stream ID (integer)
 #sout-langfromtelx-id=0
 
-# Magazine (hodnota (celé číslo))
+# Magazine (integer)
 #sout-langfromtelx-magazine=7
 
-# Page (hodnota (celé číslo))
+# Page (integer)
 #sout-langfromtelx-page=153
 
-# Row (hodnota (celé číslo))
+# Row (integer)
 #sout-langfromtelx-row=1
 
 [stream_out_es] # Elementary stream output
 
-# Output access method (reťazec / príkaz)
+# Output access method (string)
 #sout-es-access=
 
-# Output muxer (reťazec / príkaz)
+# Output muxer (string)
 #sout-es-mux=
 
-# Output URL (reťazec / príkaz)
+# Output URL (string)
 #sout-es-dst=
 
-# Audio output access method (reťazec / príkaz)
+# Audio output access method (string)
 #sout-es-access-audio=
 
-# Audio output muxer (reťazec / príkaz)
+# Audio output muxer (string)
 #sout-es-mux-audio=
 
-# Audio output URL (reťazec / príkaz)
+# Audio output URL (string)
 #sout-es-dst-audio=
 
-# Video output access method (reťazec / príkaz)
+# Video output access method (string)
 #sout-es-access-video=
 
-# Video output muxer (reťazec / príkaz)
+# Video output muxer (string)
 #sout-es-mux-video=
 
-# Video output URL (reťazec / príkaz)
+# Video output URL (string)
 #sout-es-dst-video=
 
 [stream_out_display] # Display stream output
 
-# Enable audio (Hodnota boolean)
+# Enable audio (boolean)
 #sout-display-audio=1
 
-# Enable video (Hodnota boolean)
+# Enable video (boolean)
 #sout-display-video=1
 
-# Delay (ms) (hodnota (celé číslo))
+# Delay (ms) (integer)
 #sout-display-delay=100
 
 [stream_out_delay] # Delay a stream
 
-# Elementary Stream ID (hodnota (celé číslo))
+# Elementary Stream ID (integer)
 #sout-delay-id=0
 
-# Delay of the ES (ms) (hodnota (celé číslo))
+# Delay of the ES (ms) (integer)
 #sout-delay-delay=0
 
 [stream_out_chromaprint] # Chromaprint stream output
 
-# Duration of the fingerprinting (hodnota (celé číslo))
+# Duration of the fingerprinting (integer)
 #duration=90
 
 [stream_out_bridge] # Bridge stream output
 
-# ID (hodnota (celé číslo))
+# ID (integer)
 #sout-bridge-out-id=0
 
-# Destination bridge-in name (reťazec / príkaz)
+# Destination bridge-in name (string)
 #sout-bridge-out-in-name=default
 
-# Delay (hodnota (celé číslo))
+# Delay (integer)
 #sout-bridge-in-delay=0
 
-# ID Offset (hodnota (celé číslo))
+# ID Offset (integer)
 #sout-bridge-in-id-offset=8192
 
-# Name of current instance (reťazec / príkaz)
+# Name of current instance (string)
 #sout-bridge-in-name=default
 
-# Fallback to placeholder stream when out of data (Hodnota boolean)
+# Fallback to placeholder stream when out of data (boolean)
 #sout-bridge-in-placeholder=0
 
-# Placeholder delay (hodnota (celé číslo))
+# Placeholder delay (integer)
 #sout-bridge-in-placeholder-delay=200
 
-# Wait for I frame before toggling placeholder (Hodnota boolean)
+# Wait for I frame before toggling placeholder (boolean)
 #sout-bridge-in-placeholder-switch-on-iframe=1
 
 [dash] # Dynamic Adaptive Streaming over HTTP
 
-# Preferred Width (hodnota (celé číslo))
+# Preferred Width (integer)
 #dash-prefwidth=480
 
-# Preferred Height (hodnota (celé číslo))
+# Preferred Height (integer)
 #dash-prefheight=360
 
-# Buffer Size (Seconds) (hodnota (celé číslo))
+# Buffer Size (Seconds) (integer)
 #dash-buffersize=30
 
 [sap] # Network streams (SAP)
 
-# SAP multicast address (reťazec / príkaz)
+# SAP multicast address (string)
 #sap-addr=
 
-# SAP timeout (seconds) (hodnota (celé číslo))
+# SAP timeout (seconds) (integer)
 #sap-timeout=1800
 
-# Try to parse the announce (Hodnota boolean)
+# Try to parse the announce (boolean)
 #sap-parse=1
 
-# SAP Strict mode (Hodnota boolean)
+# SAP Strict mode (boolean)
 #sap-strict=0
 
 [podcast] # Podcasts
 
-# Podcast URLs list (reťazec / príkaz)
+# Podcast URLs list (string)
 #podcast-urls=
 
 [packetizer_mpegvideo] # MPEG-I/II video packetizer
 
-# Sync on Intra Frame (Hodnota boolean)
+# Sync on Intra Frame (boolean)
 #packetizer-mpegvideo-sync-iframe=0
 
 [mux_ts] # TS muxer (libdvbpsi)
 
-# Video PID (hodnota (celé číslo))
+# Video PID (integer)
 #sout-ts-pid-video=0
 
-# Audio PID (hodnota (celé číslo))
+# Audio PID (integer)
 #sout-ts-pid-audio=0
 
-# SPU PID (hodnota (celé číslo))
+# SPU PID (integer)
 #sout-ts-pid-spu=0
 
-# PMT PID (hodnota (celé číslo))
+# PMT PID (integer)
 #sout-ts-pid-pmt=0
 
-# TS ID (hodnota (celé číslo))
+# TS ID (integer)
 #sout-ts-tsid=0
 
-# NET ID (hodnota (celé číslo))
+# NET ID (integer)
 #sout-ts-netid=0
 
-# PMT Program numbers (reťazec / príkaz)
+# PMT Program numbers (string)
 #sout-ts-program-pmt=
 
-# Set PID to ID of ES (Hodnota boolean)
+# Set PID to ID of ES (boolean)
 #sout-ts-es-id-pid=0
 
-# Mux PMT (requires --sout-ts-es-id-pid) (reťazec / príkaz)
+# Mux PMT (requires --sout-ts-es-id-pid) (string)
 #sout-ts-muxpmt=
 
-# SDT Descriptors (requires --sout-ts-es-id-pid) (reťazec / príkaz)
+# SDT Descriptors (requires --sout-ts-es-id-pid) (string)
 #sout-ts-sdtdesc=
 
-# Data alignment (Hodnota boolean)
+# Data alignment (boolean)
 #sout-ts-alignment=1
 
-# Shaping delay (ms) (hodnota (celé číslo))
+# Shaping delay (ms) (integer)
 #sout-ts-shaping=200
 
-# Use keyframes (Hodnota boolean)
+# Use keyframes (boolean)
 #sout-ts-use-key-frames=0
 
-# PCR interval (ms) (hodnota (celé číslo))
+# PCR interval (ms) (integer)
 #sout-ts-pcr=70
 
-# Minimum B (deprecated) (hodnota (celé číslo))
+# Minimum B (deprecated) (integer)
 #sout-ts-bmin=0
 
-# Maximum B (deprecated) (hodnota (celé číslo))
+# Maximum B (deprecated) (integer)
 #sout-ts-bmax=0
 
-# DTS delay (ms) (hodnota (celé číslo))
+# DTS delay (ms) (integer)
 #sout-ts-dts-delay=400
 
-# Crypt audio (Hodnota boolean)
+# Crypt audio (boolean)
 #sout-ts-crypt-audio=1
 
-# Crypt video (Hodnota boolean)
+# Crypt video (boolean)
 #sout-ts-crypt-video=1
 
-# CSA Key (reťazec / príkaz)
+# CSA Key (string)
 #sout-ts-csa-ck=
 
-# Second CSA Key (reťazec / príkaz)
+# Second CSA Key (string)
 #sout-ts-csa2-ck=
 
-# CSA Key in use (reťazec / príkaz)
+# CSA Key in use (string)
 #sout-ts-csa-use=1
 
-# Packet size in bytes to encrypt (hodnota (celé číslo))
+# Packet size in bytes to encrypt (integer)
 #sout-ts-csa-pkt=188
 
 [mux_ps] # PS muxer
 
-# DTS delay (ms) (hodnota (celé číslo))
+# DTS delay (ms) (integer)
 #sout-ps-dts-delay=200
 
-# PES maximum size (hodnota (celé číslo))
+# PES maximum size (integer)
 #sout-ps-pes-max-size=65500
 
 [mux_ogg] # Ogg/OGM muxer
 
-# Index interval (hodnota (celé číslo))
+# Index interval (integer)
 #sout-ogg-indexintvl=1000
 
-# Index size ratio (hodnota (desatinná))
+# Index size ratio (float)
 #sout-ogg-indexratio=1.000000
 
 [mux_mp4] # MP4/MOV muxer
 
-# Create "Fast Start" files (Hodnota boolean)
+# Create "Fast Start" files (boolean)
 #sout-mp4-faststart=1
 
 [mux_avi] # AVI muxer
 
-# Artist (reťazec / príkaz)
+# Artist (string)
 #sout-avi-artist=
 
-# Date (reťazec / príkaz)
+# Date (string)
 #sout-avi-date=
 
-# Genre (reťazec / príkaz)
+# Genre (string)
 #sout-avi-genre=
 
-# Copyright (reťazec / príkaz)
+# Copyright (string)
 #sout-avi-copyright=
 
-# Comment (reťazec / príkaz)
+# Comment (string)
 #sout-avi-comment=
 
-# Name (reťazec / príkaz)
+# Name (string)
 #sout-avi-name=
 
-# Subject (reťazec / príkaz)
+# Subject (string)
 #sout-avi-subject=
 
-# Encoder (reťazec / príkaz)
-#sout-avi-encoder=VLC Media Player - 2.2.4 Weatherwax
+# Encoder (string)
+#sout-avi-encoder=VLC Media Player - 2.2.6 Umbrella
 
-# Keywords (reťazec / príkaz)
+# Keywords (string)
 #sout-avi-keywords=
 
 [mux_asf] # ASF muxer
 
-# Title (reťazec / príkaz)
+# Title (string)
 #sout-asf-title=
 
-# Author (reťazec / príkaz)
+# Author (string)
 #sout-asf-author=
 
-# Copyright (reťazec / príkaz)
+# Copyright (string)
 #sout-asf-copyright=
 
-# Comment (reťazec / príkaz)
+# Comment (string)
 #sout-asf-comment=
 
-# Rating (reťazec / príkaz)
+# Rating (string)
 #sout-asf-rating=
 
-# Packet Size (hodnota (celé číslo))
+# Packet Size (integer)
 #sout-asf-packet-size=4096
 
-# Bitrate override (hodnota (celé číslo))
+# Bitrate override (integer)
 #sout-asf-bitrate-override=0
 
 [vod_rtsp] # Legacy RTSP VoD server
 
-# MUX for RAW RTSP transport (reťazec / príkaz)
+# MUX for RAW RTSP transport (string)
 #rtsp-raw-mux=ts
 
-# Maximum number of connections (hodnota (celé číslo))
+# Maximum number of connections (integer)
 #rtsp-throttle-users=0
 
-# Sets the timeout option in the RTSP session string (hodnota (celé číslo))
+# Sets the timeout option in the RTSP session string (integer)
 #rtsp-session-timeout=5
 
 [logger] # File logging
 
-# Log filename (reťazec / príkaz)
+# Log filename (string)
 #logfile=
 
-# Log format (reťazec / príkaz)
+# Log format (string)
 #logmode=text
 
-# Verbosity (hodnota (celé číslo))
+# Verbosity (integer)
 #log-verbose=-1
 
 [gnutls] # GNU TLS transport layer security
 
-# TLS cipher priorities (reťazec / príkaz)
+# TLS cipher priorities (string)
 #gnutls-priorities=NORMAL
 
 [audioscrobbler] # Submission of played songs to last.fm
 
-# Username (reťazec / príkaz)
+# Username (string)
 #lastfm-username=
 
-# Password (reťazec / príkaz)
+# Password (string)
 #lastfm-password=
 
-# Scrobbler URL (reťazec / príkaz)
+# Scrobbler URL (string)
 #scrobbler-url=post.audioscrobbler.com
 
 [folder] # Folder meta data
 
-# Album art filename (reťazec / príkaz)
+# Album art filename (string)
 #album-art-filename=
 
 [lua] # Lua interpreter
 
-# Lua interface (reťazec / príkaz)
+# Lua interface (string)
 #lua-intf=dummy
 
-# Lua interface configuration (reťazec / príkaz)
+# Lua interface configuration (string)
 #lua-config=
 
-# Password (reťazec / príkaz)
+# Password (string)
 #http-password=
 
-# Source directory (reťazec / príkaz)
+# Source directory (string)
 #http-src=
 
-# Directory index (Hodnota boolean)
+# Directory index (boolean)
 #http-index=0
 
-# TCP command input (reťazec / príkaz)
+# TCP command input (string)
 #rc-host=
 
-# CLI input (reťazec / príkaz)
+# CLI input (string)
 #cli-host=
 
-# Host (reťazec / príkaz)
+# Host (string)
 #telnet-host=localhost
 
-# Port (hodnota (celé číslo))
+# Port (integer)
 #telnet-port=4212
 
-# Password (reťazec / príkaz)
+# Password (string)
 #telnet-password=
 
 [skins2] # Skinnable Interface
 
-# Skin to use (reťazec / príkaz)
+# Skin to use (string)
 #skins2-last=
 
-# Config of last used skin (reťazec / príkaz)
+# Config of last used skin (string)
 #skins2-config=
 
-# Systray icon (Hodnota boolean)
+# Systray icon (boolean)
 #skins2-systray=1
 
-# Show VLC on the taskbar (Hodnota boolean)
+# Show VLC on the taskbar (boolean)
 #skins2-taskbar=1
 
-# Enable transparency effects (Hodnota boolean)
+# Enable transparency effects (boolean)
 #skins2-transparency=0
 
-# Use a skinned playlist (Hodnota boolean)
+# Use a skinned playlist (boolean)
 #skinned-playlist=1
 
-# Display video in a skinned window if any (Hodnota boolean)
+# Display video in a skinned window if any (boolean)
 #skinned-video=1
 
 [qt4] # Qt interface
 
-# Start in minimal view (without menus) (Hodnota boolean)
+# Start in minimal view (without menus) (boolean)
 #qt-minimal-view=0
 
-# Systray icon (Hodnota boolean)
+# Systray icon (boolean)
 #qt-system-tray=1
 
-# Show notification popup on track change (hodnota (celé číslo))
+# Show notification popup on track change (integer)
 #qt-notification=1
 
-# Start VLC with only a systray icon (Hodnota boolean)
+# Start VLC with only a systray icon (boolean)
 #qt-start-minimized=0
 
-# Pause the video playback when minimized (Hodnota boolean)
+# Pause the video playback when minimized (boolean)
 #qt-pause-minimized=0
 
-# Windows opacity between 0.1 and 1 (hodnota (desatinná))
+# Windows opacity between 0.1 and 1 (float)
 #qt-opacity=1.000000
 
-# Fullscreen controller opacity between 0.1 and 1 (hodnota (desatinná))
+# Fullscreen controller opacity between 0.1 and 1 (float)
 #qt-fs-opacity=0.800000
 
-# Resize interface to the native video size (Hodnota boolean)
+# Resize interface to the native video size (boolean)
 #qt-video-autoresize=1
 
-# Show playing item name in window title (Hodnota boolean)
+# Show playing item name in window title (boolean)
 #qt-name-in-title=1
 
-# Show a controller in fullscreen mode (Hodnota boolean)
+# Show a controller in fullscreen mode (boolean)
 #qt-fs-controller=1
 
-# Save the recently played items in the menu (Hodnota boolean)
+# Save the recently played items in the menu (boolean)
 #qt-recentplay=1
 
-# List of words separated by | to filter (reťazec / príkaz)
+# List of words separated by | to filter (string)
 #qt-recentplay-filter=
 
-# Continue playback? (hodnota (celé číslo))
+# Continue playback? (integer)
 #qt-continue=1
 
-# Activate the updates availability notification (Hodnota boolean)
+# Activate the updates availability notification (boolean)
 qt-updates-notif=0
 
-# Number of days between two update checks (hodnota (celé číslo))
+# Number of days between two update checks (integer)
 #qt-updates-days=3
 
-# Ignore keyboard volume buttons. (Hodnota boolean)
+# Ignore keyboard volume buttons. (boolean)
 #qt-disable-volume-keys=1
 
-# Embed the file browser in open dialog (Hodnota boolean)
+# Embed the file browser in open dialog (boolean)
 #qt-embedded-open=0
 
-# Show advanced preferences over simple ones (Hodnota boolean)
+# Show advanced preferences over simple ones (boolean)
 #qt-advanced-pref=0
 
-# Show unimportant error and warnings dialogs (Hodnota boolean)
+# Show unimportant error and warnings dialogs (boolean)
 #qt-error-dialogs=1
 
-# Define the colors of the volume slider  (reťazec / príkaz)
+# Define the colors of the volume slider  (string)
 #qt-slider-colours=153;210;153;20;210;20;255;199;15;245;39;29
 
-# Ask for network policy at start (Hodnota boolean)
+# Ask for network policy at start (boolean)
 qt-privacy-ask=0
 
-# Define which screen fullscreen goes (hodnota (celé číslo))
+# Define which screen fullscreen goes (integer)
 #qt-fullscreen-screennumber=-1
 
-# Load extensions on startup (Hodnota boolean)
+# Load extensions on startup (boolean)
 #qt-autoload-extensions=1
 
-# Display background cone or art (Hodnota boolean)
+# Display background cone or art (boolean)
 #qt-bgcone=1
 
-# Expanding background cone or art. (Hodnota boolean)
+# Expanding background cone or art. (boolean)
 #qt-bgcone-expands=0
 
-# Allow automatic icon changes (Hodnota boolean)
+# Allow automatic icon changes (boolean)
 #qt-icon-change=1
 
-# Maximum Volume displayed (hodnota (celé číslo))
+# Maximum Volume displayed (integer)
 #qt-max-volume=125
 
-# Fullscreen controller mouse sensitivity (hodnota (celé číslo))
+# Fullscreen controller mouse sensitivity (integer)
 #qt-fs-sensitivity=3
 
 [vc1] # VC1 video demuxer
 
-# Frames per Second (hodnota (desatinná))
+# Frames per Second (float)
 #vc1-fps=25.000000
 
 [ts] # MPEG Transport Stream demuxer
 
-# Extra PMT (reťazec / príkaz)
+# Extra PMT (string)
 #ts-extra-pmt=
 
-# Trust in-stream PCR (Hodnota boolean)
+# Trust in-stream PCR (boolean)
 #ts-trust-pcr=1
 
-# Set id of ES to PID (Hodnota boolean)
+# Set id of ES to PID (boolean)
 #ts-es-id-pid=1
 
-# CSA Key (reťazec / príkaz)
+# CSA Key (string)
 #ts-csa-ck=
 
-# Second CSA Key (reťazec / príkaz)
+# Second CSA Key (string)
 #ts-csa2-ck=
 
-# Packet size in bytes to decrypt (hodnota (celé číslo))
+# Packet size in bytes to decrypt (integer)
 #ts-csa-pkt=188
 
-# Separate sub-streams (Hodnota boolean)
+# Separate sub-streams (boolean)
 #ts-split-es=1
 
-# Seek based on percent not time (Hodnota boolean)
+# Seek based on percent not time (boolean)
 #ts-seek-percent=0
 
 [subtitle] # Text subtitle parser
 
-# Frames per Second (hodnota (desatinná))
+# Frames per Second (float)
 #sub-fps=0.000000
 
-# Subtitle delay (hodnota (celé číslo))
+# Subtitle delay (integer)
 #sub-delay=0
 
-# Subtitle format (reťazec / príkaz)
+# Subtitle format (string)
 #sub-type=auto
 
-# Subtitle description (reťazec / príkaz)
+# Subtitle description (string)
 #sub-description=
 
 [rawvid] # Raw video demuxer
 
-# Frames per Second (reťazec / príkaz)
+# Frames per Second (string)
 #rawvid-fps=
 
-# Width (hodnota (celé číslo))
+# Width (integer)
 #rawvid-width=0
 
-# Height (hodnota (celé číslo))
+# Height (integer)
 #rawvid-height=0
 
-# Force chroma (Use carefully) (reťazec / príkaz)
+# Force chroma (Use carefully) (string)
 #rawvid-chroma=
 
-# Aspect ratio (reťazec / príkaz)
+# Aspect ratio (string)
 #rawvid-aspect-ratio=
 
 [rawdv] # DV (Digital Video) demuxer
 
-# Hurry up (Hodnota boolean)
+# Hurry up (boolean)
 #rawdv-hurry-up=0
 
 [rawaud] # Raw audio demuxer
 
-# Audio channels (hodnota (celé číslo))
+# Audio channels (integer)
 #rawaud-channels=2
 
-# Audio samplerate (Hz) (hodnota (celé číslo))
+# Audio samplerate (Hz) (integer)
 #rawaud-samplerate=48000
 
-# FOURCC code of raw input format (reťazec / príkaz)
+# FOURCC code of raw input format (string)
 #rawaud-fourcc=s16l
 
-# Forces the audio language (reťazec / príkaz)
+# Forces the audio language (string)
 #rawaud-lang=eng
 
 [ps] # MPEG-PS demuxer
 
-# Trust MPEG timestamps (Hodnota boolean)
+# Trust MPEG timestamps (boolean)
 #ps-trust-timestamps=1
 
 [playlist] # Playlist
 
-# Skip ads (Hodnota boolean)
+# Skip ads (boolean)
 #playlist-skip-ads=1
 
-# Show shoutcast adult content (Hodnota boolean)
+# Show shoutcast adult content (boolean)
 #shoutcast-show-adult=0
 
 [mod] # MOD demuxer (libmodplug)
 
-# Noise reduction (Hodnota boolean)
+# Noise reduction (boolean)
 #mod-noisereduction=1
 
-# Reverb (Hodnota boolean)
+# Reverb (boolean)
 #mod-reverb=0
 
-# Reverberation level (hodnota (celé číslo))
+# Reverberation level (integer)
 #mod-reverb-level=0
 
-# Reverberation delay (hodnota (celé číslo))
+# Reverberation delay (integer)
 #mod-reverb-delay=40
 
-# Mega bass (Hodnota boolean)
+# Mega bass (boolean)
 #mod-megabass=0
 
-# Mega bass level (hodnota (celé číslo))
+# Mega bass level (integer)
 #mod-megabass-level=0
 
-# Mega bass cutoff (hodnota (celé číslo))
+# Mega bass cutoff (integer)
 #mod-megabass-range=10
 
-# Surround (Hodnota boolean)
+# Surround (boolean)
 #mod-surround=0
 
-# Surround level (hodnota (celé číslo))
+# Surround level (integer)
 #mod-surround-level=0
 
-# Surround delay (ms) (hodnota (celé číslo))
+# Surround delay (ms) (integer)
 #mod-surround-delay=5
 
 [mkv] # Matroska stream demuxer
 
-# Respect ordered chapters (Hodnota boolean)
+# Respect ordered chapters (boolean)
 #mkv-use-ordered-chapters=1
 
-# Chapter codecs (Hodnota boolean)
+# Chapter codecs (boolean)
 #mkv-use-chapter-codec=1
 
-# Preload MKV files in the same directory (Hodnota boolean)
+# Preload MKV files in the same directory (boolean)
 #mkv-preload-local-dir=1
 
-# Seek based on percent not time (Hodnota boolean)
+# Seek based on percent not time (boolean)
 #mkv-seek-percent=0
 
-# Dummy Elements (Hodnota boolean)
+# Dummy Elements (boolean)
 #mkv-use-dummy=0
 
 [mjpeg] # M-JPEG camera demuxer
 
-# Frames per Second (hodnota (desatinná))
+# Frames per Second (float)
 #mjpeg-fps=0.000000
 
 [image] # Image demuxer
 
-# ES ID (hodnota (celé číslo))
+# ES ID (integer)
 #image-id=-1
 
-# Group (hodnota (celé číslo))
+# Group (integer)
 #image-group=0
 
-# Decode (Hodnota boolean)
+# Decode (boolean)
 #image-decode=1
 
-# Forced chroma (reťazec / príkaz)
+# Forced chroma (string)
 #image-chroma=
 
-# Duration in seconds (hodnota (desatinná))
+# Duration in seconds (float)
 #image-duration=10.000000
 
-# Frame rate (reťazec / príkaz)
+# Frame rate (string)
 #image-fps=10/1
 
-# Real-time (Hodnota boolean)
+# Real-time (boolean)
 #image-realtime=0
 
 [hevc] # HEVC/H.265 video demuxer
 
-# Frames per Second (hodnota (desatinná))
+# Frames per Second (float)
 #hevc-force-fps=0.000000
 
 [h264] # H264 video demuxer
 
-# Frames per Second (hodnota (desatinná))
+# Frames per Second (float)
 #h264-fps=25.000000
 
 [es] # MPEG-I/II/4 / A52 / DTS / MLP audio
 
-# Frames per Second (hodnota (desatinná))
+# Frames per Second (float)
 #es-fps=25.000000
 
 [diracsys] # Dirac video demuxer
 
-# Value to adjust dts by (hodnota (celé číslo))
+# Value to adjust dts by (integer)
 #dirac-dts-offset=0
 
 [demuxdump] # File dumper
 
-# Dump module (reťazec / príkaz)
+# Dump module (string)
 #demuxdump-access=file
 
-# Dump filename (reťazec / príkaz)
+# Dump filename (string)
 #demuxdump-file=stream-demux.dump
 
-# Append to existing file (Hodnota boolean)
+# Append to existing file (boolean)
 #demuxdump-append=0
 
 [avi] # AVI demuxer
 
-# Force interleaved method (Hodnota boolean)
+# Force interleaved method (boolean)
 #avi-interleaved=0
 
-# Force index creation (hodnota (celé číslo))
+# Force index creation (integer)
 #avi-index=0
 
 [oldrc] # Remote control interface
 
-# Show stream position (Hodnota boolean)
+# Show stream position (boolean)
 #rc-show-pos=0
 
-# Do not open a DOS command box interface (Hodnota boolean)
+# Do not open a DOS command box interface (boolean)
 #rc-quiet=0
 
-# TCP command input (reťazec / príkaz)
+# TCP command input (string)
 #rc-host=
 
 [ntservice] # Windows Service interface
 
-# Install Windows Service (Hodnota boolean)
+# Install Windows Service (boolean)
 #ntservice-install=0
 
-# Uninstall Windows Service (Hodnota boolean)
+# Uninstall Windows Service (boolean)
 #ntservice-uninstall=0
 
-# Display name of the Service (reťazec / príkaz)
+# Display name of the Service (string)
 #ntservice-name=VLC media player
 
-# Configuration options (reťazec / príkaz)
+# Configuration options (string)
 #ntservice-options=
 
-# Extra interface modules (reťazec / príkaz)
+# Extra interface modules (string)
 #ntservice-extraintf=
 
 [netsync] # Network synchronization
 
-# Network master clock (Hodnota boolean)
+# Network master clock (boolean)
 #netsync-master=0
 
-# Master server ip address (reťazec / príkaz)
+# Master server ip address (string)
 #netsync-master-ip=
 
-# UDP timeout (in ms) (hodnota (celé číslo))
+# UDP timeout (in ms) (integer)
 #netsync-timeout=500
 
 [gestures] # Mouse gestures control interface
 
-# Motion threshold (10-100) (hodnota (celé číslo))
+# Motion threshold (10-100) (integer)
 #gestures-threshold=30
 
-# Trigger button (reťazec / príkaz)
+# Trigger button (string)
 #gestures-button=left
 
 [dummy] # Dummy interface
 
-# Do not open a DOS command box interface (Hodnota boolean)
+# Do not open a DOS command box interface (boolean)
 #dummy-quiet=0
 
 [zvbi] # VBI and Teletext decoder
 
-# Teletext page (hodnota (celé číslo))
+# Teletext page (integer)
 #vbi-page=100
 
-# Teletext transparency (Hodnota boolean)
+# Teletext transparency (boolean)
 #vbi-opaque=0
 
-# Teletext alignment (hodnota (celé číslo))
+# Teletext alignment (integer)
 #vbi-position=8
 
-# Teletext text subtitles (Hodnota boolean)
+# Teletext text subtitles (boolean)
 #vbi-text=0
 
 [x264] # H.264/MPEG-4 Part 10/AVC encoder (x264)
 
-# Maximum GOP size (hodnota (celé číslo))
+# Maximum GOP size (integer)
 #sout-x264-keyint=250
 
-# Minimum GOP size (hodnota (celé číslo))
+# Minimum GOP size (integer)
 #sout-x264-min-keyint=25
 
-# Use recovery points to close GOPs (Hodnota boolean)
+# Use recovery points to close GOPs (boolean)
 #sout-x264-opengop=0
 
-# Enable compatibility hacks for Blu-ray support (Hodnota boolean)
+# Enable compatibility hacks for Blu-ray support (boolean)
 #sout-x264-bluray-compat=0
 
-# Extra I-frames aggressivity (hodnota (celé číslo))
+# Extra I-frames aggressivity (integer)
 #sout-x264-scenecut=40
 
-# B-frames between I and P (hodnota (celé číslo))
+# B-frames between I and P (integer)
 #sout-x264-bframes=3
 
-# Adaptive B-frame decision (hodnota (celé číslo))
+# Adaptive B-frame decision (integer)
 #sout-x264-b-adapt=1
 
-# Influence (bias) B-frames usage (hodnota (celé číslo))
+# Influence (bias) B-frames usage (integer)
 #sout-x264-b-bias=0
 
-# Keep some B-frames as references (reťazec / príkaz)
+# Keep some B-frames as references (string)
 #sout-x264-bpyramid=normal
 
-# CABAC (Hodnota boolean)
+# CABAC (boolean)
 #sout-x264-cabac=1
 
-# Use fullrange instead of TV colorrange (Hodnota boolean)
+# Use fullrange instead of TV colorrange (boolean)
 #sout-x264-fullrange=0
 
-# Number of reference frames (hodnota (celé číslo))
+# Number of reference frames (integer)
 #sout-x264-ref=3
 
-# Skip loop filter (Hodnota boolean)
+# Skip loop filter (boolean)
 #sout-x264-nf=0
 
-# Loop filter AlphaC0 and Beta parameters alpha:beta (reťazec / príkaz)
+# Loop filter AlphaC0 and Beta parameters alpha:beta (string)
 #sout-x264-deblock=0:0
 
-# Strength of psychovisual optimization, default is "1.0:0.0" (reťazec / príkaz)
+# Strength of psychovisual optimization, default is "1.0:0.0" (string)
 #sout-x264-psy-rd=1.0:0.0
 
-# Use Psy-optimizations (Hodnota boolean)
+# Use Psy-optimizations (boolean)
 #sout-x264-psy=1
 
-# H.264 level (reťazec / príkaz)
+# H.264 level (string)
 #sout-x264-level=0
 
-# H.264 profile (reťazec / príkaz)
+# H.264 profile (string)
 #sout-x264-profile=high
 
-# Interlaced mode (Hodnota boolean)
+# Interlaced mode (boolean)
 #sout-x264-interlaced=0
 
-# Frame packing (hodnota (celé číslo))
+# Frame packing (integer)
 #sout-x264-frame-packing=-1
 
-# Force number of slices per frame (hodnota (celé číslo))
+# Force number of slices per frame (integer)
 #sout-x264-slices=0
 
-# Limit the size of each slice in bytes (hodnota (celé číslo))
+# Limit the size of each slice in bytes (integer)
 #sout-x264-slice-max-size=0
 
-# Limit the size of each slice in macroblocks (hodnota (celé číslo))
+# Limit the size of each slice in macroblocks (integer)
 #sout-x264-slice-max-mbs=0
 
-# HRD-timing information (reťazec / príkaz)
+# HRD-timing information (string)
 #sout-x264-hrd=none
 
-# Set QP (hodnota (celé číslo))
+# Set QP (integer)
 #sout-x264-qp=-1
 
-# Quality-based VBR (hodnota (celé číslo))
+# Quality-based VBR (integer)
 #sout-x264-crf=23
 
-# Min QP (hodnota (celé číslo))
+# Min QP (integer)
 #sout-x264-qpmin=10
 
-# Max QP (hodnota (celé číslo))
+# Max QP (integer)
 #sout-x264-qpmax=51
 
-# Max QP step (hodnota (celé číslo))
+# Max QP step (integer)
 #sout-x264-qpstep=4
 
-# Average bitrate tolerance (hodnota (desatinná))
+# Average bitrate tolerance (float)
 #sout-x264-ratetol=1.000000
 
-# Max local bitrate (hodnota (celé číslo))
+# Max local bitrate (integer)
 #sout-x264-vbv-maxrate=0
 
-# VBV buffer (hodnota (celé číslo))
+# VBV buffer (integer)
 #sout-x264-vbv-bufsize=0
 
-# Initial VBV buffer occupancy (hodnota (desatinná))
+# Initial VBV buffer occupancy (float)
 #sout-x264-vbv-init=0.900000
 
-# QP factor between I and P (hodnota (desatinná))
+# QP factor between I and P (float)
 #sout-x264-ipratio=1.400000
 
-# QP factor between P and B (hodnota (desatinná))
+# QP factor between P and B (float)
 #sout-x264-pbratio=1.300000
 
-# QP difference between chroma and luma (hodnota (celé číslo))
+# QP difference between chroma and luma (integer)
 #sout-x264-chroma-qp-offset=0
 
-# Multipass ratecontrol (hodnota (celé číslo))
+# Multipass ratecontrol (integer)
 #sout-x264-pass=0
 
-# QP curve compression (hodnota (desatinná))
+# QP curve compression (float)
 #sout-x264-qcomp=0.600000
 
-# Reduce fluctuations in QP (hodnota (desatinná))
+# Reduce fluctuations in QP (float)
 #sout-x264-cplxblur=20.000000
 
-# Reduce fluctuations in QP (hodnota (desatinná))
+# Reduce fluctuations in QP (float)
 #sout-x264-qblur=0.500000
 
-# How AQ distributes bits (hodnota (celé číslo))
+# How AQ distributes bits (integer)
 #sout-x264-aq-mode=1
 
-# Strength of AQ (hodnota (desatinná))
+# Strength of AQ (float)
 #sout-x264-aq-strength=1.000000
 
-# Partitions to consider (reťazec / príkaz)
+# Partitions to consider (string)
 #sout-x264-partitions=normal
 
-# Direct MV prediction mode (reťazec / príkaz)
+# Direct MV prediction mode (string)
 #sout-x264-direct=spatial
 
-# Direct prediction size (hodnota (celé číslo))
+# Direct prediction size (integer)
 #sout-x264-direct-8x8=1
 
-# Weighted prediction for B-frames (Hodnota boolean)
+# Weighted prediction for B-frames (boolean)
 #sout-x264-weightb=1
 
-# Weighted prediction for P-frames (hodnota (celé číslo))
+# Weighted prediction for P-frames (integer)
 #sout-x264-weightp=2
 
-# Integer pixel motion estimation method (reťazec / príkaz)
+# Integer pixel motion estimation method (string)
 #sout-x264-me=hex
 
-# Maximum motion vector search range (hodnota (celé číslo))
+# Maximum motion vector search range (integer)
 #sout-x264-merange=16
 
-# Maximum motion vector length (hodnota (celé číslo))
+# Maximum motion vector length (integer)
 #sout-x264-mvrange=-1
 
-# Minimum buffer space between threads (hodnota (celé číslo))
+# Minimum buffer space between threads (integer)
 #sout-x264-mvrange-thread=-1
 
-# Subpixel motion estimation and partition decision quality (hodnota (celé číslo))
+# Subpixel motion estimation and partition decision quality (integer)
 #sout-x264-subme=7
 
-# Decide references on a per partition basis (Hodnota boolean)
+# Decide references on a per partition basis (boolean)
 #sout-x264-mixed-refs=1
 
-# Chroma in motion estimation (Hodnota boolean)
+# Chroma in motion estimation (boolean)
 #sout-x264-chroma-me=1
 
-# Adaptive spatial transform size (Hodnota boolean)
+# Adaptive spatial transform size (boolean)
 #sout-x264-8x8dct=1
 
-# Trellis RD quantization (hodnota (celé číslo))
+# Trellis RD quantization (integer)
 #sout-x264-trellis=1
 
-# Framecount to use on frametype lookahead (hodnota (celé číslo))
+# Framecount to use on frametype lookahead (integer)
 #sout-x264-lookahead=40
 
-# Use Periodic Intra Refresh (Hodnota boolean)
+# Use Periodic Intra Refresh (boolean)
 #sout-x264-intra-refresh=0
 
-# Use mb-tree ratecontrol (Hodnota boolean)
+# Use mb-tree ratecontrol (boolean)
 #sout-x264-mbtree=1
 
-# Early SKIP detection on P-frames (Hodnota boolean)
+# Early SKIP detection on P-frames (boolean)
 #sout-x264-fast-pskip=1
 
-# Coefficient thresholding on P-frames (Hodnota boolean)
+# Coefficient thresholding on P-frames (boolean)
 #sout-x264-dct-decimate=1
 
-# Noise reduction (hodnota (celé číslo))
+# Noise reduction (integer)
 #sout-x264-nr=0
 
-# Inter luma quantization deadzone (hodnota (celé číslo))
+# Inter luma quantization deadzone (integer)
 #sout-x264-deadzone-inter=21
 
-# Intra luma quantization deadzone (hodnota (celé číslo))
+# Intra luma quantization deadzone (integer)
 #sout-x264-deadzone-intra=11
 
-# Non-deterministic optimizations when threaded (Hodnota boolean)
+# Non-deterministic optimizations when threaded (boolean)
 #sout-x264-non-deterministic=0
 
-# CPU optimizations (Hodnota boolean)
+# CPU optimizations (boolean)
 #sout-x264-asm=1
 
-# PSNR computation (Hodnota boolean)
+# PSNR computation (boolean)
 #sout-x264-psnr=0
 
-# SSIM computation (Hodnota boolean)
+# SSIM computation (boolean)
 #sout-x264-ssim=0
 
-# Quiet mode (Hodnota boolean)
+# Quiet mode (boolean)
 #sout-x264-quiet=0
 
-# SPS and PPS id numbers (hodnota (celé číslo))
+# SPS and PPS id numbers (integer)
 #sout-x264-sps-id=0
 
-# Access unit delimiters (Hodnota boolean)
+# Access unit delimiters (boolean)
 #sout-x264-aud=0
 
-# Statistics (Hodnota boolean)
+# Statistics (boolean)
 #sout-x264-verbose=0
 
-# Filename for 2 pass stats file (reťazec / príkaz)
+# Filename for 2 pass stats file (string)
 #sout-x264-stats=x264_2pass.log
 
-# Default preset setting used (reťazec / príkaz)
+# Default preset setting used (string)
 #sout-x264-preset=
 
-# Default tune setting used (reťazec / príkaz)
+# Default tune setting used (string)
 #sout-x264-tune=
 
-# x264 advanced options. (reťazec / príkaz)
+# x264 advanced options. (string)
 #sout-x264-options=
 
 [vorbis] # Vorbis audio decoder
 
-# Encoding quality (hodnota (celé číslo))
+# Encoding quality (integer)
 #sout-vorbis-quality=0
 
-# Maximum encoding bitrate (hodnota (celé číslo))
+# Maximum encoding bitrate (integer)
 #sout-vorbis-max-bitrate=0
 
-# Minimum encoding bitrate (hodnota (celé číslo))
+# Minimum encoding bitrate (integer)
 #sout-vorbis-min-bitrate=0
 
-# CBR encoding (Hodnota boolean)
+# CBR encoding (boolean)
 #sout-vorbis-cbr=0
 
 [twolame] # Libtwolame audio encoder
 
-# Encoding quality (hodnota (desatinná))
+# Encoding quality (float)
 #sout-twolame-quality=0.000000
 
-# Stereo mode (hodnota (celé číslo))
+# Stereo mode (integer)
 #sout-twolame-mode=0
 
-# VBR mode (Hodnota boolean)
+# VBR mode (boolean)
 #sout-twolame-vbr=0
 
-# Psycho-acoustic model (hodnota (celé číslo))
+# Psycho-acoustic model (integer)
 #sout-twolame-psy=3
 
 [theora] # Theora video decoder
 
-# Post processing quality (hodnota (celé číslo))
+# Post processing quality (integer)
 #theora-postproc=-1
 
-# Encoding quality (hodnota (celé číslo))
+# Encoding quality (integer)
 #sout-theora-quality=2
 
 [svcdsub] # Philips OGT (SVCD subtitle) decoder
 
 [subsdec] # Text subtitle decoder
 
-# Subtitle justification (hodnota (celé číslo))
+# Subtitle justification (integer)
 #subsdec-align=0
 
-# Subtitle text encoding (reťazec / príkaz)
+# Subtitle text encoding (string)
 #subsdec-encoding=
 
-# UTF-8 subtitle autodetection (Hodnota boolean)
+# UTF-8 subtitle autodetection (boolean)
 #subsdec-autodetect-utf8=1
 
-# Formatted Subtitles (Hodnota boolean)
+# Formatted Subtitles (boolean)
 #subsdec-formatted=1
 
 [spudec] # DVD subtitles decoder
 
-# Disable DVD subtitle transparency (Hodnota boolean)
+# Disable DVD subtitle transparency (boolean)
 #dvdsub-transparency=0
 
 [speex] # Speex audio decoder
 
-# Mode (hodnota (celé číslo))
+# Mode (integer)
 #sout-speex-mode=0
 
-# Encoding complexity (hodnota (celé číslo))
+# Encoding complexity (integer)
 #sout-speex-complexity=3
 
-# CBR encoding (Hodnota boolean)
+# CBR encoding (boolean)
 #sout-speex-cbr=0
 
-# Encoding quality (hodnota (desatinná))
+# Encoding quality (float)
 #sout-speex-quality=8.000000
 
-# Maximal bitrate (hodnota (celé číslo))
+# Maximal bitrate (integer)
 #sout-speex-max-bitrate=0
 
-# Voice activity detection (Hodnota boolean)
+# Voice activity detection (boolean)
 #sout-speex-vad=1
 
-# Discontinuous Transmission (Hodnota boolean)
+# Discontinuous Transmission (boolean)
 #sout-speex-dtx=0
 
 [schroedinger] # Dirac video decoder using libschroedinger
 
-# Rate control method (reťazec / príkaz)
+# Rate control method (string)
 #sout-schro-rate-control=
 
-# Constant quality factor (hodnota (desatinná))
+# Constant quality factor (float)
 #sout-schro-quality=-1.000000
 
-# Noise Threshold (hodnota (desatinná))
+# Noise Threshold (float)
 #sout-schro-noise-threshold=-1.000000
 
-# CBR bitrate (kbps) (hodnota (celé číslo))
+# CBR bitrate (kbps) (integer)
 #sout-schro-bitrate=-1
 
-# Maximum bitrate (kbps) (hodnota (celé číslo))
+# Maximum bitrate (kbps) (integer)
 #sout-schro-max-bitrate=-1
 
-# Minimum bitrate (kbps) (hodnota (celé číslo))
+# Minimum bitrate (kbps) (integer)
 #sout-schro-min-bitrate=-1
 
-# GOP structure (reťazec / príkaz)
+# GOP structure (string)
 #sout-schro-gop-structure=
 
-# GOP length (hodnota (celé číslo))
+# GOP length (integer)
 #sout-schro-gop-length=-1
 
-# Chroma format (reťazec / príkaz)
+# Chroma format (string)
 #sout-schro-chroma-fmt=420
 
-# Picture coding mode (reťazec / príkaz)
+# Picture coding mode (string)
 #sout-schro-coding-mode=auto
 
-# Motion Vector precision (reťazec / príkaz)
+# Motion Vector precision (string)
 #sout-schro-mv-precision=
 
-# Size of motion compensation blocks (reťazec / príkaz)
+# Size of motion compensation blocks (string)
 #sout-schro-motion-block-size=
 
-# Overlap of motion compensation blocks (reťazec / príkaz)
+# Overlap of motion compensation blocks (string)
 #sout-schro-motion-block-overlap=
 
-# Three component motion estimation (hodnota (celé číslo))
+# Three component motion estimation (integer)
 #sout-schro-me-combined=-1
 
-# Enable hierarchical Motion Estimation (hodnota (celé číslo))
+# Enable hierarchical Motion Estimation (integer)
 #sout-schro-enable-hierarchical-me=-1
 
-# Number of levels of downsampling (hodnota (celé číslo))
+# Number of levels of downsampling (integer)
 #sout-schro-downsample-levels=-1
 
-# Enable Global Motion Estimation (hodnota (celé číslo))
+# Enable Global Motion Estimation (integer)
 #sout-schro-enable-global-me=-1
 
-# Enable Phase Correlation Estimation (hodnota (celé číslo))
+# Enable Phase Correlation Estimation (integer)
 #sout-schro-enable-phasecorr-me=-1
 
-# Intra picture DWT filter (reťazec / príkaz)
+# Intra picture DWT filter (string)
 #sout-schro-intra-wavelet=
 
-# Inter picture DWT filter (reťazec / príkaz)
+# Inter picture DWT filter (string)
 #sout-schro-inter-wavelet=
 
-# Number of DWT iterations (hodnota (celé číslo))
+# Number of DWT iterations (integer)
 #sout-schro-transform-depth=-1
 
-# Enable multiple quantizers (hodnota (celé číslo))
+# Enable multiple quantizers (integer)
 #sout-schro-enable-multiquant=-1
 
-# Size of code blocks in each subband (reťazec / príkaz)
+# Size of code blocks in each subband (string)
 #sout-schro-codeblock-size=
 
-# Prefilter (reťazec / príkaz)
+# Prefilter (string)
 #sout-schro-filtering=
 
-# Amount of prefiltering (hodnota (desatinná))
+# Amount of prefiltering (float)
 #sout-schro-filter-value=-1.000000
 
-# Enable Scene Change Detection (hodnota (celé číslo))
+# Enable Scene Change Detection (integer)
 #sout-schro-enable-scd=-1
 
-# perceptual weighting method (reťazec / príkaz)
+# perceptual weighting method (string)
 #sout-schro-perceptual-weighting=
 
-# perceptual distance (hodnota (desatinná))
+# perceptual distance (float)
 #sout-schro-perceptual-distance=-1.000000
 
-# Disable arithmetic coding (hodnota (celé číslo))
+# Disable arithmetic coding (integer)
 #sout-schro-enable-noarith=-1
 
-# Horizontal slices per frame (hodnota (celé číslo))
+# Horizontal slices per frame (integer)
 #sout-schro-horiz-slices=-1
 
-# Vertical slices per frame (hodnota (celé číslo))
+# Vertical slices per frame (integer)
 #sout-schro-vert-slices=-1
 
-# Force Profile (reťazec / príkaz)
+# Force Profile (string)
 #sout-schro-force-profile=
 
 [kate] # Kate overlay decoder
 
-# Formatted Subtitles (Hodnota boolean)
+# Formatted Subtitles (boolean)
 #kate-formatted=1
 
 [jpeg] # JPEG image decoder
 
-# Quality level (hodnota (celé číslo))
+# Quality level (integer)
 #sout-jpeg-quality=95
 
 [dvbsub] # DVB subtitles decoder
 
-# Subpicture position (hodnota (celé číslo))
+# Subpicture position (integer)
 #dvbsub-position=8
 
-# Decoding X coordinate (hodnota (celé číslo))
+# Decoding X coordinate (integer)
 #dvbsub-x=-1
 
-# Decoding Y coordinate (hodnota (celé číslo))
+# Decoding Y coordinate (integer)
 #dvbsub-y=-1
 
-# Encoding X coordinate (hodnota (celé číslo))
+# Encoding X coordinate (integer)
 #sout-dvbsub-x=-1
 
-# Encoding Y coordinate (hodnota (celé číslo))
+# Encoding Y coordinate (integer)
 #sout-dvbsub-y=-1
 
 [ddummy] # Dummy decoder
 
-# Save raw codec data (Hodnota boolean)
+# Save raw codec data (boolean)
 #dummy-save-es=0
 
 [avcodec] # FFmpeg audio/video decoder
 
-# Direct rendering (Hodnota boolean)
+# Direct rendering (boolean)
 #avcodec-dr=1
 
-# Error resilience (hodnota (celé číslo))
+# Error resilience (integer)
 #avcodec-error-resilience=1
 
-# Workaround bugs (hodnota (celé číslo))
+# Workaround bugs (integer)
 #avcodec-workaround-bugs=1
 
-# Hurry up (Hodnota boolean)
+# Hurry up (boolean)
 #avcodec-hurry-up=1
 
-# Skip frame (default=0) (hodnota (celé číslo))
+# Skip frame (default=0) (integer)
 #avcodec-skip-frame=0
 
-# Skip idct (default=0) (hodnota (celé číslo))
+# Skip idct (default=0) (integer)
 #avcodec-skip-idct=0
 
-# Visualize motion vectors (hodnota (celé číslo))
+# Visualize motion vectors (integer)
 #avcodec-vismv=0
 
-# Allow speed tricks (Hodnota boolean)
+# Allow speed tricks (boolean)
 #avcodec-fast=0
 
-# Skip the loop filter for H.264 decoding (hodnota (celé číslo))
+# Skip the loop filter for H.264 decoding (integer)
 #avcodec-skiploopfilter=0
 
-# Debug mask (hodnota (celé číslo))
+# Debug mask (integer)
 #avcodec-debug=0
 
-# Codec name (reťazec / príkaz)
+# Codec name (string)
 #avcodec-codec=
 
-# Hardware decoding (reťazec / príkaz)
+# Hardware decoding (string)
 #avcodec-hw=none
 
-# Threads (hodnota (celé číslo))
+# Threads (integer)
 #avcodec-threads=0
 
-# Advanced options (reťazec / príkaz)
+# Advanced options (string)
 #avcodec-options=
 
-# Codec name (reťazec / príkaz)
+# Codec name (string)
 #sout-avcodec-codec=
 
-# Quality level (reťazec / príkaz)
+# Quality level (string)
 #sout-avcodec-hq=rd
 
-# Ratio of key frames (hodnota (celé číslo))
+# Ratio of key frames (integer)
 #sout-avcodec-keyint=0
 
-# Ratio of B frames (hodnota (celé číslo))
+# Ratio of B frames (integer)
 #sout-avcodec-bframes=0
 
-# Hurry up (Hodnota boolean)
+# Hurry up (boolean)
 #sout-avcodec-hurry-up=0
 
-# Interlaced encoding (Hodnota boolean)
+# Interlaced encoding (boolean)
 #sout-avcodec-interlace=0
 
-# Interlaced motion estimation (Hodnota boolean)
+# Interlaced motion estimation (boolean)
 #sout-avcodec-interlace-me=1
 
-# Video bitrate tolerance (hodnota (celé číslo))
+# Video bitrate tolerance (integer)
 #sout-avcodec-vt=0
 
-# Pre-motion estimation (Hodnota boolean)
+# Pre-motion estimation (boolean)
 #sout-avcodec-pre-me=0
 
-# Rate control buffer size (hodnota (celé číslo))
+# Rate control buffer size (integer)
 #sout-avcodec-rc-buffer-size=0
 
-# Rate control buffer aggressiveness (hodnota (desatinná))
+# Rate control buffer aggressiveness (float)
 #sout-avcodec-rc-buffer-aggressivity=1.000000
 
-# I quantization factor (hodnota (desatinná))
+# I quantization factor (float)
 #sout-avcodec-i-quant-factor=0.000000
 
-# Noise reduction (hodnota (celé číslo))
+# Noise reduction (integer)
 #sout-avcodec-noise-reduction=0
 
-# MPEG4 quantization matrix (Hodnota boolean)
+# MPEG4 quantization matrix (boolean)
 #sout-avcodec-mpeg4-matrix=0
 
-# Minimum video quantizer scale (hodnota (celé číslo))
+# Minimum video quantizer scale (integer)
 #sout-avcodec-qmin=0
 
-# Maximum video quantizer scale (hodnota (celé číslo))
+# Maximum video quantizer scale (integer)
 #sout-avcodec-qmax=0
 
-# Trellis quantization (Hodnota boolean)
+# Trellis quantization (boolean)
 #sout-avcodec-trellis=0
 
-# Fixed quantizer scale (hodnota (desatinná))
+# Fixed quantizer scale (float)
 #sout-avcodec-qscale=3.000000
 
-# Strict standard compliance (hodnota (celé číslo))
+# Strict standard compliance (integer)
 #sout-avcodec-strict=0
 
-# Luminance masking (hodnota (desatinná))
+# Luminance masking (float)
 #sout-avcodec-lumi-masking=0.000000
 
-# Darkness masking (hodnota (desatinná))
+# Darkness masking (float)
 #sout-avcodec-dark-masking=0.000000
 
-# Motion masking (hodnota (desatinná))
+# Motion masking (float)
 #sout-avcodec-p-masking=0.000000
 
-# Border masking (hodnota (desatinná))
+# Border masking (float)
 #sout-avcodec-border-masking=0.000000
 
-# Luminance elimination (hodnota (celé číslo))
+# Luminance elimination (integer)
 #sout-avcodec-luma-elim-threshold=0
 
-# Chrominance elimination (hodnota (celé číslo))
+# Chrominance elimination (integer)
 #sout-avcodec-chroma-elim-threshold=0
 
-# Specify AAC audio profile to use (reťazec / príkaz)
+# Specify AAC audio profile to use (string)
 #sout-avcodec-aac-profile=low
 
-# Advanced options (reťazec / príkaz)
+# Advanced options (string)
 #sout-avcodec-options=
 
-# Format name (reťazec / príkaz)
+# Format name (string)
 #avformat-format=
 
-# Advanced options (reťazec / príkaz)
+# Advanced options (string)
 #avformat-options=
 
-# Avformat mux (reťazec / príkaz)
+# Avformat mux (string)
 #sout-avformat-mux=
 
-# Advanced options (reťazec / príkaz)
+# Advanced options (string)
 #sout-avformat-options=
 
-# Advanced options (reťazec / príkaz)
+# Advanced options (string)
 #avio-options=
 
-# Advanced options (reťazec / príkaz)
+# Advanced options (string)
 #sout-avio-options=
 
 [waveout] # WaveOut audio output
 
-# Select Audio Device (reťazec / príkaz)
+# Select Audio Device (string)
 #waveout-audio-device=wavemapper
 
-# Audio volume (hodnota (desatinná))
+# Audio volume (float)
 #waveout-volume=1.000000
 
-# Use float32 output (Hodnota boolean)
+# Use float32 output (boolean)
 #waveout-float32=1
 
-# Audio output channels (hodnota (celé číslo))
+# Audio output channels (integer)
 #waveout-audio-channels=9
 
 [directsound] # DirectX audio output
 
-# Output device (reťazec / príkaz)
+# Output device (string)
 #directx-audio-device=
 
-# Use float32 output (Hodnota boolean)
+# Use float32 output (boolean)
 #directx-audio-float32=1
 
-# Speaker configuration (reťazec / príkaz)
+# Speaker configuration (string)
 #directx-audio-speaker=Windows default
 
-# Audio volume (hodnota (desatinná))
+# Audio volume (float)
 #directx-volume=1.000000
 
 [amem] # Audio memory output
 
-# Sample format (reťazec / príkaz)
+# Sample format (string)
 #amem-format=S16N
 
-# Sample rate (hodnota (celé číslo))
+# Sample rate (integer)
 #amem-rate=44100
 
-# Channels count (hodnota (celé číslo))
+# Channels count (integer)
 #amem-channels=2
 
 [afile] # File audio output
 
-# Output file (reťazec / príkaz)
+# Output file (string)
 #audiofile-file=audiofile.wav
 
-# Output format (reťazec / príkaz)
+# Output format (string)
 #audiofile-format=s16
 
-# Number of output channels (hodnota (celé číslo))
+# Number of output channels (integer)
 #audiofile-channels=0
 
-# Add WAVE header (Hodnota boolean)
+# Add WAVE header (boolean)
 #audiofile-wav=1
 
 [stereo_widen] # Simple stereo widening effect
 
-# Delay time (hodnota (desatinná))
+# Delay time (float)
 #delay=20.000000
 
-# Feedback gain (hodnota (desatinná))
+# Feedback gain (float)
 #feedback=0.300000
 
-# Crossfeed (hodnota (desatinná))
+# Crossfeed (float)
 #crossfeed=0.300000
 
-# Dry mix (hodnota (desatinná))
+# Dry mix (float)
 #dry-mix=0.800000
 
 [speex_resampler] # Speex resampler
 
-# Resampling quality (hodnota (celé číslo))
+# Resampling quality (integer)
 #speex-resampler-quality=4
 
 [spatializer] # Audio Spatializer
 
-# Room size (hodnota (desatinná))
+# Room size (float)
 #spatializer-roomsize=0.850000
 
-# Room width (hodnota (desatinná))
+# Room width (float)
 #spatializer-width=1.000000
 
-# Wet (hodnota (desatinná))
+# Wet (float)
 #spatializer-wet=0.400000
 
-# Dry (hodnota (desatinná))
+# Dry (float)
 #spatializer-dry=0.500000
 
-# Damp (hodnota (desatinná))
+# Damp (float)
 #spatializer-damp=0.500000
 
 [scaletempo] # Audio tempo scaler synched with rate
 
-# Stride Length (hodnota (celé číslo))
+# Stride Length (integer)
 #scaletempo-stride=30
 
-# Overlap Length (hodnota (desatinná))
+# Overlap Length (float)
 #scaletempo-overlap=0.200000
 
-# Search Length (hodnota (celé číslo))
+# Search Length (integer)
 #scaletempo-search=14
 
 [samplerate] # Secret Rabbit Code (libsamplerate) resampler
 
-# Sample rate converter type (hodnota (celé číslo))
+# Sample rate converter type (integer)
 #src-converter-type=2
 
 [remap] # Audio channel remapper
 
-# Left (hodnota (celé číslo))
+# Left (integer)
 #aout-remap-channel-left=0
 
-# Center (hodnota (celé číslo))
+# Center (integer)
 #aout-remap-channel-center=1
 
-# Right (hodnota (celé číslo))
+# Right (integer)
 #aout-remap-channel-right=2
 
-# Rear left (hodnota (celé číslo))
+# Rear left (integer)
 #aout-remap-channel-rearleft=3
 
-# Rear center (hodnota (celé číslo))
+# Rear center (integer)
 #aout-remap-channel-rearcenter=4
 
-# Rear right (hodnota (celé číslo))
+# Rear right (integer)
 #aout-remap-channel-rearright=5
 
-# Side left (hodnota (celé číslo))
+# Side left (integer)
 #aout-remap-channel-middleleft=6
 
-# Side right (hodnota (celé číslo))
+# Side right (integer)
 #aout-remap-channel-middleright=7
 
-# Low-frequency effects (hodnota (celé číslo))
+# Low-frequency effects (integer)
 #aout-remap-channel-lfe=8
 
-# Normalize channels (Hodnota boolean)
+# Normalize channels (boolean)
 #aout-remap-normalize=1
 
 [param_eq] # Parametric Equalizer
 
-# Low freq (Hz) (hodnota (desatinná))
+# Low freq (Hz) (float)
 #param-eq-lowf=100.000000
 
-# Low freq gain (dB) (hodnota (desatinná))
+# Low freq gain (dB) (float)
 #param-eq-lowgain=0.000000
 
-# High freq (Hz) (hodnota (desatinná))
+# High freq (Hz) (float)
 #param-eq-highf=10000.000000
 
-# High freq gain (dB) (hodnota (desatinná))
+# High freq gain (dB) (float)
 #param-eq-highgain=0.000000
 
-# Freq 1 (Hz) (hodnota (desatinná))
+# Freq 1 (Hz) (float)
 #param-eq-f1=300.000000
 
-# Freq 1 gain (dB) (hodnota (desatinná))
+# Freq 1 gain (dB) (float)
 #param-eq-gain1=0.000000
 
-# Freq 1 Q (hodnota (desatinná))
+# Freq 1 Q (float)
 #param-eq-q1=3.000000
 
-# Freq 2 (Hz) (hodnota (desatinná))
+# Freq 2 (Hz) (float)
 #param-eq-f2=1000.000000
 
-# Freq 2 gain (dB) (hodnota (desatinná))
+# Freq 2 gain (dB) (float)
 #param-eq-gain2=0.000000
 
-# Freq 2 Q (hodnota (desatinná))
+# Freq 2 Q (float)
 #param-eq-q2=3.000000
 
-# Freq 3 (Hz) (hodnota (desatinná))
+# Freq 3 (Hz) (float)
 #param-eq-f3=3000.000000
 
-# Freq 3 gain (dB) (hodnota (desatinná))
+# Freq 3 gain (dB) (float)
 #param-eq-gain3=0.000000
 
-# Freq 3 Q (hodnota (desatinná))
+# Freq 3 Q (float)
 #param-eq-q3=3.000000
 
 [normvol] # Volume normalizer
 
-# Number of audio buffers (hodnota (celé číslo))
+# Number of audio buffers (integer)
 #norm-buff-size=20
 
-# Maximal volume level (hodnota (desatinná))
+# Maximal volume level (float)
 #norm-max-level=2.000000
 
 [mono] # Stereo to mono downmixer
 
-# Use downmix algorithm (Hodnota boolean)
+# Use downmix algorithm (boolean)
 #sout-mono-downmix=1
 
-# Select channel to keep (hodnota (celé číslo))
+# Select channel to keep (integer)
 #sout-mono-channel=-1
 
 [headphone_channel_mixer] # Headphone virtual spatialization effect
 
-# Characteristic dimension (hodnota (celé číslo))
+# Characteristic dimension (integer)
 #headphone-dim=10
 
-# Compensate delay (Hodnota boolean)
+# Compensate delay (boolean)
 #headphone-compensate=0
 
-# No decoding of Dolby Surround (Hodnota boolean)
+# No decoding of Dolby Surround (boolean)
 #headphone-dolby=0
 
 [gain] # Gain control filter
 
-# Gain multiplier (hodnota (desatinná))
+# Gain multiplier (float)
 #gain-value=1.000000
 
 [equalizer] # Equalizer with 10 bands
 
-# Equalizer preset (reťazec / príkaz)
+# Equalizer preset (string)
 #equalizer-preset=flat
 
-# Bands gain (reťazec / príkaz)
+# Bands gain (string)
 #equalizer-bands=
 
-# Two pass (Hodnota boolean)
+# Two pass (boolean)
 #equalizer-2pass=0
 
-# Use VLC frequency bands (Hodnota boolean)
+# Use VLC frequency bands (boolean)
 #equalizer-vlcfreqs=1
 
-# Global gain (hodnota (desatinná))
+# Global gain (float)
 #equalizer-preamp=12.000000
 
 [dtstofloat32] # DTS Coherent Acoustics audio decoder
 
-# DTS dynamic range compression (Hodnota boolean)
+# DTS dynamic range compression (boolean)
 #dts-dynrng=1
 
 [compressor] # Dynamic range compressor
 
-# RMS/peak (hodnota (desatinná))
+# RMS/peak (float)
 #compressor-rms-peak=0.000000
 
-# Attack time (hodnota (desatinná))
+# Attack time (float)
 #compressor-attack=25.000000
 
-# Release time (hodnota (desatinná))
+# Release time (float)
 #compressor-release=100.000000
 
-# Threshold level (hodnota (desatinná))
+# Threshold level (float)
 #compressor-threshold=-11.000000
 
-# Ratio (hodnota (desatinná))
+# Ratio (float)
 #compressor-ratio=8.000000
 
-# Knee radius (hodnota (desatinná))
+# Knee radius (float)
 #compressor-knee=2.500000
 
-# Makeup gain (hodnota (desatinná))
+# Makeup gain (float)
 #compressor-makeup-gain=7.000000
 
 [chorus_flanger] # Sound Delay
 
-# Delay time (hodnota (desatinná))
+# Delay time (float)
 #delay-time=20.000000
 
-# Sweep Depth (hodnota (desatinná))
+# Sweep Depth (float)
 #sweep-depth=6.000000
 
-# Sweep Rate (hodnota (desatinná))
+# Sweep Rate (float)
 #sweep-rate=6.000000
 
-# Feedback gain (hodnota (desatinná))
+# Feedback gain (float)
 #feedback-gain=0.500000
 
-# Wet mix (hodnota (desatinná))
+# Wet mix (float)
 #wet-mix=0.400000
 
-# Dry Mix (hodnota (desatinná))
+# Dry Mix (float)
 #dry-mix=0.400000
 
 [audiobargraph_a] # Audio part of the BarGraph function
 
-# Defines if BarGraph information should be sent (hodnota (celé číslo))
+# Defines if BarGraph information should be sent (integer)
 #audiobargraph_a-bargraph=1
 
-# Sends the barGraph information every n audio packets (hodnota (celé číslo))
+# Sends the barGraph information every n audio packets (integer)
 #audiobargraph_a-bargraph_repetition=4
 
-# Defines if silence alarm information should be sent (hodnota (celé číslo))
+# Defines if silence alarm information should be sent (integer)
 #audiobargraph_a-silence=1
 
-# Time window to use in ms (hodnota (celé číslo))
+# Time window to use in ms (integer)
 #audiobargraph_a-time_window=5000
 
-# Minimum Audio level to raise the alarm (hodnota (desatinná))
+# Minimum Audio level to raise the alarm (float)
 #audiobargraph_a-alarm_threshold=0.020000
 
-# Time between two alarm messages in ms (hodnota (celé číslo))
+# Time between two alarm messages in ms (integer)
 #audiobargraph_a-repetition_time=2000
 
 [a52tofloat32] # ATSC A/52 (AC-3) audio decoder
 
-# A/52 dynamic range compression (Hodnota boolean)
+# A/52 dynamic range compression (boolean)
 #a52-dynrng=1
 
-# Enable internal upmixing (Hodnota boolean)
+# Enable internal upmixing (boolean)
 #a52-upmix=0
 
 [udp] # UDP stream output
 
-# Caching value (ms) (hodnota (celé číslo))
+# Caching value (ms) (integer)
 #sout-udp-caching=300
 
-# Group packets (hodnota (celé číslo))
+# Group packets (integer)
 #sout-udp-group=1
 
 [access_output_shout] # IceCAST output
 
-# Stream name (reťazec / príkaz)
+# Stream name (string)
 #sout-shout-name=VLC media player - Live stream
 
-# Stream description (reťazec / príkaz)
+# Stream description (string)
 #sout-shout-description=Live stream from VLC media player
 
-# Stream MP3 (Hodnota boolean)
+# Stream MP3 (boolean)
 #sout-shout-mp3=0
 
-# Genre description (reťazec / príkaz)
+# Genre description (string)
 #sout-shout-genre=Alternative
 
-# URL description (reťazec / príkaz)
+# URL description (string)
 #sout-shout-url=http://www.videolan.org/vlc
 
-# Bitrate (reťazec / príkaz)
+# Bitrate (string)
 #sout-shout-bitrate=
 
-# Samplerate (reťazec / príkaz)
+# Samplerate (string)
 #sout-shout-samplerate=
 
-# Number of channels (reťazec / príkaz)
+# Number of channels (string)
 #sout-shout-channels=
 
-# Ogg Vorbis Quality (reťazec / príkaz)
+# Ogg Vorbis Quality (string)
 #sout-shout-quality=
 
-# Stream public (Hodnota boolean)
+# Stream public (boolean)
 #sout-shout-public=0
 
 [access_output_livehttp] # HTTP Live streaming output
 
-# Segment length (hodnota (celé číslo))
+# Segment length (integer)
 #sout-livehttp-seglen=10
 
-# Number of segments (hodnota (celé číslo))
+# Number of segments (integer)
 #sout-livehttp-numsegs=0
 
-# Number of first segment (hodnota (celé číslo))
+# Number of first segment (integer)
 #sout-livehttp-initial-segment-number=1
 
-# Split segments anywhere (Hodnota boolean)
+# Split segments anywhere (boolean)
 #sout-livehttp-splitanywhere=0
 
-# Delete segments (Hodnota boolean)
+# Delete segments (boolean)
 #sout-livehttp-delsegs=1
 
-# Use muxers rate control mechanism (Hodnota boolean)
+# Use muxers rate control mechanism (boolean)
 #sout-livehttp-ratecontrol=0
 
-# Allow cache (Hodnota boolean)
+# Allow cache (boolean)
 #sout-livehttp-caching=0
 
-# Use randomized IV for encryption (Hodnota boolean)
+# Use randomized IV for encryption (boolean)
 #sout-livehttp-generate-iv=0
 
-# Index file (reťazec / príkaz)
+# Index file (string)
 #sout-livehttp-index=
 
-# Full URL to put in index file (reťazec / príkaz)
+# Full URL to put in index file (string)
 #sout-livehttp-index-url=
 
-# AES key URI to place in playlist (reťazec / príkaz)
+# AES key URI to place in playlist (string)
 #sout-livehttp-key-uri=
 
-# AES key file (reťazec / príkaz)
+# AES key file (string)
 #sout-livehttp-key-file=
 
-# File where vlc reads key-uri and keyfile-location (reťazec / príkaz)
+# File where vlc reads key-uri and keyfile-location (string)
 #sout-livehttp-key-loadfile=
 
 [access_output_http] # HTTP stream output
 
-# Username (reťazec / príkaz)
+# Username (string)
 #sout-http-user=
 
-# Password (reťazec / príkaz)
+# Password (string)
 #sout-http-pwd=
 
-# Mime (reťazec / príkaz)
+# Mime (string)
 #sout-http-mime=
 
-# Metacube (Hodnota boolean)
+# Metacube (boolean)
 #sout-http-metacube=0
 
 [access_output_file] # File stream output
 
-# Overwrite existing file (Hodnota boolean)
+# Overwrite existing file (boolean)
 #sout-file-overwrite=1
 
-# Append to file (Hodnota boolean)
+# Append to file (boolean)
 #sout-file-append=0
 
-# Format time and date (Hodnota boolean)
+# Format time and date (boolean)
 #sout-file-format=0
 
 [vdr] # VDR recordings
 
-# Chapter offset in ms (hodnota (celé číslo))
+# Chapter offset in ms (integer)
 #vdr-chapter-offset=0
 
-# Frame rate (hodnota (desatinná))
+# Frame rate (float)
 #vdr-fps=25.000000
 
 [udp] # UDP input
 
-# Receive buffer (hodnota (celé číslo))
+# Receive buffer (integer)
 #udp-buffer=4194304
 
 [timecode] # Time code subpicture elementary stream generator
 
-# Frame rate (reťazec / príkaz)
+# Frame rate (string)
 #timecode-fps=25/1
 
 [smb] # SMB input
 
-# SMB user name (reťazec / príkaz)
+# SMB user name (string)
 #smb-user=
 
-# SMB password (reťazec / príkaz)
+# SMB password (string)
 #smb-pwd=
 
-# SMB domain (reťazec / príkaz)
+# SMB domain (string)
 #smb-domain=
 
 [shm] # Shared memory framebuffer
 
-# Frame rate (hodnota (desatinná))
+# Frame rate (float)
 #shm-fps=10.000000
 
-# Frame buffer depth (hodnota (celé číslo))
+# Frame buffer depth (integer)
 #shm-depth=0
 
-# Frame buffer width (hodnota (celé číslo))
+# Frame buffer width (integer)
 #shm-width=800
 
-# Frame buffer height (hodnota (celé číslo))
+# Frame buffer height (integer)
 #shm-height=480
 
 [sftp] # SFTP input
 
-# Read size (hodnota (celé číslo))
+# Read size (integer)
 #sftp-readsize=8192
 
-# SFTP port (hodnota (celé číslo))
+# SFTP port (integer)
 #sftp-port=22
 
 [screen] # Screen Input
 
-# Frame rate (hodnota (desatinná))
+# Frame rate (float)
 #screen-fps=1.000000
 
-# Subscreen top left corner (hodnota (celé číslo))
+# Subscreen top left corner (integer)
 #screen-top=0
 
-# Subscreen top left corner (hodnota (celé číslo))
+# Subscreen top left corner (integer)
 #screen-left=0
 
-# Subscreen width (hodnota (celé číslo))
+# Subscreen width (integer)
 #screen-width=0
 
-# Subscreen height (hodnota (celé číslo))
+# Subscreen height (integer)
 #screen-height=0
 
-# Follow the mouse (Hodnota boolean)
+# Follow the mouse (boolean)
 #screen-follow-mouse=0
 
-# Mouse pointer image (reťazec / príkaz)
+# Mouse pointer image (string)
 #screen-mouse-image=
 
-# Capture fragment size (hodnota (celé číslo))
+# Capture fragment size (integer)
 #screen-fragment-size=0
 
 [rtp] # Real-Time Protocol (RTP) input
 
-# RTCP (local) port (hodnota (celé číslo))
+# RTCP (local) port (integer)
 #rtcp-port=0
 
-# SRTP key (hexadecimal) (reťazec / príkaz)
+# SRTP key (hexadecimal) (string)
 #srtp-key=
 
-# SRTP salt (hexadecimal) (reťazec / príkaz)
+# SRTP salt (hexadecimal) (string)
 #srtp-salt=
 
-# Maximum RTP sources (hodnota (celé číslo))
+# Maximum RTP sources (integer)
 #rtp-max-src=1
 
-# RTP source timeout (sec) (hodnota (celé číslo))
+# RTP source timeout (sec) (integer)
 #rtp-timeout=5
 
-# Maximum RTP sequence number dropout (hodnota (celé číslo))
+# Maximum RTP sequence number dropout (integer)
 #rtp-max-dropout=3000
 
-# Maximum RTP sequence number misordering (hodnota (celé číslo))
+# Maximum RTP sequence number misordering (integer)
 #rtp-max-misorder=100
 
-# RTP payload format assumed for dynamic payloads (reťazec / príkaz)
+# RTP payload format assumed for dynamic payloads (string)
 #rtp-dynamic-pt=
 
 [live555] # RTP/RTSP/SDP demuxer (using Live555)
 
-# Use RTP over RTSP (TCP) (Hodnota boolean)
+# Use RTP over RTSP (TCP) (boolean)
 #rtsp-tcp=0
 
-# Client port (hodnota (celé číslo))
+# Client port (integer)
 #rtp-client-port=-1
 
-# Force multicast RTP via RTSP (Hodnota boolean)
+# Force multicast RTP via RTSP (boolean)
 #rtsp-mcast=0
 
-# Tunnel RTSP and RTP over HTTP (Hodnota boolean)
+# Tunnel RTSP and RTP over HTTP (boolean)
 #rtsp-http=0
 
-# HTTP tunnel port (hodnota (celé číslo))
+# HTTP tunnel port (integer)
 #rtsp-http-port=80
 
-# Kasenna RTSP dialect (Hodnota boolean)
+# Kasenna RTSP dialect (boolean)
 #rtsp-kasenna=0
 
-# WMServer RTSP dialect (Hodnota boolean)
+# WMServer RTSP dialect (boolean)
 #rtsp-wmserver=0
 
-# RTSP user name (reťazec / príkaz)
+# RTSP user name (string)
 #rtsp-user=
 
-# RTSP password (reťazec / príkaz)
+# RTSP password (string)
 #rtsp-pwd=
 
-# RTSP frame buffer size (hodnota (celé číslo))
+# RTSP frame buffer size (integer)
 #rtsp-frame-buffer-size=100000
 
 [libbluray] # Blu-ray Disc support (libbluray)
 
-# Blu-ray menus (Hodnota boolean)
+# Blu-ray menus (boolean)
 #bluray-menu=0
 
-# Region code (reťazec / príkaz)
+# Region code (string)
 #bluray-region=B
 
 [imem] # Memory input
 
-# ID (hodnota (celé číslo))
+# ID (integer)
 #imem-id=-1
 
-# Group (hodnota (celé číslo))
+# Group (integer)
 #imem-group=0
 
-# Category (hodnota (celé číslo))
+# Category (integer)
 #imem-cat=0
 
-# Codec (reťazec / príkaz)
+# Codec (string)
 #imem-codec=
 
-# Language (reťazec / príkaz)
+# Language (string)
 #imem-language=
 
-# Sample rate (hodnota (celé číslo))
+# Sample rate (integer)
 #imem-samplerate=0
 
-# Channels count (hodnota (celé číslo))
+# Channels count (integer)
 #imem-channels=0
 
-# Width (hodnota (celé číslo))
+# Width (integer)
 #imem-width=0
 
-# Height (hodnota (celé číslo))
+# Height (integer)
 #imem-height=0
 
-# Display aspect ratio (reťazec / príkaz)
+# Display aspect ratio (string)
 #imem-dar=
 
-# Frame rate (reťazec / príkaz)
+# Frame rate (string)
 #imem-fps=
 
-# Size (hodnota (celé číslo))
+# Size (integer)
 #imem-size=0
 
 [http] # HTTP input
 
-# HTTP proxy (reťazec / príkaz)
+# HTTP proxy (string)
 #http-proxy=
 
-# HTTP proxy password (reťazec / príkaz)
+# HTTP proxy password (string)
 #http-proxy-pwd=
 
-# HTTP referer value (reťazec / príkaz)
+# HTTP referer value (string)
 #http-referrer=
 
-# User Agent (reťazec / príkaz)
+# User Agent (string)
 #http-user-agent=
 
-# Auto re-connect (Hodnota boolean)
+# Auto re-connect (boolean)
 #http-reconnect=0
 
-# Continuous stream (Hodnota boolean)
+# Continuous stream (boolean)
 #http-continuous=0
 
-# Forward Cookies (Hodnota boolean)
+# Forward Cookies (boolean)
 #http-forward-cookies=1
 
 [ftp] # FTP input
 
-# FTP user name (reťazec / príkaz)
+# FTP user name (string)
 #ftp-user=anonymous
 
-# FTP password (reťazec / príkaz)
+# FTP password (string)
 #ftp-pwd=anonymous@example.com
 
-# FTP account (reťazec / príkaz)
+# FTP account (string)
 #ftp-account=anonymous
 
 [filesystem] # File input
 
-# Subdirectory behavior (reťazec / príkaz)
+# Subdirectory behavior (string)
 #recursive=expand
 
-# Ignored extensions (reťazec / príkaz)
+# Ignored extensions (string)
 #ignore-filetypes=m3u,db,nfo,ini,jpg,jpeg,ljpg,gif,png,pgm,pgmyuv,pbm,pam,tga,bmp,pnm,xpm,xcf,pcx,tif,tiff,lbm,sfv,txt,sub,idx,srt,cue,ssa
 
-# Directory sort order (reťazec / príkaz)
+# Directory sort order (string)
 #directory-sort=collate
 
 [dvdread] # DVDRead Input (no menu support)
 
-# DVD angle (hodnota (celé číslo))
+# DVD angle (integer)
 #dvdread-angle=1
 
 [dvdnav] # DVDnav Input
 
-# DVD angle (hodnota (celé číslo))
+# DVD angle (integer)
 #dvdnav-angle=1
 
-# Start directly in menu (Hodnota boolean)
+# Start directly in menu (boolean)
 #dvdnav-menu=1
 
 [dtv] # Digital Television and Radio
 
-# DVB adapter (hodnota (celé číslo))
+# DVB adapter (integer)
 #dvb-adapter=-1
 
-# Network name (reťazec / príkaz)
+# Network name (string)
 #dvb-network-name=
 
-# Network name to create (reťazec / príkaz)
+# Network name to create (string)
 #dvb-create-name=
 
-# Frequency (Hz) (hodnota (celé číslo))
+# Frequency (Hz) (integer)
 #dvb-frequency=0
 
-# Spectrum inversion (hodnota (celé číslo))
+# Spectrum inversion (integer)
 #dvb-inversion=-1
 
-# Bandwidth (MHz) (hodnota (celé číslo))
+# Bandwidth (MHz) (integer)
 #dvb-bandwidth=0
 
-# Transmission mode (hodnota (celé číslo))
+# Transmission mode (integer)
 #dvb-transmission=0
 
-# Guard interval (reťazec / príkaz)
+# Guard interval (string)
 #dvb-guard=
 
-# High-priority code rate (reťazec / príkaz)
+# High-priority code rate (string)
 #dvb-code-rate-hp=
 
-# Low-priority code rate (reťazec / príkaz)
+# Low-priority code rate (string)
 #dvb-code-rate-lp=
 
-# Hierarchy mode (hodnota (celé číslo))
+# Hierarchy mode (integer)
 #dvb-hierarchy=-1
 
-# DVB-T2 Physical Layer Pipe (hodnota (celé číslo))
+# DVB-T2 Physical Layer Pipe (integer)
 #dvb-plp-id=0
 
-# Layer A modulation (reťazec / príkaz)
+# Layer A modulation (string)
 #dvb-a-modulation=
 
-# Layer A code rate (reťazec / príkaz)
+# Layer A code rate (string)
 #dvb-a-fec=
 
-# Layer A segments count (hodnota (celé číslo))
+# Layer A segments count (integer)
 #dvb-a-count=0
 
-# Layer A time interleaving (hodnota (celé číslo))
+# Layer A time interleaving (integer)
 #dvb-a-interleaving=0
 
-# Layer B modulation (reťazec / príkaz)
+# Layer B modulation (string)
 #dvb-b-modulation=
 
-# Layer B code rate (reťazec / príkaz)
+# Layer B code rate (string)
 #dvb-b-fec=
 
-# Layer B segments count (hodnota (celé číslo))
+# Layer B segments count (integer)
 #dvb-b-count=0
 
-# Layer B time interleaving (hodnota (celé číslo))
+# Layer B time interleaving (integer)
 #dvb-b-interleaving=0
 
-# Layer C modulation (reťazec / príkaz)
+# Layer C modulation (string)
 #dvb-c-modulation=
 
-# Layer C code rate (reťazec / príkaz)
+# Layer C code rate (string)
 #dvb-c-fec=
 
-# Layer C segments count (hodnota (celé číslo))
+# Layer C segments count (integer)
 #dvb-c-count=0
 
-# Layer C time interleaving (hodnota (celé číslo))
+# Layer C time interleaving (integer)
 #dvb-c-interleaving=0
 
-# Modulation / Constellation (reťazec / príkaz)
+# Modulation / Constellation (string)
 #dvb-modulation=
 
-# Symbol rate (bauds) (hodnota (celé číslo))
+# Symbol rate (bauds) (integer)
 #dvb-srate=0
 
-# FEC code rate (reťazec / príkaz)
+# FEC code rate (string)
 #dvb-fec=
 
-# Stream identifier (hodnota (celé číslo))
+# Stream identifier (integer)
 #dvb-stream=0
 
-# Pilot (hodnota (celé číslo))
+# Pilot (integer)
 #dvb-pilot=-1
 
-# Roll-off factor (hodnota (celé číslo))
+# Roll-off factor (integer)
 #dvb-rolloff=-1
 
-# Transport stream ID (hodnota (celé číslo))
+# Transport stream ID (integer)
 #dvb-ts-id=0
 
-# Polarization (Voltage) (reťazec / príkaz)
+# Polarization (Voltage) (string)
 #dvb-polarization=
 
-# ? (hodnota (celé číslo))
+# ? (integer)
 #dvb-voltage=13
 
-# Local oscillator low frequency (kHz) (hodnota (celé číslo))
+# Local oscillator low frequency (kHz) (integer)
 #dvb-lnb-low=0
 
-# Local oscillator high frequency (kHz) (hodnota (celé číslo))
+# Local oscillator high frequency (kHz) (integer)
 #dvb-lnb-high=0
 
-# Universal LNB switch frequency (kHz) (hodnota (celé číslo))
+# Universal LNB switch frequency (kHz) (integer)
 #dvb-lnb-switch=11700000
 
-# Network identifier (hodnota (celé číslo))
+# Network identifier (integer)
 #dvb-network-id=0
 
-# Satellite azimuth (hodnota (celé číslo))
+# Satellite azimuth (integer)
 #dvb-azimuth=0
 
-# Satellite elevation (hodnota (celé číslo))
+# Satellite elevation (integer)
 #dvb-elevation=0
 
-# Satellite longitude (hodnota (celé číslo))
+# Satellite longitude (integer)
 #dvb-longitude=0
 
-# Satellite range code (reťazec / príkaz)
+# Satellite range code (string)
 #dvb-range=
 
-# Major channel (hodnota (celé číslo))
+# Major channel (integer)
 #dvb-major-channel=0
 
-# ATSC minor channel (hodnota (celé číslo))
+# ATSC minor channel (integer)
 #dvb-minor-channel=0
 
-# Physical channel (hodnota (celé číslo))
+# Physical channel (integer)
 #dvb-physical-channel=0
 
 [dshow] # DirectShow input
 
-# Video device name (reťazec / príkaz)
+# Video device name (string)
 #dshow-vdev=
 
-# Audio device name (reťazec / príkaz)
+# Audio device name (string)
 #dshow-adev=
 
-# Video size (reťazec / príkaz)
+# Video size (string)
 #dshow-size=
 
-# Picture aspect-ratio n:m (reťazec / príkaz)
+# Picture aspect-ratio n:m (string)
 #dshow-aspect-ratio=4:3
 
-# Video input chroma format (reťazec / príkaz)
+# Video input chroma format (string)
 #dshow-chroma=
 
-# Video input frame rate (hodnota (desatinná))
+# Video input frame rate (float)
 #dshow-fps=0.000000
 
-# Device properties (Hodnota boolean)
+# Device properties (boolean)
 #dshow-config=0
 
-# Tuner properties (Hodnota boolean)
+# Tuner properties (boolean)
 #dshow-tuner=0
 
-# Tuner TV Channel (hodnota (celé číslo))
+# Tuner TV Channel (integer)
 #dshow-tuner-channel=0
 
-# Tuner Frequency (hodnota (celé číslo))
+# Tuner Frequency (integer)
 #dshow-tuner-frequency=0
 
-# Tuner country code (hodnota (celé číslo))
+# Tuner country code (integer)
 #dshow-tuner-country=0
 
-# Video standard (hodnota (celé číslo))
+# Video standard (integer)
 #dshow-tuner-standard=0
 
-# Tuner input type (hodnota (celé číslo))
+# Tuner input type (integer)
 #dshow-tuner-input=0
 
-# Video input pin (hodnota (celé číslo))
+# Video input pin (integer)
 #dshow-video-input=-1
 
-# Video output pin (hodnota (celé číslo))
+# Video output pin (integer)
 #dshow-video-output=-1
 
-# Audio input pin (hodnota (celé číslo))
+# Audio input pin (integer)
 #dshow-audio-input=-1
 
-# Audio output pin (hodnota (celé číslo))
+# Audio output pin (integer)
 #dshow-audio-output=-1
 
-# AM Tuner mode (hodnota (celé číslo))
+# AM Tuner mode (integer)
 #dshow-amtuner-mode=1
 
-# Number of audio channels (hodnota (celé číslo))
+# Number of audio channels (integer)
 #dshow-audio-channels=0
 
-# Audio sample rate (hodnota (celé číslo))
+# Audio sample rate (integer)
 #dshow-audio-samplerate=0
 
-# Audio bits per sample (hodnota (celé číslo))
+# Audio bits per sample (integer)
 #dshow-audio-bitspersample=0
 
 [cdda] # Audio CD input
 
-# CDDB Server (reťazec / príkaz)
+# CDDB Server (string)
 #cddb-server=freedb.videolan.org
 
-# CDDB port (hodnota (celé číslo))
+# CDDB port (integer)
 #cddb-port=80
 
 [access_mms] # Microsoft Media Server (MMS) input
 
-# TCP/UDP timeout (ms) (hodnota (celé číslo))
+# TCP/UDP timeout (ms) (integer)
 #mms-timeout=5000
 
-# Force selection of all streams (Hodnota boolean)
+# Force selection of all streams (boolean)
 #mms-all=0
 
-# Maximum bitrate (hodnota (celé číslo))
+# Maximum bitrate (integer)
 #mms-maxbitrate=0
 
-# HTTP proxy (reťazec / príkaz)
+# HTTP proxy (string)
 #mmsh-proxy=
 
 [core] # core program
 
-# Enable audio (Hodnota boolean)
+# Enable audio (boolean)
 #audio=1
 
-# Audio gain (hodnota (desatinná))
+# Audio gain (float)
 #gain=1.000000
 
-# Audio output volume step (hodnota (desatinná))
+# Audio output volume step (float)
 #volume-step=12.800000
 
-# Remember the audio volume (Hodnota boolean)
+# Remember the audio volume (boolean)
 #volume-save=1
 
-# Use S/PDIF when available (Hodnota boolean)
+# Use S/PDIF when available (boolean)
 #spdif=0
 
-# Force detection of Dolby Surround (hodnota (celé číslo))
+# Force detection of Dolby Surround (integer)
 #force-dolby-surround=0
 
-# Stereo audio output mode (hodnota (celé číslo))
+# Stereo audio output mode (integer)
 #stereo-mode=0
 
-# Audio desynchronization compensation (hodnota (celé číslo))
+# Audio desynchronization compensation (integer)
 #audio-desync=0
 
-# Audio resampler (reťazec / príkaz)
+# Audio resampler (string)
 #audio-resampler=
 
-# Replay gain mode (reťazec / príkaz)
+# Replay gain mode (string)
 #audio-replay-gain-mode=none
 
-# Replay preamp (hodnota (desatinná))
+# Replay preamp (float)
 #audio-replay-gain-preamp=0.000000
 
-# Default replay gain (hodnota (desatinná))
+# Default replay gain (float)
 #audio-replay-gain-default=-7.000000
 
-# Peak protection (Hodnota boolean)
+# Peak protection (boolean)
 #audio-replay-gain-peak-protection=1
 
-# Enable time stretching audio (Hodnota boolean)
+# Enable time stretching audio (boolean)
 #audio-time-stretch=1
 
-# Audio output module (reťazec / príkaz)
+# Audio output module (string)
 #aout=
 
-# Audio filters (reťazec / príkaz)
+# Audio filters (string)
 #audio-filter=
 
-# Audio visualizations (reťazec / príkaz)
+# Audio visualizations (string)
 #audio-visual=none
 
-# Enable video (Hodnota boolean)
+# Enable video (boolean)
 #video=1
 
-# Grayscale video output (Hodnota boolean)
+# Grayscale video output (boolean)
 #grayscale=0
 
-# Fullscreen video output (Hodnota boolean)
+# Fullscreen video output (boolean)
 #fullscreen=0
 
-# Embedded video (Hodnota boolean)
+# Embedded video (boolean)
 #embedded-video=1
 
-#  (Hodnota boolean)
+#  (boolean)
 #xlib=1
 
-# Drop late frames (Hodnota boolean)
+# Drop late frames (boolean)
 #drop-late-frames=1
 
-# Skip frames (Hodnota boolean)
+# Skip frames (boolean)
 #skip-frames=1
 
-# Quiet synchro (Hodnota boolean)
+# Quiet synchro (boolean)
 #quiet-synchro=0
 
-# Key press events (Hodnota boolean)
+# Key press events (boolean)
 #keyboard-events=1
 
-# Mouse events (Hodnota boolean)
+# Mouse events (boolean)
 #mouse-events=1
 
-# Overlay video output (Hodnota boolean)
+# Overlay video output (boolean)
 #overlay=1
 
-# Always on top (Hodnota boolean)
+# Always on top (boolean)
 #video-on-top=0
 
-# Enable wallpaper mode  (Hodnota boolean)
+# Enable wallpaper mode  (boolean)
 #video-wallpaper=0
 
-# Disable screensaver (Hodnota boolean)
+# Disable screensaver (boolean)
 #disable-screensaver=1
 
-# Show media title on video (Hodnota boolean)
+# Show media title on video (boolean)
 #video-title-show=1
 
-# Show video title for x milliseconds (hodnota (celé číslo))
+# Show video title for x milliseconds (integer)
 #video-title-timeout=5000
 
-# Position of video title (hodnota (celé číslo))
+# Position of video title (integer)
 #video-title-position=8
 
-# Hide cursor and fullscreen controller after x milliseconds (hodnota (celé číslo))
+# Hide cursor and fullscreen controller after x milliseconds (integer)
 #mouse-hide-timeout=1000
 
-# Video snapshot directory (or filename) (reťazec / príkaz)
+# Video snapshot directory (or filename) (string)
 #snapshot-path=
 
-# Video snapshot file prefix (reťazec / príkaz)
+# Video snapshot file prefix (string)
 #snapshot-prefix=vlcsnap-
 
-# Video snapshot format (reťazec / príkaz)
+# Video snapshot format (string)
 #snapshot-format=png
 
-# Display video snapshot preview (Hodnota boolean)
+# Display video snapshot preview (boolean)
 #snapshot-preview=1
 
-# Use sequential numbers instead of timestamps (Hodnota boolean)
+# Use sequential numbers instead of timestamps (boolean)
 #snapshot-sequential=0
 
-# Video snapshot width (hodnota (celé číslo))
+# Video snapshot width (integer)
 #snapshot-width=-1
 
-# Video snapshot height (hodnota (celé číslo))
+# Video snapshot height (integer)
 #snapshot-height=-1
 
-# Video width (hodnota (celé číslo))
+# Video width (integer)
 #width=-1
 
-# Video height (hodnota (celé číslo))
+# Video height (integer)
 #height=-1
 
-# Video X coordinate (hodnota (celé číslo))
+# Video X coordinate (integer)
 #video-x=0
 
-# Video Y coordinate (hodnota (celé číslo))
+# Video Y coordinate (integer)
 #video-y=0
 
-# Video cropping (reťazec / príkaz)
+# Video cropping (string)
 #crop=
 
-# Custom crop ratios list (reťazec / príkaz)
+# Custom crop ratios list (string)
 #custom-crop-ratios=
 
-# Source aspect ratio (reťazec / príkaz)
+# Source aspect ratio (string)
 #aspect-ratio=
 
-# Video Auto Scaling (Hodnota boolean)
+# Video Auto Scaling (boolean)
 #autoscale=1
 
-# Video scaling factor (hodnota (desatinná))
+# Video scaling factor (float)
 #scale=1.000000
 
-# Monitor pixel aspect ratio (reťazec / príkaz)
+# Monitor pixel aspect ratio (string)
 #monitor-par=
 
-# Custom aspect ratios list (reťazec / príkaz)
+# Custom aspect ratios list (string)
 #custom-aspect-ratios=
 
-# Fix HDTV height (Hodnota boolean)
+# Fix HDTV height (boolean)
 #hdtv-fix=1
 
-# Window decorations (Hodnota boolean)
+# Window decorations (boolean)
 #video-deco=1
 
-# Video title (reťazec / príkaz)
+# Video title (string)
 #video-title=
 
-# Video alignment (hodnota (celé číslo))
+# Video alignment (integer)
 #align=0
 
-# Zoom video (hodnota (desatinná))
+# Zoom video (float)
 #zoom=1.000000
 
-# Deinterlace (hodnota (celé číslo))
+# Deinterlace (integer)
 #deinterlace=0
 
-# Deinterlace mode (reťazec / príkaz)
+# Deinterlace mode (string)
 #deinterlace-mode=blend
 
-# Video output module (reťazec / príkaz)
+# Video output module (string)
 #vout=
 
-# Video filter module (reťazec / príkaz)
+# Video filter module (string)
 #video-filter=
 
-# Video splitter module (reťazec / príkaz)
+# Video splitter module (string)
 #video-splitter=
 
-# Enable sub-pictures (Hodnota boolean)
+# Enable sub-pictures (boolean)
 #spu=1
 
-# On Screen Display (Hodnota boolean)
+# On Screen Display (boolean)
 #osd=1
 
-# Text rendering module (reťazec / príkaz)
+# Text rendering module (string)
 #text-renderer=
 
-# Use subtitle file (reťazec / príkaz)
+# Use subtitle file (string)
 #sub-file=
 
-# Autodetect subtitle files (Hodnota boolean)
+# Autodetect subtitle files (boolean)
 #sub-autodetect-file=1
 
-# Subtitle autodetection fuzziness (hodnota (celé číslo))
+# Subtitle autodetection fuzziness (integer)
 #sub-autodetect-fuzzy=3
 
-# Subtitle autodetection paths (reťazec / príkaz)
+# Subtitle autodetection paths (string)
 #sub-autodetect-path=.\subtitles, .\subs
 
-# Force subtitle position (hodnota (celé číslo))
+# Force subtitle position (integer)
 #sub-margin=0
 
-# Subpictures source module (reťazec / príkaz)
+# Subpictures source module (string)
 #sub-source=
 
-# Subpictures filter module (reťazec / príkaz)
+# Subpictures filter module (string)
 #sub-filter=
 
-# Program (hodnota (celé číslo))
+# Program (integer)
 #program=0
 
-# Programs (reťazec / príkaz)
+# Programs (string)
 #programs=
 
-# Audio track (hodnota (celé číslo))
+# Audio track (integer)
 #audio-track=-1
 
-# Subtitle track (hodnota (celé číslo))
+# Subtitle track (integer)
 #sub-track=-1
 
-# Audio language (reťazec / príkaz)
+# Audio language (string)
 #audio-language=
 
-# Subtitle language (reťazec / príkaz)
+# Subtitle language (string)
 #sub-language=
 
-# Menu language (reťazec / príkaz)
+# Menu language (string)
 #menu-language=
 
-# Audio track ID (hodnota (celé číslo))
+# Audio track ID (integer)
 #audio-track-id=-1
 
-# Subtitle track ID (hodnota (celé číslo))
+# Subtitle track ID (integer)
 #sub-track-id=-1
 
-# Preferred video resolution (hodnota (celé číslo))
+# Preferred video resolution (integer)
 #preferred-resolution=-1
 
-# Input repetitions (hodnota (celé číslo))
+# Input repetitions (integer)
 #input-repeat=0
 
-# Start time (hodnota (desatinná))
+# Start time (float)
 #start-time=0.000000
 
-# Stop time (hodnota (desatinná))
+# Stop time (float)
 #stop-time=0.000000
 
-# Run time (hodnota (desatinná))
+# Run time (float)
 #run-time=0.000000
 
-# Fast seek (Hodnota boolean)
+# Fast seek (boolean)
 #input-fast-seek=0
 
-# Playback speed (hodnota (desatinná))
+# Playback speed (float)
 #rate=1.000000
 
-# Input list (reťazec / príkaz)
+# Input list (string)
 #input-list=
 
-# Input slave (experimental) (reťazec / príkaz)
+# Input slave (experimental) (string)
 #input-slave=
 
-# Bookmarks list for a stream (reťazec / príkaz)
+# Bookmarks list for a stream (string)
 #bookmarks=
 
-# DVD device (reťazec / príkaz)
+# DVD device (string)
 #dvd=
 
-# VCD device (reťazec / príkaz)
+# VCD device (string)
 #vcd=D:
 
-# Audio CD device (reťazec / príkaz)
+# Audio CD device (string)
 #cd-audio=D:
 
-# MTU of the network interface (hodnota (celé číslo))
+# MTU of the network interface (integer)
 #mtu=1400
 
-# TCP connection timeout (hodnota (celé číslo))
+# TCP connection timeout (integer)
 #ipv4-timeout=5000
 
-# HTTP server address (reťazec / príkaz)
+# HTTP server address (string)
 #http-host=
 
-# HTTP server port (hodnota (celé číslo))
+# HTTP server port (integer)
 #http-port=8080
 
-# HTTPS server port (hodnota (celé číslo))
+# HTTPS server port (integer)
 #https-port=8443
 
-# RTSP server address (reťazec / príkaz)
+# RTSP server address (string)
 #rtsp-host=
 
-# RTSP server port (hodnota (celé číslo))
+# RTSP server port (integer)
 #rtsp-port=554
 
-# HTTP/TLS server certificate (reťazec / príkaz)
+# HTTP/TLS server certificate (string)
 #http-cert=
 
-# HTTP/TLS server private key (reťazec / príkaz)
+# HTTP/TLS server private key (string)
 #http-key=
 
-# HTTP/TLS Certificate Authority (reťazec / príkaz)
+# HTTP/TLS Certificate Authority (string)
 #http-ca=
 
-# HTTP/TLS Certificate Revocation List (reťazec / príkaz)
+# HTTP/TLS Certificate Revocation List (string)
 #http-crl=
 
-# SOCKS server (reťazec / príkaz)
+# SOCKS server (string)
 #socks=
 
-# SOCKS user name (reťazec / príkaz)
+# SOCKS user name (string)
 #socks-user=
 
-# SOCKS password (reťazec / príkaz)
+# SOCKS password (string)
 #socks-pwd=
 
-# Title metadata (reťazec / príkaz)
+# Title metadata (string)
 #meta-title=
 
-# Author metadata (reťazec / príkaz)
+# Author metadata (string)
 #meta-author=
 
-# Artist metadata (reťazec / príkaz)
+# Artist metadata (string)
 #meta-artist=
 
-# Genre metadata (reťazec / príkaz)
+# Genre metadata (string)
 #meta-genre=
 
-# Copyright metadata (reťazec / príkaz)
+# Copyright metadata (string)
 #meta-copyright=
 
-# Description metadata (reťazec / príkaz)
+# Description metadata (string)
 #meta-description=
 
-# Date metadata (reťazec / príkaz)
+# Date metadata (string)
 #meta-date=
 
-# URL metadata (reťazec / príkaz)
+# URL metadata (string)
 #meta-url=
 
-# File caching (ms) (hodnota (celé číslo))
+# File caching (ms) (integer)
 #file-caching=300
 
-# Live capture caching (ms) (hodnota (celé číslo))
+# Live capture caching (ms) (integer)
 #live-caching=300
 
-# Disc caching (ms) (hodnota (celé číslo))
+# Disc caching (ms) (integer)
 #disc-caching=300
 
-# Network caching (ms) (hodnota (celé číslo))
+# Network caching (ms) (integer)
 #network-caching=1000
 
-# Clock reference average counter (hodnota (celé číslo))
+# Clock reference average counter (integer)
 #cr-average=40
 
-# Clock synchronisation (hodnota (celé číslo))
+# Clock synchronisation (integer)
 #clock-synchro=-1
 
-# Clock jitter (hodnota (celé číslo))
+# Clock jitter (integer)
 #clock-jitter=5000
 
-# Network synchronisation (Hodnota boolean)
+# Network synchronisation (boolean)
 #network-synchronisation=0
 
-# Record directory or filename (reťazec / príkaz)
+# Record directory or filename (string)
 #input-record-path=
 
-# Prefer native stream recording (Hodnota boolean)
+# Prefer native stream recording (boolean)
 #input-record-native=1
 
-# Timeshift directory (reťazec / príkaz)
+# Timeshift directory (string)
 #input-timeshift-path=
 
-# Timeshift granularity (hodnota (celé číslo))
+# Timeshift granularity (integer)
 #input-timeshift-granularity=-1
 
-# Change title according to current media (reťazec / príkaz)
+# Change title according to current media (string)
 #input-title-format=$Z
 
-# Preferred decoders list (reťazec / príkaz)
+# Preferred decoders list (string)
 #codec=
 
-# Preferred encoders list (reťazec / príkaz)
+# Preferred encoders list (string)
 #encoder=
 
-# Access module (reťazec / príkaz)
+# Access module (string)
 #access=
 
-# Demux module (reťazec / príkaz)
+# Demux module (string)
 #demux=any
 
-# Stream filter module (reťazec / príkaz)
+# Stream filter module (string)
 #stream-filter=
 
-# Default stream output chain (reťazec / príkaz)
+# Default stream output chain (string)
 #sout=
 
-# Display while streaming (Hodnota boolean)
+# Display while streaming (boolean)
 #sout-display=0
 
-# Keep stream output open (Hodnota boolean)
+# Keep stream output open (boolean)
 #sout-keep=0
 
-# Enable streaming of all ES (Hodnota boolean)
+# Enable streaming of all ES (boolean)
 #sout-all=1
 
-# Enable audio stream output (Hodnota boolean)
+# Enable audio stream output (boolean)
 #sout-audio=1
 
-# Enable video stream output (Hodnota boolean)
+# Enable video stream output (boolean)
 #sout-video=1
 
-# Enable SPU stream output (Hodnota boolean)
+# Enable SPU stream output (boolean)
 #sout-spu=1
 
-# Stream output muxer caching (ms) (hodnota (celé číslo))
+# Stream output muxer caching (ms) (integer)
 #sout-mux-caching=1500
 
-# VLM configuration file (reťazec / príkaz)
+# VLM configuration file (string)
 #vlm-conf=
 
-# SAP announcement interval (hodnota (celé číslo))
+# SAP announcement interval (integer)
 #sap-interval=5
 
-# Mux module (reťazec / príkaz)
+# Mux module (string)
 #mux=
 
-# Access output module (reťazec / príkaz)
+# Access output module (string)
 #access_output=
 
-# Hop limit (TTL) (hodnota (celé číslo))
+# Hop limit (TTL) (integer)
 #ttl=-1
 
-# Multicast output interface (reťazec / príkaz)
+# Multicast output interface (string)
 #miface=
 
-# DiffServ Code Point (hodnota (celé číslo))
+# DiffServ Code Point (integer)
 #dscp=0
 
-# Preferred packetizer list (reťazec / príkaz)
+# Preferred packetizer list (string)
 #packetizer=
 
-# VoD server module (reťazec / príkaz)
+# VoD server module (string)
 #vod-server=
 
-# Use a plugins cache (Hodnota boolean)
+# Use a plugins cache (boolean)
 #plugins-cache=1
 
-# Increase the priority of the process (Hodnota boolean)
+# Increase the priority of the process (boolean)
 #high-priority=0
 
-# Clock source (reťazec / príkaz)
+# Clock source (string)
 #clock-source=
 
-# Play files randomly forever (Hodnota boolean)
+# Play files randomly forever (boolean)
 #random=0
 
-# Repeat all (Hodnota boolean)
+# Repeat all (boolean)
 #loop=0
 
-# Repeat current item (Hodnota boolean)
+# Repeat current item (boolean)
 #repeat=0
 
-# Play and exit (Hodnota boolean)
+# Play and exit (boolean)
 #play-and-exit=0
 
-# Play and stop (Hodnota boolean)
+# Play and stop (boolean)
 #play-and-stop=0
 
-# Play and pause (Hodnota boolean)
+# Play and pause (boolean)
 #play-and-pause=0
 
-# Auto start (Hodnota boolean)
+# Auto start (boolean)
 #playlist-autostart=1
 
-# Pause on audio communication (Hodnota boolean)
+# Pause on audio communication (boolean)
 #playlist-cork=1
 
-# Allow only one running instance (Hodnota boolean)
+# Allow only one running instance (boolean)
 #one-instance=0
 
-# Use only one instance when started from file manager (Hodnota boolean)
+# Use only one instance when started from file manager (boolean)
 #one-instance-when-started-from-file=1
 
-# Enqueue items into playlist in one instance mode (Hodnota boolean)
+# Enqueue items into playlist in one instance mode (boolean)
 #playlist-enqueue=0
 
-# Use media library (Hodnota boolean)
+# Use media library (boolean)
 #media-library=0
 
-# Display playlist tree (Hodnota boolean)
+# Display playlist tree (boolean)
 #playlist-tree=0
 
-# Default stream (reťazec / príkaz)
+# Default stream (string)
 #open=
 
-# Automatically preparse files (Hodnota boolean)
+# Automatically preparse files (boolean)
 #auto-preparse=1
 
-# Allow metadata network access (Hodnota boolean)
+# Allow metadata network access (boolean)
 #metadata-network-access=0
 
-# Services discovery modules (reťazec / príkaz)
+# Services discovery modules (string)
 #services-discovery=
 
-# Log to file (Hodnota boolean)
+# Log to file (boolean)
 #file-logging=0
 
-# Show advanced options (Hodnota boolean)
+# Show advanced options (boolean)
 #advanced=0
 
-# Interface interaction (Hodnota boolean)
+# Interface interaction (boolean)
 #interact=1
 
-# Locally collect statistics (Hodnota boolean)
+# Locally collect statistics (boolean)
 #stats=1
 
-# Interface module (reťazec / príkaz)
+# Interface module (string)
 #intf=
 
-# Extra interface modules (reťazec / príkaz)
+# Extra interface modules (string)
 #extraintf=
 
-# Control interfaces (reťazec / príkaz)
+# Control interfaces (string)
 #control=
 
-# MouseWheel up-down axis Control (hodnota (celé číslo))
+# MouseWheel up-down axis Control (integer)
 #hotkeys-mousewheel-mode=0
 
-# Fullscreen (reťazec / príkaz)
+# Fullscreen (string)
 #global-key-toggle-fullscreen=
 
-# Fullscreen (reťazec / príkaz)
+# Fullscreen (string)
 #key-toggle-fullscreen=f
 
-# Exit fullscreen (reťazec / príkaz)
+# Exit fullscreen (string)
 #global-key-leave-fullscreen=
 
-# Exit fullscreen (reťazec / príkaz)
+# Exit fullscreen (string)
 #key-leave-fullscreen=Esc
 
-# Play/Pause (reťazec / príkaz)
+# Play/Pause (string)
 #global-key-play-pause=
 
-# Play/Pause (reťazec / príkaz)
+# Play/Pause (string)
 #key-play-pause=Space
 
-# Pause only (reťazec / príkaz)
+# Pause only (string)
 #global-key-pause=
 
-# Pause only (reťazec / príkaz)
+# Pause only (string)
 #key-pause=Browser Stop
 
-# Play only (reťazec / príkaz)
+# Play only (string)
 #global-key-play=
 
-# Play only (reťazec / príkaz)
+# Play only (string)
 #key-play=Browser Refresh
 
-# Faster (reťazec / príkaz)
+# Faster (string)
 #global-key-faster=
 
-# Faster (reťazec / príkaz)
+# Faster (string)
 #key-faster=+
 
-# Slower (reťazec / príkaz)
+# Slower (string)
 #global-key-slower=
 
-# Slower (reťazec / príkaz)
+# Slower (string)
 #key-slower=-
 
-# Normal rate (reťazec / príkaz)
+# Normal rate (string)
 #global-key-rate-normal=
 
-# Normal rate (reťazec / príkaz)
+# Normal rate (string)
 #key-rate-normal==
 
-# Faster (fine) (reťazec / príkaz)
+# Faster (fine) (string)
 #global-key-rate-faster-fine=
 
-# Faster (fine) (reťazec / príkaz)
+# Faster (fine) (string)
 #key-rate-faster-fine=]
 
-# Slower (fine) (reťazec / príkaz)
+# Slower (fine) (string)
 #global-key-rate-slower-fine=
 
-# Slower (fine) (reťazec / príkaz)
+# Slower (fine) (string)
 #key-rate-slower-fine=[
 
-# Next (reťazec / príkaz)
+# Next (string)
 #global-key-next=
 
-# Next (reťazec / príkaz)
+# Next (string)
 #key-next=n
 
-# Previous (reťazec / príkaz)
+# Previous (string)
 #global-key-prev=
 
-# Previous (reťazec / príkaz)
+# Previous (string)
 #key-prev=p
 
-# Stop (reťazec / príkaz)
+# Stop (string)
 #global-key-stop=
 
-# Stop (reťazec / príkaz)
+# Stop (string)
 #key-stop=s
 
-# Position (reťazec / príkaz)
+# Position (string)
 #global-key-position=
 
-# Position (reťazec / príkaz)
+# Position (string)
 #key-position=t
 
-# Very short backwards jump (reťazec / príkaz)
+# Very short backwards jump (string)
 #global-key-jump-extrashort=
 
-# Very short backwards jump (reťazec / príkaz)
+# Very short backwards jump (string)
 #key-jump-extrashort=Shift+Left
 
-# Very short forward jump (reťazec / príkaz)
+# Very short forward jump (string)
 #global-key-jump+extrashort=
 
-# Very short forward jump (reťazec / príkaz)
+# Very short forward jump (string)
 #key-jump+extrashort=Shift+Right
 
-# Short backwards jump (reťazec / príkaz)
+# Short backwards jump (string)
 #global-key-jump-short=
 
-# Short backwards jump (reťazec / príkaz)
+# Short backwards jump (string)
 #key-jump-short=Alt+Left
 
-# Short forward jump (reťazec / príkaz)
+# Short forward jump (string)
 #global-key-jump+short=
 
-# Short forward jump (reťazec / príkaz)
+# Short forward jump (string)
 #key-jump+short=Alt+Right
 
-# Medium backwards jump (reťazec / príkaz)
+# Medium backwards jump (string)
 #global-key-jump-medium=
 
-# Medium backwards jump (reťazec / príkaz)
+# Medium backwards jump (string)
 #key-jump-medium=Ctrl+Left
 
-# Medium forward jump (reťazec / príkaz)
+# Medium forward jump (string)
 #global-key-jump+medium=
 
-# Medium forward jump (reťazec / príkaz)
+# Medium forward jump (string)
 #key-jump+medium=Ctrl+Right
 
-# Long backwards jump (reťazec / príkaz)
+# Long backwards jump (string)
 #global-key-jump-long=
 
-# Long backwards jump (reťazec / príkaz)
+# Long backwards jump (string)
 #key-jump-long=Ctrl+Alt+Left
 
-# Long forward jump (reťazec / príkaz)
+# Long forward jump (string)
 #global-key-jump+long=
 
-# Long forward jump (reťazec / príkaz)
+# Long forward jump (string)
 #key-jump+long=Ctrl+Alt+Right
 
-# Next frame (reťazec / príkaz)
+# Next frame (string)
 #global-key-frame-next=
 
-# Next frame (reťazec / príkaz)
+# Next frame (string)
 #key-frame-next=e
 
-# Activate (reťazec / príkaz)
+# Activate (string)
 #global-key-nav-activate=
 
-# Activate (reťazec / príkaz)
+# Activate (string)
 #key-nav-activate=Enter
 
-# Navigate up (reťazec / príkaz)
+# Navigate up (string)
 #global-key-nav-up=
 
-# Navigate up (reťazec / príkaz)
+# Navigate up (string)
 #key-nav-up=Up
 
-# Navigate down (reťazec / príkaz)
+# Navigate down (string)
 #global-key-nav-down=
 
-# Navigate down (reťazec / príkaz)
+# Navigate down (string)
 #key-nav-down=Down
 
-# Navigate left (reťazec / príkaz)
+# Navigate left (string)
 #global-key-nav-left=
 
-# Navigate left (reťazec / príkaz)
+# Navigate left (string)
 #key-nav-left=Left
 
-# Navigate right (reťazec / príkaz)
+# Navigate right (string)
 #global-key-nav-right=
 
-# Navigate right (reťazec / príkaz)
+# Navigate right (string)
 #key-nav-right=Right
 
-# Go to the DVD menu (reťazec / príkaz)
+# Go to the DVD menu (string)
 #global-key-disc-menu=
 
-# Go to the DVD menu (reťazec / príkaz)
+# Go to the DVD menu (string)
 #key-disc-menu=Shift+m
 
-# Select previous DVD title (reťazec / príkaz)
+# Select previous DVD title (string)
 #global-key-title-prev=
 
-# Select previous DVD title (reťazec / príkaz)
+# Select previous DVD title (string)
 #key-title-prev=Shift+o
 
-# Select next DVD title (reťazec / príkaz)
+# Select next DVD title (string)
 #global-key-title-next=
 
-# Select next DVD title (reťazec / príkaz)
+# Select next DVD title (string)
 #key-title-next=Shift+b
 
-# Select prev DVD chapter (reťazec / príkaz)
+# Select prev DVD chapter (string)
 #global-key-chapter-prev=
 
-# Select prev DVD chapter (reťazec / príkaz)
+# Select prev DVD chapter (string)
 #key-chapter-prev=Shift+p
 
-# Select next DVD chapter (reťazec / príkaz)
+# Select next DVD chapter (string)
 #global-key-chapter-next=
 
-# Select next DVD chapter (reťazec / príkaz)
+# Select next DVD chapter (string)
 #key-chapter-next=Shift+n
 
-# Quit (reťazec / príkaz)
+# Quit (string)
 #global-key-quit=
 
-# Quit (reťazec / príkaz)
+# Quit (string)
 #key-quit=Ctrl+q
 
-# Volume up (reťazec / príkaz)
+# Volume up (string)
 #global-key-vol-up=
 
-# Volume up (reťazec / príkaz)
+# Volume up (string)
 #key-vol-up=Ctrl+Up
 
-# Volume down (reťazec / príkaz)
+# Volume down (string)
 #global-key-vol-down=
 
-# Volume down (reťazec / príkaz)
+# Volume down (string)
 #key-vol-down=Ctrl+Down
 
-# Mute (reťazec / príkaz)
+# Mute (string)
 #global-key-vol-mute=
 
-# Mute (reťazec / príkaz)
+# Mute (string)
 #key-vol-mute=m
 
-# Subtitle delay up (reťazec / príkaz)
+# Subtitle delay up (string)
 #global-key-subdelay-up=
 
-# Subtitle delay up (reťazec / príkaz)
+# Subtitle delay up (string)
 #key-subdelay-up=h
 
-# Subtitle delay down (reťazec / príkaz)
+# Subtitle delay down (string)
 #global-key-subdelay-down=
 
-# Subtitle delay down (reťazec / príkaz)
+# Subtitle delay down (string)
 #key-subdelay-down=g
 
-# Subtitle sync / bookmark audio timestamp (reťazec / príkaz)
+# Subtitle sync / bookmark audio timestamp (string)
 #global-key-subsync-markaudio=
 
-# Subtitle sync / bookmark audio timestamp (reťazec / príkaz)
+# Subtitle sync / bookmark audio timestamp (string)
 #key-subsync-markaudio=Shift+h
 
-# Subtitle sync / bookmark subtitle timestamp (reťazec / príkaz)
+# Subtitle sync / bookmark subtitle timestamp (string)
 #global-key-subsync-marksub=
 
-# Subtitle sync / bookmark subtitle timestamp (reťazec / príkaz)
+# Subtitle sync / bookmark subtitle timestamp (string)
 #key-subsync-marksub=Shift+j
 
-# Subtitle sync / synchronize audio & subtitle timestamps (reťazec / príkaz)
+# Subtitle sync / synchronize audio & subtitle timestamps (string)
 #global-key-subsync-apply=
 
-# Subtitle sync / synchronize audio & subtitle timestamps (reťazec / príkaz)
+# Subtitle sync / synchronize audio & subtitle timestamps (string)
 #key-subsync-apply=Shift+k
 
-# Subtitle sync / reset audio & subtitle synchronization (reťazec / príkaz)
+# Subtitle sync / reset audio & subtitle synchronization (string)
 #global-key-subsync-reset=
 
-# Subtitle sync / reset audio & subtitle synchronization (reťazec / príkaz)
+# Subtitle sync / reset audio & subtitle synchronization (string)
 #key-subsync-reset=Ctrl+Shift+k
 
-# Subtitle position up (reťazec / príkaz)
+# Subtitle position up (string)
 #global-key-subpos-up=
 
-# Subtitle position up (reťazec / príkaz)
+# Subtitle position up (string)
 #key-subpos-up=
 
-# Subtitle position down (reťazec / príkaz)
+# Subtitle position down (string)
 #global-key-subpos-down=
 
-# Subtitle position down (reťazec / príkaz)
+# Subtitle position down (string)
 #key-subpos-down=
 
-# Audio delay up (reťazec / príkaz)
+# Audio delay up (string)
 #global-key-audiodelay-up=
 
-# Audio delay up (reťazec / príkaz)
+# Audio delay up (string)
 #key-audiodelay-up=k
 
-# Audio delay down (reťazec / príkaz)
+# Audio delay down (string)
 #global-key-audiodelay-down=
 
-# Audio delay down (reťazec / príkaz)
+# Audio delay down (string)
 #key-audiodelay-down=j
 
-# Cycle audio track (reťazec / príkaz)
+# Cycle audio track (string)
 #global-key-audio-track=
 
-# Cycle audio track (reťazec / príkaz)
+# Cycle audio track (string)
 #key-audio-track=b
 
-# Cycle through audio devices (reťazec / príkaz)
+# Cycle through audio devices (string)
 #global-key-audiodevice-cycle=
 
-# Cycle through audio devices (reťazec / príkaz)
+# Cycle through audio devices (string)
 #key-audiodevice-cycle=Shift+a
 
-# Cycle subtitle track (reťazec / príkaz)
+# Cycle subtitle track (string)
 #global-key-subtitle-track=
 
-# Cycle subtitle track (reťazec / príkaz)
+# Cycle subtitle track (string)
 #key-subtitle-track=v
 
-# Toggle subtitles (reťazec / príkaz)
+# Toggle subtitles (string)
 #global-key-subtitle-toggle=
 
-# Toggle subtitles (reťazec / príkaz)
+# Toggle subtitles (string)
 #key-subtitle-toggle=Shift+v
 
-# Cycle next program Service ID (reťazec / príkaz)
+# Cycle next program Service ID (string)
 #global-key-program-sid-next=
 
-# Cycle next program Service ID (reťazec / príkaz)
+# Cycle next program Service ID (string)
 #key-program-sid-next=x
 
-# Cycle previous program Service ID (reťazec / príkaz)
+# Cycle previous program Service ID (string)
 #global-key-program-sid-prev=
 
-# Cycle previous program Service ID (reťazec / príkaz)
+# Cycle previous program Service ID (string)
 #key-program-sid-prev=Shift+x
 
-# Cycle source aspect ratio (reťazec / príkaz)
+# Cycle source aspect ratio (string)
 #global-key-aspect-ratio=
 
-# Cycle source aspect ratio (reťazec / príkaz)
+# Cycle source aspect ratio (string)
 #key-aspect-ratio=a
 
-# Cycle video crop (reťazec / príkaz)
+# Cycle video crop (string)
 #global-key-crop=
 
-# Cycle video crop (reťazec / príkaz)
+# Cycle video crop (string)
 #key-crop=c
 
-# Toggle autoscaling (reťazec / príkaz)
+# Toggle autoscaling (string)
 #global-key-toggle-autoscale=
 
-# Toggle autoscaling (reťazec / príkaz)
+# Toggle autoscaling (string)
 #key-toggle-autoscale=o
 
-# Increase scale factor (reťazec / príkaz)
+# Increase scale factor (string)
 #global-key-incr-scalefactor=
 
-# Increase scale factor (reťazec / príkaz)
+# Increase scale factor (string)
 #key-incr-scalefactor=Alt+o
 
-# Decrease scale factor (reťazec / príkaz)
+# Decrease scale factor (string)
 #global-key-decr-scalefactor=
 
-# Decrease scale factor (reťazec / príkaz)
+# Decrease scale factor (string)
 #key-decr-scalefactor=Alt+Shift+o
 
-# Toggle deinterlacing (reťazec / príkaz)
+# Toggle deinterlacing (string)
 #global-key-deinterlace=
 
-# Toggle deinterlacing (reťazec / príkaz)
+# Toggle deinterlacing (string)
 #key-deinterlace=d
 
-# Cycle deinterlace modes (reťazec / príkaz)
+# Cycle deinterlace modes (string)
 #global-key-deinterlace-mode=
 
-# Cycle deinterlace modes (reťazec / príkaz)
+# Cycle deinterlace modes (string)
 #key-deinterlace-mode=Shift+d
 
-# Show controller in fullscreen (reťazec / príkaz)
+# Show controller in fullscreen (string)
 #global-key-intf-show=
 
-# Show controller in fullscreen (reťazec / príkaz)
+# Show controller in fullscreen (string)
 #key-intf-show=i
 
-# Boss key (reťazec / príkaz)
+# Boss key (string)
 #global-key-intf-boss=
 
-# Boss key (reťazec / príkaz)
+# Boss key (string)
 #key-intf-boss=
 
-# Context menu (reťazec / príkaz)
+# Context menu (string)
 #global-key-intf-popup-menu=
 
-# Context menu (reťazec / príkaz)
+# Context menu (string)
 #key-intf-popup-menu=Menu
 
-# Take video snapshot (reťazec / príkaz)
+# Take video snapshot (string)
 #global-key-snapshot=
 
-# Take video snapshot (reťazec / príkaz)
+# Take video snapshot (string)
 #key-snapshot=Shift+s
 
-# Record (reťazec / príkaz)
+# Record (string)
 #global-key-record=
 
-# Record (reťazec / príkaz)
+# Record (string)
 #key-record=Shift+r
 
-# Zoom (reťazec / príkaz)
+# Zoom (string)
 #global-key-zoom=
 
-# Zoom (reťazec / príkaz)
+# Zoom (string)
 #key-zoom=z
 
-# Un-Zoom (reťazec / príkaz)
+# Un-Zoom (string)
 #global-key-unzoom=
 
-# Un-Zoom (reťazec / príkaz)
+# Un-Zoom (string)
 #key-unzoom=Shift+z
 
-# Toggle wallpaper mode in video output (reťazec / príkaz)
+# Toggle wallpaper mode in video output (string)
 #global-key-wallpaper=
 
-# Toggle wallpaper mode in video output (reťazec / príkaz)
+# Toggle wallpaper mode in video output (string)
 #key-wallpaper=w
 
-# Crop one pixel from the top of the video (reťazec / príkaz)
+# Crop one pixel from the top of the video (string)
 #global-key-crop-top=
 
-# Crop one pixel from the top of the video (reťazec / príkaz)
+# Crop one pixel from the top of the video (string)
 #key-crop-top=Alt+r
 
-# Uncrop one pixel from the top of the video (reťazec / príkaz)
+# Uncrop one pixel from the top of the video (string)
 #global-key-uncrop-top=
 
-# Uncrop one pixel from the top of the video (reťazec / príkaz)
+# Uncrop one pixel from the top of the video (string)
 #key-uncrop-top=Alt+Shift+r
 
-# Crop one pixel from the left of the video (reťazec / príkaz)
+# Crop one pixel from the left of the video (string)
 #global-key-crop-left=
 
-# Crop one pixel from the left of the video (reťazec / príkaz)
+# Crop one pixel from the left of the video (string)
 #key-crop-left=Alt+d
 
-# Uncrop one pixel from the left of the video (reťazec / príkaz)
+# Uncrop one pixel from the left of the video (string)
 #global-key-uncrop-left=
 
-# Uncrop one pixel from the left of the video (reťazec / príkaz)
+# Uncrop one pixel from the left of the video (string)
 #key-uncrop-left=Alt+Shift+d
 
-# Crop one pixel from the bottom of the video (reťazec / príkaz)
+# Crop one pixel from the bottom of the video (string)
 #global-key-crop-bottom=
 
-# Crop one pixel from the bottom of the video (reťazec / príkaz)
+# Crop one pixel from the bottom of the video (string)
 #key-crop-bottom=Alt+c
 
-# Uncrop one pixel from the bottom of the video (reťazec / príkaz)
+# Uncrop one pixel from the bottom of the video (string)
 #global-key-uncrop-bottom=
 
-# Uncrop one pixel from the bottom of the video (reťazec / príkaz)
+# Uncrop one pixel from the bottom of the video (string)
 #key-uncrop-bottom=Alt+Shift+c
 
-# Crop one pixel from the right of the video (reťazec / príkaz)
+# Crop one pixel from the right of the video (string)
 #global-key-crop-right=
 
-# Crop one pixel from the right of the video (reťazec / príkaz)
+# Crop one pixel from the right of the video (string)
 #key-crop-right=Alt+f
 
-# Uncrop one pixel from the right of the video (reťazec / príkaz)
+# Uncrop one pixel from the right of the video (string)
 #global-key-uncrop-right=
 
-# Uncrop one pixel from the right of the video (reťazec / príkaz)
+# Uncrop one pixel from the right of the video (string)
 #key-uncrop-right=Alt+Shift+f
 
-# Random (reťazec / príkaz)
+# Random (string)
 #global-key-random=
 
-# Random (reťazec / príkaz)
+# Random (string)
 #key-random=r
 
-# Normal/Loop/Repeat (reťazec / príkaz)
+# Normal/Loop/Repeat (string)
 #global-key-loop=
 
-# Normal/Loop/Repeat (reťazec / príkaz)
+# Normal/Loop/Repeat (string)
 #key-loop=l
 
-# 1:4 Quarter (reťazec / príkaz)
+# 1:4 Quarter (string)
 #global-key-zoom-quarter=
 
-# 1:4 Quarter (reťazec / príkaz)
+# 1:4 Quarter (string)
 #key-zoom-quarter=Alt+1
 
-# 1:2 Half (reťazec / príkaz)
+# 1:2 Half (string)
 #global-key-zoom-half=
 
-# 1:2 Half (reťazec / príkaz)
+# 1:2 Half (string)
 #key-zoom-half=Alt+2
 
-# 1:1 Original (reťazec / príkaz)
+# 1:1 Original (string)
 #global-key-zoom-original=
 
-# 1:1 Original (reťazec / príkaz)
+# 1:1 Original (string)
 #key-zoom-original=Alt+3
 
-# 2:1 Double (reťazec / príkaz)
+# 2:1 Double (string)
 #global-key-zoom-double=
 
-# 2:1 Double (reťazec / príkaz)
+# 2:1 Double (string)
 #key-zoom-double=Alt+4
 
-# Very short jump length (hodnota (celé číslo))
+# Very short jump length (integer)
 #extrashort-jump-size=3
 
-# Short jump length (hodnota (celé číslo))
+# Short jump length (integer)
 #short-jump-size=10
 
-# Medium jump length (hodnota (celé číslo))
+# Medium jump length (integer)
 #medium-jump-size=60
 
-# Long jump length (hodnota (celé číslo))
+# Long jump length (integer)
 #long-jump-size=300
 
-# Set playlist bookmark 1 (reťazec / príkaz)
+# Set playlist bookmark 1 (string)
 #global-key-set-bookmark1=
 
-# Set playlist bookmark 1 (reťazec / príkaz)
+# Set playlist bookmark 1 (string)
 #key-set-bookmark1=Ctrl+F1
 
-# Set playlist bookmark 2 (reťazec / príkaz)
+# Set playlist bookmark 2 (string)
 #global-key-set-bookmark2=
 
-# Set playlist bookmark 2 (reťazec / príkaz)
+# Set playlist bookmark 2 (string)
 #key-set-bookmark2=Ctrl+F2
 
-# Set playlist bookmark 3 (reťazec / príkaz)
+# Set playlist bookmark 3 (string)
 #global-key-set-bookmark3=
 
-# Set playlist bookmark 3 (reťazec / príkaz)
+# Set playlist bookmark 3 (string)
 #key-set-bookmark3=Ctrl+F3
 
-# Set playlist bookmark 4 (reťazec / príkaz)
+# Set playlist bookmark 4 (string)
 #global-key-set-bookmark4=
 
-# Set playlist bookmark 4 (reťazec / príkaz)
+# Set playlist bookmark 4 (string)
 #key-set-bookmark4=Ctrl+F4
 
-# Set playlist bookmark 5 (reťazec / príkaz)
+# Set playlist bookmark 5 (string)
 #global-key-set-bookmark5=
 
-# Set playlist bookmark 5 (reťazec / príkaz)
+# Set playlist bookmark 5 (string)
 #key-set-bookmark5=Ctrl+F5
 
-# Set playlist bookmark 6 (reťazec / príkaz)
+# Set playlist bookmark 6 (string)
 #global-key-set-bookmark6=
 
-# Set playlist bookmark 6 (reťazec / príkaz)
+# Set playlist bookmark 6 (string)
 #key-set-bookmark6=Ctrl+F6
 
-# Set playlist bookmark 7 (reťazec / príkaz)
+# Set playlist bookmark 7 (string)
 #global-key-set-bookmark7=
 
-# Set playlist bookmark 7 (reťazec / príkaz)
+# Set playlist bookmark 7 (string)
 #key-set-bookmark7=Ctrl+F7
 
-# Set playlist bookmark 8 (reťazec / príkaz)
+# Set playlist bookmark 8 (string)
 #global-key-set-bookmark8=
 
-# Set playlist bookmark 8 (reťazec / príkaz)
+# Set playlist bookmark 8 (string)
 #key-set-bookmark8=Ctrl+F8
 
-# Set playlist bookmark 9 (reťazec / príkaz)
+# Set playlist bookmark 9 (string)
 #global-key-set-bookmark9=
 
-# Set playlist bookmark 9 (reťazec / príkaz)
+# Set playlist bookmark 9 (string)
 #key-set-bookmark9=Ctrl+F9
 
-# Set playlist bookmark 10 (reťazec / príkaz)
+# Set playlist bookmark 10 (string)
 #global-key-set-bookmark10=
 
-# Set playlist bookmark 10 (reťazec / príkaz)
+# Set playlist bookmark 10 (string)
 #key-set-bookmark10=Ctrl+F10
 
-# Play playlist bookmark 1 (reťazec / príkaz)
+# Play playlist bookmark 1 (string)
 #global-key-play-bookmark1=
 
-# Play playlist bookmark 1 (reťazec / príkaz)
+# Play playlist bookmark 1 (string)
 #key-play-bookmark1=F1
 
-# Play playlist bookmark 2 (reťazec / príkaz)
+# Play playlist bookmark 2 (string)
 #global-key-play-bookmark2=
 
-# Play playlist bookmark 2 (reťazec / príkaz)
+# Play playlist bookmark 2 (string)
 #key-play-bookmark2=F2
 
-# Play playlist bookmark 3 (reťazec / príkaz)
+# Play playlist bookmark 3 (string)
 #global-key-play-bookmark3=
 
-# Play playlist bookmark 3 (reťazec / príkaz)
+# Play playlist bookmark 3 (string)
 #key-play-bookmark3=F3
 
-# Play playlist bookmark 4 (reťazec / príkaz)
+# Play playlist bookmark 4 (string)
 #global-key-play-bookmark4=
 
-# Play playlist bookmark 4 (reťazec / príkaz)
+# Play playlist bookmark 4 (string)
 #key-play-bookmark4=F4
 
-# Play playlist bookmark 5 (reťazec / príkaz)
+# Play playlist bookmark 5 (string)
 #global-key-play-bookmark5=
 
-# Play playlist bookmark 5 (reťazec / príkaz)
+# Play playlist bookmark 5 (string)
 #key-play-bookmark5=F5
 
-# Play playlist bookmark 6 (reťazec / príkaz)
+# Play playlist bookmark 6 (string)
 #global-key-play-bookmark6=
 
-# Play playlist bookmark 6 (reťazec / príkaz)
+# Play playlist bookmark 6 (string)
 #key-play-bookmark6=F6
 
-# Play playlist bookmark 7 (reťazec / príkaz)
+# Play playlist bookmark 7 (string)
 #global-key-play-bookmark7=
 
-# Play playlist bookmark 7 (reťazec / príkaz)
+# Play playlist bookmark 7 (string)
 #key-play-bookmark7=F7
 
-# Play playlist bookmark 8 (reťazec / príkaz)
+# Play playlist bookmark 8 (string)
 #global-key-play-bookmark8=
 
-# Play playlist bookmark 8 (reťazec / príkaz)
+# Play playlist bookmark 8 (string)
 #key-play-bookmark8=F8
 
-# Play playlist bookmark 9 (reťazec / príkaz)
+# Play playlist bookmark 9 (string)
 #global-key-play-bookmark9=
 
-# Play playlist bookmark 9 (reťazec / príkaz)
+# Play playlist bookmark 9 (string)
 #key-play-bookmark9=F9
 
-# Play playlist bookmark 10 (reťazec / príkaz)
+# Play playlist bookmark 10 (string)
 #global-key-play-bookmark10=
 
-# Play playlist bookmark 10 (reťazec / príkaz)
+# Play playlist bookmark 10 (string)
 #key-play-bookmark10=F10
 
-# Clear the playlist (reťazec / príkaz)
+# Clear the playlist (string)
 #global-key-clear-playlist=
 
-# Clear the playlist (reťazec / príkaz)
+# Clear the playlist (string)
 #key-clear-playlist=Ctrl+w
 
-# Playlist bookmark 1 (reťazec / príkaz)
+# Playlist bookmark 1 (string)
 #bookmark1=
 
-# Playlist bookmark 2 (reťazec / príkaz)
+# Playlist bookmark 2 (string)
 #bookmark2=
 
-# Playlist bookmark 3 (reťazec / príkaz)
+# Playlist bookmark 3 (string)
 #bookmark3=
 
-# Playlist bookmark 4 (reťazec / príkaz)
+# Playlist bookmark 4 (string)
 #bookmark4=
 
-# Playlist bookmark 5 (reťazec / príkaz)
+# Playlist bookmark 5 (string)
 #bookmark5=
 
-# Playlist bookmark 6 (reťazec / príkaz)
+# Playlist bookmark 6 (string)
 #bookmark6=
 
-# Playlist bookmark 7 (reťazec / príkaz)
+# Playlist bookmark 7 (string)
 #bookmark7=
 
-# Playlist bookmark 8 (reťazec / príkaz)
+# Playlist bookmark 8 (string)
 #bookmark8=
 
-# Playlist bookmark 9 (reťazec / príkaz)
+# Playlist bookmark 9 (string)
 #bookmark9=
 
-# Playlist bookmark 10 (reťazec / príkaz)
+# Playlist bookmark 10 (string)
 #bookmark10=
 

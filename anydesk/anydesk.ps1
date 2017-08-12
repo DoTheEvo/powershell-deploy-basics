@@ -1,4 +1,4 @@
-echo "INSTALLING ANYDESK v3.2.3 (2017-05-09)"
+echo "INSTALLING ANYDESK v3.4.1 (2017-07-17)"
 # http://anydesk.com/platforms
 # http://download.anydesk.com/changelog.txt
 

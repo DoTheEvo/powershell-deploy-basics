@@ -1,4 +1,4 @@
-echo "INSTALLING PANDA v17.0.1 (~2016-08-19)"
+echo "INSTALLING PANDA v18.01.00 (~2017-05-11)"
 # https://www.google.com/search?q=panda+offline+installer&ie=utf-8&oe=utf-8
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path

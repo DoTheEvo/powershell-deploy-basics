@@ -1,4 +1,4 @@
-echo "INSTALLING SKYPE v7.36 (2017-05-09)"
+echo "INSTALLING SKYPE v7.38 (2017-06-28)"
 # http://www.skype.com/go/getskype-msi
 # https://support.skype.com/en/faq/FA34509/what-s-new-in-skype-for-windows-desktop
 

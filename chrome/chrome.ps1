@@ -1,4 +1,4 @@
-echo "INSTALLING CHROME v58.0.3029.112 (2017-05-11)"
+echo "INSTALLING CHROME 60.0.3112.97 (2017-08-09)"
 # https://www.google.com/intl/sk/chrome/browser/desktop/index.html?standalone=1
 # https://chromereleases.googleblog.com/search/label/Stable%20updates
 
