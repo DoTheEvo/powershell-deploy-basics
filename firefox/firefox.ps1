@@ -1,11 +1,12 @@
-echo "INSTALLING FIREFOX 55.0.1 (2017-08-10)"
+echo "FIREFOX 57.0.4 (2018-01-04)"
 # https://www.mozilla.org/en-US/firefox/all/#sk
 # https://www.mozilla.org/en-US/firefox/releases/
 
+echo " - installation in progress ..."
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
-Start-Process -FilePath "$parent_dir\Firefox Setup 55.0.1.exe" -ArgumentList '-ms' -Wait
+Start-Process -FilePath "$parent_dir\Firefox Setup 57.0.4.exe" -ArgumentList '-ms' -Wait
 
-echo "- extracting user profile"
+echo " - extracting user profile"
 if ($PSVersionTable.PSVersion.Major -ge 5) {
     Expand-Archive "$parent_dir\Mozilla.zip" "$parent_dir"
 } else {
@@ -16,7 +17,7 @@ if ($PSVersionTable.PSVersion.Major -ge 5) {
 }
 Start-Sleep -s 1
 
-echo "- copying user profile"
+echo " - copying user profile"
 robocopy "$parent_dir\Mozilla" "$env:APPDATA\Mozilla" /E >> "$env:temp\robo_log.txt"
 
 Remove-Item -Recurse -Force "$parent_dir\Mozilla" -ErrorAction SilentlyContinue

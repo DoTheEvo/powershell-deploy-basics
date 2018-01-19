@@ -1,10 +1,12 @@
-echo "INSTALLING IRFANVIEW v4.44 (2016-12-20)"
+echo "IRFANVIEW v4.50 (2017-10-10)"
 # http://www.irfanview.com/
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
-Start-Process -FilePath "$parent_dir\iview444_x64_setup.exe" -ArgumentList '/silent','/group=1','/allusers=1','/assoc=1','/ini=%APPDATA%\irfanview' -Wait
 
-echo "- copying config files"
+echo " - installation in progress ..."
+Start-Process -FilePath "$parent_dir\iview450_x64_setup.exe" -ArgumentList '/silent','/group=1','/allusers=1','/assoc=1','/ini=%APPDATA%\irfanview' -Wait
+
+echo " - copying config files"
 $target_dir = "$env:ProgramW6432\IrfanView\Languages"
 robocopy $parent_dir $target_dir IP_Slovak.lng >> "$env:temp\robo_log.txt"
 robocopy $parent_dir $target_dir Slovak.dll >> "$env:temp\robo_log.txt"
