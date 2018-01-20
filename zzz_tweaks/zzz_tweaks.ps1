@@ -1,10 +1,10 @@
 echo 'SYSTEM TWEAKS'
 
-echo ' - disable automatic startup of the windows media player network sharing service'
+echo ' - disable startup of windows media player network sharing service'
 Set-Service 'WMPNetworkSvc' -startupType manual
 
 echo ' - disable tcp auto-tuning'
-netsh int tcp set global autotuninglevel=disabled >> '$env:temp\robo_log.txt'
+netsh int tcp set global autotuninglevel=disabled >> "$env:temp\robo_log.txt"
 
 echo ' - show file extensions, show system files'
 $key = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
