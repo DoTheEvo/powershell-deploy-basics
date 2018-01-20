@@ -1,0 +1,9 @@
+[Setup]
+Lang=Slovak
+Dir=C:\Program Files\PDFCreator
+Group=
+NoIcons=1
+SetupType=custom
+Components=program
+Tasks=
+Printername="PDF Tlaciaren"

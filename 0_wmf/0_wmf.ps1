@@ -42,7 +42,7 @@ if ($answer -eq 6) {
     #check .net framework version, if less than 4.5 install framwework
     $net_version = (Get-ItemProperty -Path 'HKLM:\Software\Microsoft\NET Framework Setup\NDP\v4\Full' -ErrorAction SilentlyContinue).Version
     if ($net_version -lt [version]"4.5") {
-        echo " - installing .NET framework 4.5.1 ..."
+        echo " - installing .NET framework 4.7.1 ..."
         Start-Process -FilePath "$parent_dir\NDP471-KB4033342-x86-x64-AllOS-ENU.exe" -ArgumentList '/q','/norestart' -Wait
     }
 
