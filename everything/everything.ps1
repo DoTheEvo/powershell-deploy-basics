@@ -5,10 +5,7 @@ echo 'EVERYTHING v1.4.1.877 (2017-06-07)'
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 
 echo ' - installation in progress ...'
-Start-Process -FilePath "$parent_dir\Everything-1.4.1.877.x64-Setup" -ArgumentList '/S' -Wait
-
-$target_exe = "$env:ProgramFiles\Everything\Everything.exe"
-Start-Process -FilePath $target_exe -ArgumentList '-disable-run-as-admin','-install-service' -Wait
+Start-Process -FilePath "$parent_dir\Everything-1.4.1.877.x64-Setup" -ArgumentList '/S','-install-options  "-install-service  -disable-run-as-admin  -appdata"' -Wait
 
 echo ' - copying config files'
 $target_dir = "$env:APPDATA\Everything"
