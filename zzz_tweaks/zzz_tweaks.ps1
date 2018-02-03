@@ -1,13 +1,14 @@
 echo 'SYSTEM TWEAKS'
 
+echo ' - disable automatic drivers download'
+$key = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching'
+Set-ItemProperty $key SearchOrderConfig 0
+
 echo ' - disable startup of windows media player network sharing service'
 Set-Service 'WMPNetworkSvc' -startupType manual
 
-echo ' - disable tcp auto-tuning'
-netsh int tcp set global autotuninglevel=disabled >> "$env:temp\robo_log.txt"
-
 echo ' - show file extensions, show system files'
-$key = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
+$key = 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
 Set-ItemProperty $key HideFileExt 0
 Set-ItemProperty $key ShowSuperHidden 1
 #Stop-Process -processname explorer
