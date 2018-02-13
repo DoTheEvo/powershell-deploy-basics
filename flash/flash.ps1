@@ -1,6 +1,6 @@
 # https://get.adobe.com/flashplayer/
 
-echo 'FLASH v28.0 (2018-01-18)'
+echo 'FLASH v28.0.0.161 (2018-02-12)'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 echo ' - installation in progress ...'

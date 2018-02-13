@@ -12,9 +12,9 @@ if ($major_vers -ge 10) {
 } else {
 
     echo ' - importing certificate'
-    certutil -addstore TrustedPublisher "$parent_dir\wincdemu.cer"
+    # certmgr.msc
+    certutil -addstore TrustedPublisher "$parent_dir\wincdemu.cer" >> "$env:temp\robo_log.txt"
     #$cert = Import-Certificate -FilePath "$parent_dir\wincdemu.cer" -CertStoreLocation 'Cert:\LocalMachine\TrustedPublisher'
-    Write-Output " - imported certificate"
 
     echo ' - installation in progress ...'
     Start-Process -FilePath "$parent_dir\WinCDEmu-4.1.exe" -ArgumentList '/UNATTENDED' -Wait
