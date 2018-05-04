@@ -3,7 +3,7 @@
 $major_vers = [Environment]::OSVersion.Version.Major
 
 if ($major_vers -eq 10) {
-    echo 'WINDOWS 10 DETECTED - RUNNING ShutUp10 v1.6.1395 (2017-12-21)'
+    echo 'WINDOWS 10 DETECTED - RUNNING ShutUp10 v1.6.1396 (2018-05-02)'
     echo ' - apply it manually'
 
     $parent_dir = Split-Path $MyInvocation.MyCommand.Path
