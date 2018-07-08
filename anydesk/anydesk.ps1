@@ -1,7 +1,7 @@
 # http://anydesk.com/platforms
 # http://download.anydesk.com/changelog.txt
 
-echo 'ANYDESK v4.0.1 (2018-04-18)'
+echo 'ANYDESK v4.1.3 (2018-06-12)'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 

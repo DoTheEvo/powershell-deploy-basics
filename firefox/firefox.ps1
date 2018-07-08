@@ -1,12 +1,12 @@
 # https://www.mozilla.org/en-US/firefox/all/#sk
 # https://www.mozilla.org/en-US/firefox/releases/
 
-echo 'FIREFOX 59.0.3 (2018-04-30)'
+echo 'FIREFOX 61.0.1 (2018-07-05)'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 
 echo ' - installation in progress ...'
-Start-Process -FilePath "$parent_dir\Firefox Setup 59.0.3.exe" -ArgumentList '-ms' -Wait
+Start-Process -FilePath "$parent_dir\Firefox Setup 61.0.1.exe" -ArgumentList '-ms' -Wait
 
 echo ' - extracting user profile'
 if ($PSVersionTable.PSVersion.Major -ge 5) {

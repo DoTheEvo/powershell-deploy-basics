@@ -1,18 +1,18 @@
-echo '.NET Framework 4.7.1 (2018-01-19)'
+echo '.NET Framework 4.7.2 (2018-04-30)'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 
 # check NET framework version
 $NET_info = Get-ItemProperty -Path 'HKLM:\Software\Microsoft\NET Framework Setup\NDP\v4\Full' -ErrorAction SilentlyContinue
 echo " - current version: $($NET_info.Version)"
-if ($NET_info.Release -lt 461308) {
+if ($NET_info.Release -lt 461808) {
     echo ' - installation in progress ...'
-    Start-Process -FilePath "$parent_dir\NDP471-KB4033342-x86-x64-AllOS-ENU.exe" -ArgumentList '/q','/norestart' -Wait
+    Start-Process -FilePath "$parent_dir\NDP472-KB4054530-x86-x64-AllOS-ENU.exe" -ArgumentList '/q','/norestart' -Wait
 } else {
     ' - NET framework is up to date'
 }
 
-echo '.NET Framework 4.7.1 DONE'
+echo '.NET Framework 4.7.2 DONE'
 echo '------------------------------------------------------------------------------'
 
 echo '.NET Framework 3.5 (2017-12-01)'

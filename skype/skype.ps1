@@ -1,7 +1,7 @@
 # http://www.skype.com/go/getskype-msi
 # https://support.skype.com/en/faq/FA34509/what-s-new-in-skype-for-windows-desktop
 
-echo 'SKYPE 7.40.0.104 (2017-10-30)'
+echo 'SKYPE 7.41.0.101 (2018-03-28)'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 
