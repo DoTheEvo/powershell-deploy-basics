@@ -1,7 +1,7 @@
 # https://www.google.com/intl/sk/chrome/browser/desktop/index.html?standalone=1
 # https://chromereleases.googleblog.com/search/label/Stable%20updates
 
-echo 'CHROME 67.0.3396.99 (2018-06-25)'
+echo 'CHROME 72.0.3626.121 (2019-03-01)'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 $target_dir = "${env:ProgramFiles(x86)}\Google\Chrome\Application"

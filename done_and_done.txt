@@ -1,0 +1,31 @@
+- ovladace
+- kontrola DVD mechaniky
+- antivirus
+- aktivovany windows/office
+- kontrola associacii //../batat/test/ adresar
+- funkcne klavesy / touchpad
+- zvuk
+- ak libreoffice, default save_as
+- power managment, fastboot off, power button off
+- updaty, skontrolovat nastavenie updatov
+- prefukat / displej
+- odinstalovat neziaduce programy
+- upravene start menu
+- spustit prehliadace
+- vytazenie cpu v idle, 99% necinnost
+
+obnova
+- obnova zaloh, posta
+- obnova prehliadacov, bookmarks, profil
+- skontrolovat screenshoty ak boli urobene
+- IP adresa staticka
+
+powershell-script
+- pdf reader
+- adobe flash player
+- zobrazovat pripony
+- anydesk po starte off
+- spustit skype ci nie je dll error
+- frameworks 3.5 na novych, 4.7 na starych
+- pdfcreator ak win7 / win 8.1
+- everything search ak maju kopu starych udajov
