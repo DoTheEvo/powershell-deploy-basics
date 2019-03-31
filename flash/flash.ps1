@@ -1,6 +1,6 @@
 # https://get.adobe.com/flashplayer/
 
-echo 'FLASH for Firefox v32.0.0.101 (2019-03-05)'
+echo 'FLASH for Firefox v32.0.0.156 (2019-03-25)'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 echo ' - installation in progress ...'
