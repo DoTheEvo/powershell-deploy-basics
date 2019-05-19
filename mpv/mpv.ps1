@@ -1,6 +1,6 @@
 # https://sourceforge.net/projects/mpv-player-windows/files/64bit/
 
-echo 'MPV (2019-03-24)'
+echo 'MPV (2019-05-14)'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 
