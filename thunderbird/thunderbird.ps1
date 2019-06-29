@@ -1,12 +1,11 @@
 # https://www.mozilla.org/en-US/thunderbird/all/#sk
-# https://www.mozilla.org/en-US/thunderbird/releases/
 
-echo 'THUNDERBIRD v60.6.1 (2019-05-14)'
+echo 'THUNDERBIRD v60.7.2 (2019-06-29)'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 
 echo ' - installation in progress ...'
-Start-Process -FilePath "$parent_dir\Thunderbird Setup 60.6.1.exe" -ArgumentList '-ms' -Wait
+Start-Process -FilePath "$parent_dir\Thunderbird Setup 60.7.2.exe" -ArgumentList '-ms' -Wait
 
 echo ' - removing desktop link'
 Remove-Item 'C:\Users\Public\Desktop\Mozilla Thunderbird.lnk' -ErrorAction SilentlyContinue

@@ -1,12 +1,12 @@
 # http://www.videolan.org/vlc/download-windows.html
 # http://www.videolan.org/news.html
 
-echo 'VLC v3.0.6 (2019-02-12)'
+echo 'VLC v3.0.7 (2019-06-29)'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 
 echo ' - installation in progress ...'
-Start-Process -FilePath "$parent_dir\vlc-3.0.6-win64.exe" -ArgumentList '/S','/L=1051' -Wait
+Start-Process -FilePath "$parent_dir\vlc-3.0.7.1-win64.exe" -ArgumentList '/S','/L=1051' -Wait
 
 echo ' - copying config file'
 $target_dir = "$env:APPDATA\vlc"

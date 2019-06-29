@@ -1,18 +1,19 @@
 - ovladace
-- kontrola DVD mechaniky
-- antivirus
 - aktivovany windows/office
 - kontrola associacii //../batat/test/ adresar
 - funkcne klavesy / touchpad
 - zvuk
-- ak libreoffice, default save_as
 - power managment, fastboot off, power button off
 - updaty, skontrolovat nastavenie updatov
-- prefukat / displej
 - odinstalovat neziaduce programy
 - upravene start menu
 - spustit prehliadace
+- antivirus
+- vycistit windows.old
 - vytazenie cpu v idle, 99% necinnost
+- kontrola DVD mechaniky
+- vsetky srouby
+- prefukat / displej
 
 obnova
 - obnova zaloh, posta
