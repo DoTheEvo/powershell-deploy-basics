@@ -1,10 +1,21 @@
 # http://www.7-zip.org/download.html
 
-echo '7ZIP v19.00 (2019-02-21)'
+echo '7ZIP'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
+[array]$install_files = Get-ChildItem -Path $parent_dir 7z*.msi | Sort-Object LastWriteTime -Descending
+
+if (!$install_files) {
+    echo " - installation file not found, TERMINATING INSTALLATION"
+    Return
+}
+
+$install_file_newest = $install_files[0].FullName
+echo " - found: $install_files"
 echo ' - installation in progress ...'
-Start-Process -FilePath "$parent_dir\7z1900-x64.msi" -ArgumentList '/q',"INSTALLDIR=`"${env:ProgramFiles}\7-Zip`"",'/norestart','TRANSFORMS=associations.mst' -Wait
+
+$arguments = "/q INSTALLDIR=`"${env:ProgramFiles}\7-Zip`" /norestart TRANSFORMS=associations.mst"
+Start-Process -FilePath "$install_file_newest" -ArgumentList $arguments -Wait
 
 echo ' - importing registry file with the settings'
 regedit /S "$parent_dir\7zip.reg"

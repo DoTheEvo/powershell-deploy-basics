@@ -1,16 +1,21 @@
 # http://www.skype.com/go/getskype-msi
-# https://support.skype.com/en/faq/FA34509/what-s-new-in-skype-for-windows-desktop
 
-echo 'SKYPE 8.45.0.41 (2019-05-14)'
+echo 'SKYPE'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
+[array]$install_files = Get-ChildItem -Path $parent_dir Skype*.msi | Sort-Object LastWriteTime -Descending
 
+if (!$install_files) {
+    echo " - installation file not found, ENDING"
+    Return
+}
+
+$install_file_newest = $install_files[0].FullName
+echo " - found: $install_files"
 echo ' - installation in progress ...'
-Start-Process -FilePath "$parent_dir\Skype-8.45.0.41.msi" -ArgumentList '/qn','ALLUSERS=1','TRANSFORMS=:RemoveStartup.mst' -Wait
-# Start-Sleep -s 3
 
-# echo ' - installing fix, Visual C++ 2015 Redistr Upd 3 x86 ...'
-# Start-Process -FilePath "$parent_dir\vc_redist.x86.exe" -ArgumentList '/install','/passive','/quiet', '/norestart' -Wait
+$arguments = '/quiet /norestart'
+Start-Process -FilePath "$install_file_newest" -ArgumentList $arguments  -Wait
 
 echo ' - removing desktop link'
 Remove-Item 'C:\Users\Public\Desktop\Skype.lnk' -ErrorAction SilentlyContinue

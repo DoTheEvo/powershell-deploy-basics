@@ -1,6 +1,6 @@
 # http://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 
-echo 'TEAMVIEWER v14 (2019)'
+echo 'TEAMVIEWER'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 

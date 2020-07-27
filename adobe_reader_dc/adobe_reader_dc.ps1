@@ -1,11 +1,21 @@
-# https://get.adobe.com/reader/otherversions/
+# https://get.adobe.com/reader/enterprise/
 
-echo 'ADOBE READER DC v19.008.20071 (2018-10-17)'
+echo 'ADOBE READER DC v1900820071'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
+[array]$install_files = Get-ChildItem -Path $parent_dir Acro*.exe | Sort-Object LastWriteTime -Descending
 
+if (!$install_files) {
+    echo " - installation file not found, TERMINATING INSTALLATION"
+    Return
+}
+
+$install_file_newest = $install_files[0].FullName
+echo " - found: $install_files"
 echo ' - installation in progress ...'
-Start-Process -FilePath "$parent_dir\AcroRdrDC1900820071_sk_SK.exe" -ArgumentList '/sAll /msi /norestart /quiet ALLUSERS=1 EULA_ACCEPT=YES' -Wait
+
+$arguments = '/sAll /msi /norestart /quiet ALLUSERS=1 EULA_ACCEPT=YES'
+Start-Process -FilePath "$install_file_newest" -ArgumentList $arguments -Wait
 
 echo ' - removing desktop link'
 Remove-Item 'C:\Users\Public\Desktop\Acrobat Reader DC.lnk' -ErrorAction SilentlyContinue

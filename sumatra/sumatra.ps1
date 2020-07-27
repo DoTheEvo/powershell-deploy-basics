@@ -1,17 +1,25 @@
 # http://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 
-echo 'SUMATRA v3.1.2 (2016-08-14)'
+echo 'SUMATRA v3.2'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
+[array]$install_files = Get-ChildItem -Path $parent_dir sumatra*.exe | Sort-Object LastWriteTime -Descending
 
+if (!$install_files) {
+    echo " - installation file not found, ENDING"
+    Return
+}
+
+$install_file_newest = $install_files[0].FullName
+echo " - found: $install_files"
 echo ' - installation in progress ...'
-Start-Process -FilePath "$parent_dir\SumatraPDF-3.1.2-64-install.exe" -ArgumentList '/s','/register' -Wait
 
-echo ' - setting default zoom to 100% ...'
-$target = "$env:APPDATA\SumatraPDF\SumatraPDF-settings.txt"
-$file_content = Get-Content -Path $target | Out-String
-$edited_content = $file_content -replace 'DefaultZoom = fit page','DefaultZoom = 100'
-$edited_content | Set-Content -Path $target
+$arguments = '/s /register'
+Start-Process -FilePath "$install_file_newest" -ArgumentList $arguments  -Wait
+
+echo ' - copying config files'
+$target_dir = "$env:LOCALAPPDATA\SumatraPDF"
+robocopy $parent_dir $target_dir SumatraPDF-settings.txt >> "$env:temp\robo_log.txt"
 
 echo 'SUMATRA DONE'
 echo '------------------------------------------------------------------------------'

@@ -1,6 +1,6 @@
 # do not go to higher version
 
-echo 'ASHAMPOO v6.84 (2013-05-29)'
+echo 'ASHAMPOO'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 
@@ -8,7 +8,9 @@ echo ' - importing registry file with the settings'
 regedit /S "$parent_dir\ashampoo.reg"
 
 echo ' - installation in progress ...'
-Start-Process -FilePath "$parent_dir\ashampoo_burning_studio_6_free_6.84_13471.exe" -ArgumentList '/VERYSILENT','/NORESTART','/SUPPRESSMSGBOXES'
+
+$arguments = '/VERYSILENT /NORESTART /SUPPRESSMSGBOXES'
+Start-Process -FilePath "$parent_dir\ashampoo_burning_studio_6_free_6.84_13471.exe" -ArgumentList $arguments
 
 echo ' - waiting for ashampoo to start'
 $val = 120

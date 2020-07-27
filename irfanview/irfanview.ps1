@@ -1,11 +1,21 @@
 # http://www.irfanview.com/
 
-echo 'IRFANVIEW v4.52 (2018-12-12)'
+echo 'IRFANVIEW v4.54'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
+[array]$install_files = Get-ChildItem -Path $parent_dir iview*.exe | Sort-Object LastWriteTime -Descending
 
+if (!$install_files) {
+    echo " - installation file not found, ENDING"
+    Return
+}
+
+$install_file_newest = $install_files[0].FullName
+echo " - found: $install_files"
 echo ' - installation in progress ...'
-Start-Process -FilePath "$parent_dir\iview452_x64_setup.exe" -ArgumentList '/silent','/group=1','/allusers=1','/assoc=1','/ini=%APPDATA%\irfanview' -Wait
+
+$arguments = '/silent /group=1 /allusers=1 /assoc=1 /ini=%APPDATA%\irfanview'
+Start-Process -FilePath "$install_file_newest" -ArgumentList $arguments  -Wait
 
 echo ' - copying config files'
 $target_dir = "$env:ProgramW6432\IrfanView\Languages"

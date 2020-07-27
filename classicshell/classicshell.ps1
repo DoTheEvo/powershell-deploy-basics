@@ -1,6 +1,6 @@
 # http://www.classicshell.net/downloads/
 
-echo 'CLASSIC SHELL v4.3.1 (2017-08)'
+echo 'CLASSIC SHELL'
 
 $win_version = [System.Environment]::OSVersion.Version
 if ($win_version.Build -eq 9200 -Or $win_version.Build -eq 9600) {

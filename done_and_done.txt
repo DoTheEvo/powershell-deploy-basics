@@ -1,25 +1,30 @@
 - ovladace
-- aktivovany windows/office
-- kontrola associacii //../batat/test/ adresar
 - funkcne klavesy / touchpad
 - zvuk
-- power managment, fastboot off, power button off
-- updaty, skontrolovat nastavenie updatov
-- odinstalovat neziaduce programy
-- upravene start menu
-- spustit prehliadace
-- antivirus
-- vycistit windows.old
 - vytazenie cpu v idle, 99% necinnost
+- antivirus
+- power managment, fastboot off, power button off
+- aktivovany windows/office
+- ak aktivatory tak do vynimiek antivirus softwaru
+- spustit prehliadace
+- kontrola associacii 0_test_0
+- odinstalovat neziaduce programy
+- upravene start menu, vypnut reklamu vo win10 
+- spustit skype a vypnut spustanie po starte
+- vycistit windows.old
+- updaty, skontrolovat nastavenie updatov
+
+obnova zaloh
+- priecinky uzivatela, desktop, documents, downloads,..
+- obnova prehliadacov, bookmarks, passwords, profil
+- posta
+- skontrolovat screenshoty ak boli urobene
+
+posledne
 - kontrola DVD mechaniky
+- odstranit subory z downloads
 - vsetky srouby
 - prefukat / displej
-
-obnova
-- obnova zaloh, posta
-- obnova prehliadacov, bookmarks, profil
-- skontrolovat screenshoty ak boli urobene
-- IP adresa staticka
 
 powershell-script
 - pdf reader

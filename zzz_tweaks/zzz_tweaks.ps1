@@ -1,5 +1,9 @@
 echo 'SYSTEM TWEAKS'
 
+echo ' - enable numlock on boot'
+$key = 'Registry::HKU\.DEFAULT\Control Panel\Keyboard'
+Set-ItemProperty $key InitialKeyboardIndicators 2
+
 echo ' - disable automatic drivers download'
 $key = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching'
 Set-ItemProperty $key SearchOrderConfig 0
@@ -15,11 +19,11 @@ Set-ItemProperty $key ShowSuperHidden 1
 
 echo ' - remove local printer - Microsoft XPS Document Writer'
 $a = get-wmiobject -query 'SELECT * FROM win32_printer WHERE name = "Microsoft XPS Document Writer"'
-$a.delete()
+if ($a) { $a.delete() }
 
 echo ' - remove local printer - Fax'
 $a = get-wmiobject -query 'SELECT * FROM win32_printer WHERE name = "Fax"'
-$a.delete()
+if ($a) { $a.delete() }
 
 echo 'SYSTEM TWEAKS DONE'
 echo '------------------------------------------------------------------------------'

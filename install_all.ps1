@@ -17,8 +17,10 @@ $programs_dirs | ForEach-Object {
     $sub_path = $_.FullName
     $script_name = Split-Path $_.FullName -Leaf
     if ($script_name -eq '0_test_0') { Return } # Return because scope, Continue does not work ForEach-Object
-    & "$sub_path\$script_name.ps1"
-    Start-Sleep -s 1
+    if (Test-Path "$sub_path\$script_name.ps1"){
+        & "$sub_path\$script_name.ps1"
+        Start-Sleep -s 1
+    }
 }
 
 echo '------------------------------------------------------------------------------'
