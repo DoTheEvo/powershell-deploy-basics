@@ -21,6 +21,7 @@ obnova zaloh
 - skontrolovat screenshoty ak boli urobene
 
 posledne
+- anydesk servis autostart enable pre firmy
 - kontrola DVD mechaniky
 - odstranit subory z downloads
 - vsetky srouby

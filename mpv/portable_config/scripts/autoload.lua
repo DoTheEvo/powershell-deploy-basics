@@ -27,9 +27,9 @@ local utils = require 'mp.utils'
 
 o = {
     disabled = false,
-    images = true,
+    images = false,
     videos = true,
-    audio = true
+    audio = false
 }
 options.read_options(o)
 
@@ -47,7 +47,7 @@ function SetUnion (a,b)
 end
 
 EXTENSIONS_VIDEO = Set {
-    'mkv', 'avi', 'mp4', 'ogv', 'webm', 'rmvb', 'flv', 'wmv', 'mpeg', 'mpg', 'm4v', '3gp'
+    'mkv', 'avi', 'mp4', 'ogv', 'webm', 'rmvb', 'flv', 'wmv', 'mpeg', 'mpg', 'm4v', 'mov', '3gp'
 }
 
 EXTENSIONS_AUDIO = Set {

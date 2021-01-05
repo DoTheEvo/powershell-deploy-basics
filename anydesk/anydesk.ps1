@@ -1,6 +1,6 @@
-# https://anydesk.com/platforms/windows
+# https://anydesk.com/en/downloads/windows
 
-echo 'ANYDESK v6.0.5'
+echo 'ANYDESK v6.1.0'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 [array]$install_files = Get-ChildItem -Path $parent_dir anydesk*.exe | Sort-Object LastWriteTime -Descending

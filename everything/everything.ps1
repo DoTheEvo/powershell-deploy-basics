@@ -1,6 +1,6 @@
 # https://www.voidtools.com/downloads/
 
-echo 'EVERYTHING v1.4.1.969'
+echo 'EVERYTHING LITE v1.4.1.1002'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 [array]$install_files = Get-ChildItem -Path $parent_dir everything*.exe | Sort-Object LastWriteTime -Descending

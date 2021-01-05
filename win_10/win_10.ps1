@@ -21,7 +21,7 @@ Get-AppxPackage *MicrosoftOfficeHub* | Remove-AppxPackage
 Get-AppxPackage *Microsoft.Office.OneNote* | Remove-AppxPackage
 Get-AppxPackage *3DBuilder* | Remove-AppxPackage
 Get-AppxPackage *Microsoft3DViewer* | Remove-AppxPackage
-
+Get-AppxPackage Microsoft.MSPaint | Remove-AppxPackage
 #
 # START-MENU
 #

@@ -1,6 +1,6 @@
 # http://www.irfanview.com/
 
-echo 'IRFANVIEW v4.54'
+echo 'IRFANVIEW v4.56'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 [array]$install_files = Get-ChildItem -Path $parent_dir iview*.exe | Sort-Object LastWriteTime -Descending
@@ -24,6 +24,10 @@ robocopy $parent_dir $target_dir Slovak.dll >> "$env:temp\robo_log.txt"
 
 $target_dir = "$env:APPDATA\irfanview"
 robocopy $parent_dir $target_dir i_view64.ini >> "$env:temp\robo_log.txt"
+
+echo ' - copying webp plugin'
+$target_dir = "$env:ProgramW6432\IrfanView\Plugins"
+robocopy $parent_dir $target_dir WebP.dll >> "$env:temp\robo_log.txt"
 
 echo 'IRFANVIEW DONE'
 echo '------------------------------------------------------------------------------'

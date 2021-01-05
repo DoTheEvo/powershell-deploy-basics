@@ -21,5 +21,8 @@ echo ' - copying config files'
 $target_dir = "$env:LOCALAPPDATA\SumatraPDF"
 robocopy $parent_dir $target_dir SumatraPDF-settings.txt >> "$env:temp\robo_log.txt"
 
+echo ' - removing desktop link'
+Remove-Item "$home\Desktop\SumatraPDF.lnk" -ErrorAction SilentlyContinue
+
 echo 'SUMATRA DONE'
 echo '------------------------------------------------------------------------------'
