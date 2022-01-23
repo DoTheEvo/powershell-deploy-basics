@@ -1,7 +1,7 @@
 $win_8_builds = @(9200,9600)
 $this_pc_build = [Environment]::OSVersion.Version.Build
 
-if (-Not($win_8_builds.Contains($this_pc_build))) {
+if (-Not($win_8_builds  -contains $this_pc_build)) {
     exit
 }
 
@@ -28,7 +28,7 @@ Get-AppxPackage *ZuneVideo* | Remove-AppxPackage
 Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
 Get-AppxPackage *XboxLIVEGames* | Remove-AppxPackage
 
-echo ' - removing start screen links'
+# echo ' - removing start screen links'
 
 # REMOVE-ITEM "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Store.lnk" -FORCE
 # REMOVE-ITEM "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PhotosApp.lnk" -FORCE

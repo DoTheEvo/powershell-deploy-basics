@@ -26,8 +26,6 @@ Get-AppxPackage Microsoft.MSPaint | Remove-AppxPackage
 # START-MENU
 #
 
-#Requires -RunAsAdministrator
-
 $START_MENU_LAYOUT = @"
 <LayoutModificationTemplate xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
   <LayoutOptions StartTileGroupCellWidth="6" />

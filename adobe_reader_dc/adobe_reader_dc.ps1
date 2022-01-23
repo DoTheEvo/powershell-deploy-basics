@@ -17,6 +17,9 @@ echo ' - installation in progress ...'
 $arguments = '/sAll /msi /norestart /quiet ALLUSERS=1 EULA_ACCEPT=YES'
 Start-Process -FilePath "$install_file_newest" -ArgumentList $arguments -Wait
 
+echo ' - changing default zoom and panel behaviour'
+regedit /S "$parent_dir\settings.reg"
+
 echo ' - removing desktop link'
 Remove-Item 'C:\Users\Public\Desktop\Acrobat Reader DC.lnk' -ErrorAction SilentlyContinue
 

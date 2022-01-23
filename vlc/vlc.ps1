@@ -1,6 +1,6 @@
 # http://www.videolan.org/vlc/download-windows.html
 
-echo 'VLC v3.0.11'
+echo 'VLC v3.0.16'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 [array]$install_files = Get-ChildItem -Path $parent_dir vlc*.exe | Sort-Object LastWriteTime -Descending

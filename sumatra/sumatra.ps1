@@ -1,6 +1,6 @@
 # http://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 
-echo 'SUMATRA v3.2'
+echo 'SUMATRA v3.3.3'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 [array]$install_files = Get-ChildItem -Path $parent_dir sumatra*.exe | Sort-Object LastWriteTime -Descending

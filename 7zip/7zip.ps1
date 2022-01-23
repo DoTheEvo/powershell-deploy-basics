@@ -1,6 +1,6 @@
 # http://www.7-zip.org/download.html
 
-echo '7ZIP'
+echo '7ZIP v21.07'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 [array]$install_files = Get-ChildItem -Path $parent_dir 7z*.msi | Sort-Object LastWriteTime -Descending
