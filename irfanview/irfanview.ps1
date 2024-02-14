@@ -1,6 +1,6 @@
 # http://www.irfanview.com/
 
-echo 'IRFANVIEW v4.59'
+echo 'IRFANVIEW'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 [array]$install_files = Get-ChildItem -Path $parent_dir iview*.exe | Sort-Object LastWriteTime -Descending

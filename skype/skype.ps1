@@ -20,5 +20,8 @@ Start-Process -FilePath "$install_file_newest" -ArgumentList $arguments  -Wait
 echo ' - removing desktop link'
 Remove-Item 'C:\Users\Public\Desktop\Skype.lnk' -ErrorAction SilentlyContinue
 
+echo ' - importing registry file turning off autostart on boot'
+regedit /S "$parent_dir\skype_no_autostart.reg"
+
 echo 'SKYPE DONE'
 echo '------------------------------------------------------------------------------'

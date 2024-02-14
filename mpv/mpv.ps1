@@ -13,5 +13,18 @@ robocopy "$parent_dir\portable_config" "$env:programfiles\mpv\portable_config" /
 echo ' - running bat file to associate video files ...'
 Start-Process -FilePath "$env:programfiles\mpv\installer\mpv-install.bat" -ArgumentList '/u' -Wait
 
+echo ' - install chocolatey '
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+echo ' - install python and ffmpeg using choco'
+choco upgrade python311 -y
+choco upgrade ffmpeg -y
+
+echo ' - refresh env variables'
+$Env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine")
+
+echo ' - install subliminal using pythons pip'
+pip install subliminal
+
 echo 'MPV DONE'
 echo '------------------------------------------------------------------------------'

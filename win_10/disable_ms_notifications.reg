@@ -1,0 +1,13 @@
+; Win10 > Settings > System > Notifications > last 3 checkboxes
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+;Get tips, tricks, and suggestions as you use Windows
+"SubscribedContent-338389Enabled"=dword:0
+;Suggest ways I can finish setting up my device to get the most out of Windows
+"SubscribedContent-310093Enabled"=dword:0
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement]
+;Show me the Windows welcome experience after updates and occasionally when I sign in to highlight what's new and suggested
+"ScoobeSystemSettingEnabled"=dword:0
+

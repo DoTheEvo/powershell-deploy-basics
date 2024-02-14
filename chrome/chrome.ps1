@@ -3,15 +3,6 @@
 echo 'CHROME'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
-[array]$install_files = Get-ChildItem -Path $parent_dir chrome*.exe | Sort-Object LastWriteTime -Descending
-
-if (!$install_files) {
-    echo " - installation file not found, ENDING"
-    Return
-}
-
-$install_file_newest = $install_files[0].FullName
-echo " - found: $install_files"
 
 $target_dir = "${env:ProgramFiles(x86)}\Google\Chrome\Application"
 echo ' - placing master_preferences file'

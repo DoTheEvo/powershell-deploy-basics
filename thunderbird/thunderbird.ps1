@@ -20,7 +20,7 @@ Start-Process -FilePath "$install_file_newest" -ArgumentList $arguments  -Wait
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 
 echo ' - removing desktop link'
-Remove-Item 'C:\Users\Public\Desktop\Mozilla Thunderbird.lnk' -ErrorAction SilentlyContinue
+Remove-Item 'C:\Users\Public\Desktop\Thunderbird.lnk' -ErrorAction SilentlyContinue
 
 echo 'THUNDERBIRD DONE'
 echo '------------------------------------------------------------------------------'

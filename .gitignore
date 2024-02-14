@@ -1,0 +1,6 @@
+*.exe
+*.msi
+*.msu
+*.zip
+*.cab
+.owncloudsync.log

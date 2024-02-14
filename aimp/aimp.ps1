@@ -1,6 +1,7 @@
 # http://aimp.ru/index.php?do=download
+# https://www.aimp.ru/?do=download.file&id=29
 
-echo 'AIMP v5.01, build 2358'
+echo 'AIMP v5.02, build 2366'
 
 $parent_dir = Split-Path $MyInvocation.MyCommand.Path
 [array]$install_files = Get-ChildItem -Path $parent_dir aimp*.exe | Sort-Object LastWriteTime -Descending

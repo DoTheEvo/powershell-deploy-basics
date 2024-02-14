@@ -5,12 +5,14 @@ if ($major_vers -ne 10) {
 }
 
 echo 'WINDOWS 10 DETECTED'
+
+echo ' - importing registry file disabling some microsoft notifications'
+regedit /S "$parent_dir\disable_ms_notifications.reg"
+
 echo ' - removing apps'
 
 Get-AppxPackage *SkypeApp* | Remove-AppxPackage
-Get-AppxPackage *XboxApp* | Remove-AppxPackage
 Get-AppxPackage *FeedbackHub* | Remove-AppxPackage
-Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
 Get-AppxPackage *GetHelp* | Remove-AppxPackage
 Get-AppxPackage *Getstarted* | Remove-AppxPackage
 Get-AppxPackage *ZuneMusic* | Remove-AppxPackage
@@ -42,7 +44,7 @@ $START_MENU_LAYOUT = @"
           <start:DesktopApplicationTile Size="2x2" Column="3" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\AIMP\AIMP.lnk" />
           <start:DesktopApplicationTile Size="2x2" Column="0" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Paint.lnk" />
           <start:Tile Size="2x2" Column="2" Row="2" AppUserModelID="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe!App" />
-          <start:DesktopApplicationTile Size="2x2" Column="1" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\AnyDesk\AnyDesk.lnk" />
+          <start:DesktopApplicationTile Size="2x2" Column="1" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\RustDesk\RustDesk.lnk" />
         </start:Group>
       </defaultlayout:StartLayout>
     </StartLayoutCollection>

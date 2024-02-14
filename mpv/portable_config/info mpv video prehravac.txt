@@ -1,0 +1,12 @@
+MPV - klavesove skratky
+
+m - vyhladat slovenske alebo ceske titulky
+n - vyhladat anglicke titulky
+b - menu kde sa da spustit synchronizacia titulkov k audiu
+    moze to trvat niekolko minut, niekedy funguje, niekedy nie
+
+shift + W - menu kde sa da vystrihnut cast videa
+            vybrat start, vybrat koniec, spustit encode
+
+qbittorent - torrent klient pre stahovanie z internetu
+ma zabudovane vyhladavanie - tab kde sa popularne filmy, serialy, hudba, hry, software daju lahko najist

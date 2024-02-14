@@ -1,16 +1,15 @@
 - ovladace
-- funkcne klavesy / touchpad
-- zvuk
+- funkcne klavesy / touchpad / jas
+- zvuk test
 - vytazenie cpu v idle, 99% necinnost
 - antivirus
 - power managment, fastboot off, power button off
 - aktivovany windows/office
 - ak aktivatory tak do vynimiek antivirus softwaru
-- spustit prehliadace
+- spustit prehliadace - ublock, vypnut desktop notifications
 - kontrola associacii 0_test_0
 - odinstalovat neziaduce programy
-- upravene start menu, vypnut reklamu vo win10 
-- spustit skype a vypnut spustanie po starte
+- upravene start menu 
 - vycistit windows.old
 - updaty, skontrolovat nastavenie updatov
 

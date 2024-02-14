@@ -1,5 +1,8 @@
 echo 'SYSTEM TWEAKS'
 
+echo ' - password never expires'
+wmic UserAccount set PasswordExpires=False
+
 echo ' - enable numlock on boot'
 $key = 'Registry::HKU\.DEFAULT\Control Panel\Keyboard'
 Set-ItemProperty $key InitialKeyboardIndicators 2
